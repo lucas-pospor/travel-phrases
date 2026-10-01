@@ -2,6 +2,13 @@
 
 Travel Phrases is a phrasebook app for travelers. It has 177 common phrases in 20 languages, grouped by situation, and it plays each phrase aloud. It is built with Expo (React Native) and runs on Android, iOS and the web.
 
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_languages.png" width="190" alt="Language list">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_phrases.png" width="190" alt="Japanese food and drink phrases with pronunciation guides">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_show.png" width="190" alt="Show mode with a Spanish phrase in large type">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_arabic.png" width="190" alt="Arabic emergency phrases, written right to left">
+</p>
+
 ## Generative AI
 
 This project was built with the help of generative AI. AI tools wrote most of the code and documentation and translated the phrases. The app icon and the phrase audio (OpenAI text-to-speech) are AI-generated too. Native speakers haven't reviewed the translations or the audio yet.
@@ -15,6 +22,10 @@ Phrases in Arabic, Chinese, Greek, Hindi, Japanese, Korean, Russian and Thai hav
 Categories: basics, conversation, emergencies, directions, transport, accommodation, food and drink, shopping and money, health, sightseeing, numbers, and time and days.
 
 Languages: Arabic, Chinese (Mandarin), Croatian, Czech, Dutch, French, German, Greek, Hindi, Indonesian, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, Thai, Turkish and Vietnamese.
+
+## Download
+
+For Android, download the APK from [Releases](https://github.com/lucas-pospor/travel-phrases/releases). It runs on Android 7.0 or later, and the release notes explain how to install it. There is no iPhone version yet.
 
 ## Running it
 
@@ -67,6 +78,29 @@ To add a phrase, add it to `PHRASES`, add its translation to every language file
 
 The translations were machine-generated, and native speakers haven't reviewed them yet. Treat them as a draft, especially anything about allergies or medication.
 
+## Privacy
+
+The app collects no data and works offline. See the [privacy policy](https://lucas-pospor.github.io/travel-phrases/privacy.html).
+
+## Releases and store listings
+
+Version numbers live in `app.json`. `version` is the one users see, and `android.versionCode` and `ios.buildNumber` must go up by one with every release. Commit the change before building, because EAS builds only committed files.
+
+```bash
+npx eas-cli@latest build -p android --profile apk          # installable APK for GitHub releases
+npx eas-cli@latest build -p android --profile production   # AAB for Google Play
+npx eas-cli@latest build -p ios --profile production       # build for the App Store
+```
+
+The store listings are in the repo:
+
+- `fastlane/metadata/android/en-US/` has the Google Play listing: title, descriptions, changelogs, icon, feature graphic and phone screenshots. F-Droid and IzzyOnDroid read this folder directly.
+- `store.config.json` has the App Store listing. Upload it with `npx eas-cli@latest metadata:push`.
+- `fastlane/screenshots/en-US/` has the App Store screenshots for 6.9-inch iPhones.
+- `docs/` is the project website on GitHub Pages, including the privacy policy that both stores ask for.
+
+The screenshots were captured from the web version of the app in a headless browser.
+
 ## Project layout
 
 ```
@@ -82,6 +116,10 @@ src/components/          shared UI components
 src/data/                phrases, languages, translations
 src/state/               settings and saved phrases (persisted), playback state
 assets/audio/            generated clips and their manifest
+docs/                    project website and privacy policy (GitHub Pages)
+fastlane/                store listing text, icon, feature graphic and screenshots
+store.config.json        App Store listing (EAS Metadata)
+eas.json                 EAS build profiles
 scripts/                 validate-data.ts, generate-audio.ts, check-audio.ts (Node 22.18 or later)
 ```
 
