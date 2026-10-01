@@ -15,5 +15,3 @@ Also included:
 There are no ads or trackers, and you don't need an account.
 
 The app was built with the help of generative AI. The translations were machine-generated and haven't been reviewed by native speakers yet, and the voices are AI-generated with OpenAI text-to-speech, not recordings of real people. For anything important, like allergies or medication, check with a local.
-
-Travel Phrases is free and open source under the GNU GPL, version 3 or later. Source code: https://github.com/lucas-pospor/travel-phrases
