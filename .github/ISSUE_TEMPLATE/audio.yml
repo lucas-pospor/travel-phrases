@@ -1,0 +1,66 @@
+name: Audio sounds wrong
+description: A phrase is mispronounced, has the wrong tone, says a different word, or is cut off.
+labels: ["audio"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Arabic
+        - Chinese (Mandarin)
+        - Croatian
+        - Czech
+        - Dutch
+        - French
+        - German
+        - Greek
+        - Hindi
+        - Indonesian
+        - Italian
+        - Japanese
+        - Korean
+        - Polish
+        - Portuguese (Brazil)
+        - Russian
+        - Spanish
+        - Thai
+        - Turkish
+        - Vietnamese
+    validations:
+      required: true
+  - type: input
+    id: phrase
+    attributes:
+      label: Phrase in English
+      description: As shown in the app, for example "Thank you"
+    validations:
+      required: true
+  - type: dropdown
+    id: form
+    attributes:
+      label: Phrase form
+      description: Set in Settings, under Phrase forms. Some phrases have a separate clip for each form.
+      options:
+        - Masculine
+        - Feminine
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong
+      options:
+        - Wrong pronunciation or accent
+        - Wrong tone
+        - Says a different word
+        - Cut off or silent
+        - Too fast or unclear
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you hear, and what a native speaker would say.

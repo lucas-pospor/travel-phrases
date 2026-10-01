@@ -1,0 +1,61 @@
+name: Wrong translation
+description: A phrase is wrong, rude, too formal or unnatural in its language.
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Arabic
+        - Chinese (Mandarin)
+        - Croatian
+        - Czech
+        - Dutch
+        - French
+        - German
+        - Greek
+        - Hindi
+        - Indonesian
+        - Italian
+        - Japanese
+        - Korean
+        - Polish
+        - Portuguese (Brazil)
+        - Russian
+        - Spanish
+        - Thai
+        - Turkish
+        - Vietnamese
+    validations:
+      required: true
+  - type: input
+    id: phrase
+    attributes:
+      label: Phrase in English
+      description: As shown in the app, for example "Where is the bathroom?"
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: What the app says
+  - type: input
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: Include the pronunciation guide too, if the language has one.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Optional. For example, the current text is too formal, used in another region, or means something else.
+  - type: checkboxes
+    id: fluent
+    attributes:
+      label: Fluency
+      options:
+        - label: I speak this language fluently.
+          required: true

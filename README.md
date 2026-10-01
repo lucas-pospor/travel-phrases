@@ -101,6 +101,10 @@ The store listings are in the repo:
 
 The screenshots were captured from the web version of the app in a headless browser.
 
+## Contributing
+
+Native speakers can help the most. Each language has an open [review issue](https://github.com/lucas-pospor/travel-phrases/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation), and there are short forms for reporting a [wrong translation](https://github.com/lucas-pospor/travel-phrases/issues/new?template=translation.yml) or [audio that sounds wrong](https://github.com/lucas-pospor/travel-phrases/issues/new?template=audio.yml). [CONTRIBUTING.md](CONTRIBUTING.md) explains how to fix a translation yourself and how to work on the code.
+
 ## Project layout
 
 ```
@@ -128,5 +132,7 @@ scripts/                 validate-data.ts, generate-audio.ts, check-audio.ts (No
 Copyright (C) 2026 Lucas Pospor
 
 Travel Phrases is free software, licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE). Commercial use is allowed. If you distribute the app or a modified version of it, you must make the source code available under the same license.
+
+[LICENSE-APP-STORE.md](LICENSE-APP-STORE.md) adds one permission under section 7 of the GPL: you may publish the app through app stores whose terms the GPL wouldn't otherwise allow, as long as the source stays available under the GPL. Contributions are accepted under the same terms.
 
 Bundled third-party components keep their own licenses. The Overpass font is under the SIL Open Font License 1.1, and Ionicons is under the MIT License.
