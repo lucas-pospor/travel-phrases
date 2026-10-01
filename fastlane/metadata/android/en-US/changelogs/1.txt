@@ -1,0 +1,1 @@
+First release: 177 phrases in 20 languages with audio, Show mode, pronunciation guides, saved phrases and search. Works offline.

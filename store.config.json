@@ -1,0 +1,53 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "copyright": "2026 Lucas Pospor",
+    "categories": [
+      "TRAVEL",
+      "REFERENCE"
+    ],
+    "info": {
+      "en-US": {
+        "title": "Travel Phrases: 20 Languages",
+        "subtitle": "Offline phrasebook with audio",
+        "promoText": "177 phrases for trips abroad in 20 languages. Tap to hear any phrase, slow it down, or show it full screen to someone.",
+        "description": "Travel Phrases is a phrasebook for trips abroad. It has 177 phrases for common travel situations in 20 languages, and you can hear every one of them.\n\nPick a language, open a category and tap a phrase to hear it. Play all reads out a whole category, and Slow plays the audio at 70% speed so you can follow along. Show mode puts one phrase on the full screen in large type, so you can hand your phone to a taxi driver or a pharmacist and let them read it.\n\nLanguages: Arabic, Chinese (Mandarin), Croatian, Czech, Dutch, French, German, Greek, Hindi, Indonesian, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, Thai, Turkish and Vietnamese.\n\nCategories: basics, conversation, emergencies, directions, transport, accommodation, food and drink, shopping and money, health, sightseeing, numbers, and time and days.\n\nAlso included:\n• Pronunciation guides in Latin letters for Arabic, Chinese, Greek, Hindi, Japanese, Korean, Russian and Thai\n• Masculine and feminine forms for phrases that change with the speaker's gender\n• Saved phrases, and search in English or the target language\n• All audio is stored in the app, so it works offline\n\nThere are no ads or trackers, and you don't need an account.\n\nThe app was built with the help of generative AI. The translations were machine-generated and haven't been reviewed by native speakers yet, and the voices are AI-generated with OpenAI text-to-speech, not recordings of real people. For anything important, like allergies or medication, check with a local.\n\nTravel Phrases is free and open source under the GNU GPL, version 3 or later. Source code: https://github.com/lucas-pospor/travel-phrases",
+        "keywords": [
+          "phrasebook",
+          "translation",
+          "offline",
+          "audio",
+          "pronunciation",
+          "spanish",
+          "japanese",
+          "french",
+          "italian",
+          "german",
+          "thai"
+        ],
+        "marketingUrl": "https://lucas-pospor.github.io/travel-phrases/",
+        "supportUrl": "https://github.com/lucas-pospor/travel-phrases/issues",
+        "privacyPolicyUrl": "https://lucas-pospor.github.io/travel-phrases/privacy.html"
+      }
+    },
+    "advisory": {
+      "alcoholTobaccoOrDrugUseOrReferences": "NONE",
+      "contests": "NONE",
+      "gambling": false,
+      "gamblingSimulated": "NONE",
+      "horrorOrFearThemes": "NONE",
+      "matureOrSuggestiveThemes": "NONE",
+      "medicalOrTreatmentInformation": "NONE",
+      "profanityOrCrudeHumor": "NONE",
+      "sexualContentGraphicAndNudity": "NONE",
+      "sexualContentOrNudity": "NONE",
+      "unrestrictedWebAccess": false,
+      "violenceCartoonOrFantasy": "NONE",
+      "violenceRealistic": "NONE",
+      "violenceRealisticProlongedGraphicOrSadistic": "NONE",
+      "kidsAgeBand": null,
+      "ageRatingOverride": "NONE",
+      "koreaAgeRatingOverride": "NONE"
+    }
+  }
+}
