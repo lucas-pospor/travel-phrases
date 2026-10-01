@@ -8,8 +8,12 @@
     "scheme": "travelphrases",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "bundleIdentifier": "com.travelphrases.app",
-      "supportsTablet": true
+      "bundleIdentifier": "io.github.lucaspospor.travelphrases",
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,10 +23,11 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.travelphrases.app",
+      "package": "io.github.lucaspospor.travelphrases",
       "permissions": [
         "android.permission.MODIFY_AUDIO_SETTINGS"
-      ]
+      ],
+      "versionCode": 1
     },
     "web": {
       "output": "single",
