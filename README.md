@@ -1,56 +1,90 @@
-# Welcome to your Expo app 👋
+# Travel Phrases
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Travel Phrases is a phrasebook app for travelers. It has 177 common phrases in 20 languages, grouped by situation, and it plays each phrase aloud. It is built with Expo (React Native) and runs on Android, iOS and the web.
 
-## Get started
+## What's in the app
 
-1. Install dependencies
+Pick a language, open a category and tap a phrase to hear it. Play all reads out a whole category, and Slow plays the audio at 70% speed. Show mode fills the screen with one phrase in large type, so you can hand your phone to someone and let them read it.
 
-   ```bash
-   npm install
-   ```
+Phrases in Arabic, Chinese, Greek, Hindi, Japanese, Korean, Russian and Thai have a pronunciation guide in Latin letters. Some phrases change with the speaker's gender (in Portuguese a man says obrigado and a woman says obrigada), and a setting picks which form to show and play. You can save phrases, and search in English or in the target language.
 
-2. Start the app
+Categories: basics, conversation, emergencies, directions, transport, accommodation, food and drink, shopping and money, health, sightseeing, numbers, and time and days.
 
-   ```bash
-   npx expo start
-   ```
+Languages: Arabic, Chinese (Mandarin), Croatian, Czech, Dutch, French, German, Greek, Hindi, Indonesian, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, Thai, Turkish and Vietnamese.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Running it
 
 ```bash
-npm run reset-project
+npm install
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code with Expo Go ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent), [iOS](https://apps.apple.com/app/expo-go/id982107779)) on a phone that is on the same Wi-Fi network as your computer. Press `w` to open the web version instead.
 
-### Other setup steps
+## Audio
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Each phrase has an MP3 clip bundled with the app, so audio works offline. If a clip is missing, the app falls back to the phone's built-in text-to-speech voice.
 
-## Learn more
+The clips were made with OpenAI text-to-speech (model `gpt-4o-mini-tts`, voice `marin`), with instructions to use a native accent for each language. They are AI-generated, not recordings of real people. OpenAI's usage policies require telling users this. The app says so in Settings and under every phrase list, so keep that text if you change the interface.
 
-To learn more about developing your project with Expo, look at the following resources:
+To regenerate the clips, copy `.env.example` to `.env` and add an OpenAI API key. The script can use Google Cloud Text-to-Speech instead if you set `GOOGLE_TTS_API_KEY` and leave the OpenAI key empty. Keys stay on your machine and never go into the app bundle.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm run audio -- --dry-run                  # show what would be generated, no API calls
+npm run audio                               # generate missing or changed clips
+npm run audio:check                         # transcribe every clip and flag mismatches
+npm run audio:check -- --flagged --delete   # delete the flagged clips,
+npm run audio                               # regenerate them,
+npm run audio:check -- --flagged            # and check them again
+```
 
-## Join the community
+`npm run audio` also accepts `--langs ja,ko`, `--only basics.` (a phrase id prefix), `--gender male`, `--force` and `--provider google`.
 
-Join our community of developers creating universal apps.
+A full run with OpenAI makes about 3,700 clips and costs around $2. Checking every clip costs about $0.40 more. The script only synthesizes phrases whose text, voice or settings have changed. If ffmpeg is installed, it trims silence from each clip and re-encodes it as a mono 48 kbps MP3, which keeps the whole set at about 38 MB.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+`audio:check` sends each clip to OpenAI speech-to-text and compares the transcript with the phrase. It catches empty clips, garbled audio and clips in the wrong language. It can't hear a foreign accent on a correctly pronounced word, and it often trips on one-syllable words, so it doesn't replace listening. Results go to `assets/audio/check-report.json`, which is not committed.
+
+In the last full check, 99.2% of clips matched. Most of the rest are Japanese words that came back in kanji instead of kana. The clips that failed every check and still need someone to listen to them are the Korean numbers 3, 4, 7, 8 and 100, and the French numbers 1, 5, 8 and 20. Chinese, Thai and Vietnamese deserve a spot check by ear too, because a wrong tone changes the word.
+
+## Phrase data
+
+- `src/data/phrases.ts` has the English master list and the categories.
+- `src/data/languages.ts` has language metadata: voice locales, script and text direction.
+- `src/data/translations/<code>.json` holds one language, keyed by phrase id. The entry format is described at the top of `scripts/validate-data.ts`.
+
+```bash
+npm run validate   # every language has every phrase, with romanization where needed
+npm run check      # validate, typecheck and lint
+```
+
+To add a phrase, add it to `PHRASES`, add its translation to every language file, run `npm run validate`, then run `npm run audio`.
+
+## Translations
+
+The translations were machine-generated, and native speakers haven't reviewed them yet. Treat them as a draft, especially anything about allergies or medication.
+
+## Project layout
+
+```
+src/app/                 screens (Expo Router)
+  index.tsx              language list
+  [lang]/index.tsx       categories and phrase search for one language
+  [lang]/[category].tsx  phrase list with Play all
+  show.tsx               full-screen Show mode
+  favorites.tsx          saved phrases
+  settings.tsx           settings
+src/audio/               playback, and the generated audio index
+src/components/          shared UI components
+src/data/                phrases, languages, translations
+src/state/               settings and saved phrases (persisted), playback state
+assets/audio/            generated clips and their manifest
+scripts/                 validate-data.ts, generate-audio.ts, check-audio.ts (Node 22.18 or later)
+```
+
+## License
+
+Copyright (C) 2026 Lucas Pospor
+
+Travel Phrases is free software, licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE). Commercial use is allowed. If you distribute the app or a modified version of it, you must make the source code available under the same license.
+
+Bundled third-party components keep their own licenses. The Overpass font is under the SIL Open Font License 1.1, and Ionicons is under the MIT License.
