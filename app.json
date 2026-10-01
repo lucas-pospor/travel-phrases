@@ -19,7 +19,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.travelphrases.app"
+      "package": "com.travelphrases.app",
+      "permissions": [
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "output": "single",
@@ -50,6 +53,13 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "description": "Common travel phrases in 20 languages, with audio."
+    "description": "Common travel phrases in 20 languages, with audio.",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8c889f5d-d03f-40bc-bf9b-e58ff06156e2"
+      }
+    },
+    "owner": "main-pospor"
   }
 }
