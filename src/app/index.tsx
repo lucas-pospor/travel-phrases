@@ -1,98 +1,71 @@
-import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { router } from 'expo-router';
+import { useMemo, useState } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { AnimatedIcon } from '@/components/animated-icon';
-import { HintRow } from '@/components/hint-row';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { WebBadge } from '@/components/web-badge';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import { IconButton } from '@/components/icon-button';
+import { LanguageRow } from '@/components/rows';
+import { SearchField } from '@/components/search-field';
+import { SignHero } from '@/components/sign-hero';
+import { UIText } from '@/components/text';
+import { MaxContentWidth, Space } from '@/constants/theme';
+import { LANGUAGES } from '@/data';
+import { useTheme } from '@/hooks/use-theme';
 
-function getDevMenuHint() {
-  if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
-  }
-  if (Device.isDevice) {
-    return (
-      <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
-      </ThemedText>
-    );
-  }
-  const shortcut = Platform.OS === 'android' ? 'cmd+m (or ctrl+m)' : 'cmd+d';
+const fold = (s: string) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+
+export default function LanguagesScreen() {
+  const c = useTheme();
+  const insets = useSafeAreaInsets();
+  const [query, setQuery] = useState('');
+
+  const languages = useMemo(() => {
+    const q = fold(query.trim());
+    if (!q) return LANGUAGES;
+    return LANGUAGES.filter((l) => fold(l.name).includes(q) || fold(l.native).includes(q) || l.code === q);
+  }, [query]);
+
   return (
-    <ThemedText type="small">
-      press <ThemedText type="code">{shortcut}</ThemedText>
-    </ThemedText>
-  );
-}
-
-export default function HomeScreen() {
-  return (
-    <ThemedView style={styles.container}>
-      <SafeAreaView style={styles.safeArea}>
-        <ThemedView style={styles.heroSection}>
-          <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
-        </ThemedView>
-
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
-
-        <ThemedView type="backgroundElement" style={styles.stepContainer}>
-          <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
-          />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
-          <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
-          />
-        </ThemedView>
-
-        {Platform.OS === 'web' && <WebBadge />}
-      </SafeAreaView>
-    </ThemedView>
+    <FlatList
+      data={languages}
+      keyExtractor={(l) => l.code}
+      keyboardShouldPersistTaps="handled"
+      style={{ backgroundColor: c.background }}
+      contentContainerStyle={[styles.content, { paddingTop: insets.top + Space.sm, paddingBottom: insets.bottom + Space.xxl }]}
+      ListHeaderComponent={
+        <View style={styles.header}>
+          <View style={styles.toolbar}>
+            <UIText variant="heading">Travel Phrases</UIText>
+            <View style={styles.toolbarActions}>
+              <IconButton icon="star-outline" label="Saved phrases" onPress={() => router.push('/favorites')} />
+              <IconButton icon="settings-outline" label="Settings" onPress={() => router.push('/settings')} />
+            </View>
+          </View>
+          <SignHero kicker={`${LANGUAGES.length} languages, spoken aloud`}>Where are you headed?</SignHero>
+          <SearchField value={query} onChangeText={setQuery} placeholder="Search languages" />
+        </View>
+      }
+      renderItem={({ item, index }) => (
+        <View style={[index === 0 && styles.firstRow, index === languages.length - 1 && styles.lastRow, styles.clip]}>
+          <LanguageRow lang={item} onPress={() => router.push({ pathname: '/[lang]', params: { lang: item.code } })} />
+        </View>
+      )}
+      ListEmptyComponent={
+        <UIText muted style={styles.empty}>
+          No language matches “{query}”. Try its English or native name.
+        </UIText>
+      }
+    />
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  safeArea: {
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    alignItems: 'center',
-    gap: Spacing.three,
-    paddingBottom: BottomTabInset + Spacing.three,
-    maxWidth: MaxContentWidth,
-  },
-  heroSection: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
-  },
-  title: {
-    textAlign: 'center',
-  },
-  code: {
-    textTransform: 'uppercase',
-  },
-  stepContainer: {
-    gap: Spacing.three,
-    alignSelf: 'stretch',
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.four,
-    borderRadius: Spacing.four,
-  },
+  content: { paddingHorizontal: Space.lg, width: '100%', maxWidth: MaxContentWidth, alignSelf: 'center' },
+  header: { gap: Space.lg, marginBottom: Space.lg },
+  toolbar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingLeft: Space.xs },
+  toolbarActions: { flexDirection: 'row', gap: Space.xs },
+  clip: { overflow: 'hidden' },
+  firstRow: { borderTopLeftRadius: 16, borderTopRightRadius: 16 },
+  lastRow: { borderBottomLeftRadius: 16, borderBottomRightRadius: 16 },
+  empty: { textAlign: 'center', paddingVertical: Space.xl },
 });

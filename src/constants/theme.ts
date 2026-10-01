@@ -1,65 +1,92 @@
 /**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * Visual system borrowed from airport and railway wayfinding: signal yellow on
+ * sign charcoal, a cool concrete ground, red for emergencies and green for
+ * health — the same meanings those colors carry on real signage.
  */
+import type { ComponentProps } from 'react';
+import type Ionicons from '@expo/vector-icons/Ionicons';
 
-import '@/global.css';
+import type { CategoryId } from '@/data/phrases';
 
-import { Platform } from 'react-native';
+export const Palette = {
+  signal: '#FFC72C',
+  charcoal: '#23272B',
+  emergency: '#D7263D',
+  health: '#2E9E5B',
+};
 
 export const Colors = {
   light: {
-    text: '#000000',
-    background: '#ffffff',
-    backgroundElement: '#F0F0F3',
-    backgroundSelected: '#E0E1E6',
-    textSecondary: '#60646C',
+    background: '#E9EBEE',
+    surface: '#FFFFFF',
+    surfacePressed: '#F3F4F6',
+    text: '#23272B',
+    textMuted: '#5B636B',
+    line: '#D5D9DE',
+    sign: Palette.charcoal,
+    signText: '#FFFFFF',
+    signal: Palette.signal,
+    onSignal: Palette.charcoal,
+    /** Filled star. Yellow is too faint on white, so light mode uses charcoal. */
+    favorite: Palette.charcoal,
+    emergency: Palette.emergency,
+    health: Palette.health,
   },
   dark: {
-    text: '#ffffff',
-    background: '#000000',
-    backgroundElement: '#212225',
-    backgroundSelected: '#2E3135',
-    textSecondary: '#B0B4BA',
+    background: '#15181B',
+    surface: '#1F2327',
+    surfacePressed: '#2A2F34',
+    text: '#F1F2F3',
+    textMuted: '#9BA3AB',
+    line: '#30363C',
+    sign: '#2B3035',
+    signText: '#FFFFFF',
+    signal: Palette.signal,
+    onSignal: Palette.charcoal,
+    favorite: Palette.signal,
+    emergency: '#E5485C',
+    health: '#3DB26E',
   },
-} as const;
+};
 
-export type ThemeColor = keyof typeof Colors.light & keyof typeof Colors.dark;
+export type ThemeColors = typeof Colors.light;
 
-export const Fonts = Platform.select({
-  ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
-  },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
-  },
-  web: {
-    sans: 'var(--font-display)',
-    serif: 'var(--font-serif)',
-    rounded: 'var(--font-rounded)',
-    mono: 'var(--font-mono)',
-  },
-});
+/** Overpass descends from Highway Gothic, the road-sign typeface. Latin only,
+ *  so it is used for the English interface; phrases use the system font so
+ *  every script renders. */
+export const Fonts = {
+  regular: 'Overpass_400Regular',
+  semibold: 'Overpass_600SemiBold',
+  bold: 'Overpass_700Bold',
+  heavy: 'Overpass_800ExtraBold',
+};
 
-export const Spacing = {
-  half: 2,
-  one: 4,
-  two: 8,
-  three: 16,
-  four: 24,
-  five: 32,
-  six: 64,
-} as const;
+export const Space = { xs: 4, sm: 8, md: 12, lg: 16, xl: 24, xxl: 32 } as const;
 
-export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
-export const MaxContentWidth = 800;
+export const Radius = { tile: 6, field: 10, sheet: 16, pill: 999 } as const;
+
+export const MaxContentWidth = 720;
+
+type IconName = ComponentProps<typeof Ionicons>['name'];
+
+export const CategoryIcon: Record<CategoryId, IconName> = {
+  basics: 'hand-left',
+  conversation: 'chatbubbles',
+  emergency: 'warning',
+  directions: 'navigate',
+  transport: 'train',
+  accommodation: 'bed',
+  food: 'restaurant',
+  shopping: 'bag-handle',
+  health: 'medkit',
+  sightseeing: 'camera',
+  numbers: 'keypad',
+  time: 'time',
+};
+
+/** Pictogram tile colors: charcoal with yellow, except the two signage meanings. */
+export function categoryTile(id: CategoryId, c: ThemeColors) {
+  if (id === 'emergency') return { bg: c.emergency, fg: '#FFFFFF' };
+  if (id === 'health') return { bg: c.health, fg: '#FFFFFF' };
+  return { bg: c.sign, fg: c.signal };
+}
