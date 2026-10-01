@@ -1,0 +1,720 @@
+{
+  "basics.hello": {
+    "t": "مرحبًا",
+    "r": "Marhaban",
+    "n": "Also very common: As-salamu alaykum"
+  },
+  "basics.good_morning": {
+    "t": "صباح الخير",
+    "r": "Sabah al-khayr"
+  },
+  "basics.good_evening": {
+    "t": "مساء الخير",
+    "r": "Masa al-khayr"
+  },
+  "basics.good_night": {
+    "t": "تصبح على خير",
+    "r": "Tusbih ala khayr"
+  },
+  "basics.goodbye": {
+    "t": "مع السلامة",
+    "r": "Ma'a as-salama"
+  },
+  "basics.see_you_later": {
+    "t": "أراك لاحقًا",
+    "r": "Araka lahiqan"
+  },
+  "basics.yes": {
+    "t": "نعم",
+    "r": "Na'am"
+  },
+  "basics.no": {
+    "t": "لا",
+    "r": "La"
+  },
+  "basics.please": {
+    "t": "من فضلك",
+    "r": "Min fadlak"
+  },
+  "basics.thank_you": {
+    "t": "شكرًا",
+    "r": "Shukran"
+  },
+  "basics.thank_you_very_much": {
+    "t": "شكرًا جزيلًا",
+    "r": "Shukran jazilan"
+  },
+  "basics.youre_welcome": {
+    "t": "عفوًا",
+    "r": "Afwan"
+  },
+  "basics.excuse_me": {
+    "t": "لو سمحت",
+    "r": "Law samaht"
+  },
+  "basics.sorry": {
+    "t": "أنا آسف",
+    "r": "Ana asif",
+    "ft": "أنا آسفة",
+    "fr": "Ana asifa"
+  },
+  "basics.no_problem": {
+    "t": "لا مشكلة",
+    "r": "La mushkila"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "هل تتكلم الإنجليزية؟",
+    "r": "Hal tatakallam al-injiliziyya?"
+  },
+  "conversation.speak_a_little": {
+    "t": "أتكلم العربية قليلًا.",
+    "r": "Atakallam al-arabiyya qalilan."
+  },
+  "conversation.dont_understand": {
+    "t": "لا أفهم.",
+    "r": "La afham."
+  },
+  "conversation.understand": {
+    "t": "فهمتُ.",
+    "r": "Fahimtu."
+  },
+  "conversation.speak_slowly": {
+    "t": "هل يمكنك التحدث ببطء أكثر، من فضلك؟",
+    "r": "Hal yumkinuka at-tahadduth bi-but' akthar, min fadlak?"
+  },
+  "conversation.repeat": {
+    "t": "هل يمكنك تكرار ذلك، من فضلك؟",
+    "r": "Hal yumkinuka takrar dhalik, min fadlak?"
+  },
+  "conversation.write_it_down": {
+    "t": "هل يمكنك كتابته، من فضلك؟",
+    "r": "Hal yumkinuka kitabatuh, min fadlak?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "ماذا يعني هذا؟",
+    "r": "Madha ya'ni hadha?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "كيف نقول هذا بالعربية؟",
+    "r": "Kayfa naqul hadha bil-arabiyya?"
+  },
+  "conversation.whats_your_name": {
+    "t": "ما اسمك؟",
+    "r": "Ma ismuk?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "تشرفنا.",
+    "r": "Tasharrafna."
+  },
+  "conversation.how_are_you": {
+    "t": "كيف حالك؟",
+    "r": "Kayfa haluk?"
+  },
+  "conversation.im_fine": {
+    "t": "أنا بخير، شكرًا.",
+    "r": "Ana bikhayr, shukran."
+  },
+  "conversation.where_are_you_from": {
+    "t": "من أين أنت؟",
+    "r": "Min ayna anta?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "أنا سائح.",
+    "r": "Ana sa'ih.",
+    "ft": "أنا سائحة.",
+    "fr": "Ana sa'iha."
+  },
+  "conversation.first_time_here": {
+    "t": "هذه أول مرة لي هنا.",
+    "r": "Hadhihi awwal marra li huna."
+  },
+  "emergency.help": {
+    "t": "النجدة!",
+    "r": "An-najda!"
+  },
+  "emergency.call_police": {
+    "t": "اتصلوا بالشرطة!",
+    "r": "Ittasilu bish-shurta!"
+  },
+  "emergency.call_ambulance": {
+    "t": "اتصلوا بالإسعاف!",
+    "r": "Ittasilu bil-is'af!"
+  },
+  "emergency.fire": {
+    "t": "حريق!",
+    "r": "Hariq!"
+  },
+  "emergency.need_doctor": {
+    "t": "أحتاج إلى طبيب.",
+    "r": "Ahtaj ila tabib."
+  },
+  "emergency.its_an_emergency": {
+    "t": "هذه حالة طارئة.",
+    "r": "Hadhihi hala tari'a."
+  },
+  "emergency.can_you_help_me": {
+    "t": "هل يمكنك مساعدتي، من فضلك؟",
+    "r": "Hal yumkinuka musa'adati, min fadlak?"
+  },
+  "emergency.im_lost": {
+    "t": "أنا تائه.",
+    "r": "Ana ta'ih.",
+    "ft": "أنا تائهة.",
+    "fr": "Ana ta'iha."
+  },
+  "emergency.wallet_stolen": {
+    "t": "سُرقت محفظتي.",
+    "r": "Suriqat mihfazati."
+  },
+  "emergency.lost_passport": {
+    "t": "فقدتُ جواز سفري.",
+    "r": "Faqadtu jawaz safari."
+  },
+  "emergency.where_hospital": {
+    "t": "أين المستشفى؟",
+    "r": "Ayna al-mustashfa?"
+  },
+  "emergency.where_police_station": {
+    "t": "أين مركز الشرطة؟",
+    "r": "Ayna markaz ash-shurta?"
+  },
+  "emergency.contact_embassy": {
+    "t": "أحتاج إلى الاتصال بسفارتي.",
+    "r": "Ahtaj ila al-ittisal bi-safarati."
+  },
+  "emergency.use_your_phone": {
+    "t": "هل يمكنني استخدام هاتفك؟",
+    "r": "Hal yumkinuni istikhdam hatifak?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "اتركني وشأني!",
+    "r": "Utrukni wa sha'ni!"
+  },
+  "directions.where_bathroom": {
+    "t": "أين الحمّام؟",
+    "r": "Ayna al-hammam?"
+  },
+  "directions.where_is_this": {
+    "t": "أين هذا المكان؟",
+    "r": "Ayna hadha al-makan?"
+  },
+  "directions.how_get_to_address": {
+    "t": "كيف أصل إلى هذا العنوان؟",
+    "r": "Kayfa asil ila hadha al-unwan?"
+  },
+  "directions.is_it_far": {
+    "t": "هل المكان بعيد؟",
+    "r": "Hal al-makan ba'id?"
+  },
+  "directions.can_i_walk": {
+    "t": "هل يمكنني الذهاب إلى هناك مشيًا؟",
+    "r": "Hal yumkinuni adh-dhahab ila hunak mashyan?"
+  },
+  "directions.show_on_map": {
+    "t": "هل يمكنك أن تُريني على الخريطة؟",
+    "r": "Hal yumkinuka an turini ala al-kharita?"
+  },
+  "directions.left": {
+    "t": "يسار",
+    "r": "Yasar"
+  },
+  "directions.right": {
+    "t": "يمين",
+    "r": "Yamin"
+  },
+  "directions.straight_ahead": {
+    "t": "إلى الأمام مباشرة",
+    "r": "Ila al-amam mubasharatan"
+  },
+  "directions.turn_left": {
+    "t": "انعطف يسارًا",
+    "r": "In'atif yasaran"
+  },
+  "directions.turn_right": {
+    "t": "انعطف يمينًا",
+    "r": "In'atif yaminan"
+  },
+  "directions.here": {
+    "t": "هنا",
+    "r": "Huna"
+  },
+  "directions.there": {
+    "t": "هناك",
+    "r": "Hunak"
+  },
+  "directions.where_entrance": {
+    "t": "أين المدخل؟",
+    "r": "Ayna al-madkhal?"
+  },
+  "directions.where_exit": {
+    "t": "أين المخرج؟",
+    "r": "Ayna al-makhraj?"
+  },
+  "directions.where_atm": {
+    "t": "أين يوجد صراف آلي؟",
+    "r": "Ayna yujad sarraf ali?"
+  },
+  "transport.where_train_station": {
+    "t": "أين محطة القطار؟",
+    "r": "Ayna mahattat al-qitar?"
+  },
+  "transport.where_bus_stop": {
+    "t": "أين موقف الحافلات؟",
+    "r": "Ayna mawqif al-hafilat?"
+  },
+  "transport.where_metro": {
+    "t": "أين محطة المترو؟",
+    "r": "Ayna mahattat al-metro?"
+  },
+  "transport.one_ticket": {
+    "t": "تذكرة واحدة، من فضلك.",
+    "r": "Tadhkara wahida, min fadlak."
+  },
+  "transport.two_tickets": {
+    "t": "تذكرتان، من فضلك.",
+    "r": "Tadhkaratan, min fadlak."
+  },
+  "transport.round_trip": {
+    "t": "تذكرة ذهاب وعودة، من فضلك.",
+    "r": "Tadhkarat dhahab wa awda, min fadlak."
+  },
+  "transport.how_much_ticket": {
+    "t": "كم سعر التذكرة؟",
+    "r": "Kam si'r at-tadhkara?"
+  },
+  "transport.next_train": {
+    "t": "متى يغادر القطار التالي؟",
+    "r": "Mata yughadir al-qitar at-tali?"
+  },
+  "transport.which_platform": {
+    "t": "من أي رصيف يغادر؟",
+    "r": "Min ayy rasif yughadir?"
+  },
+  "transport.does_this_go_here": {
+    "t": "هل تذهب هذه الحافلة إلى هذا المكان؟",
+    "r": "Hal tadhhab hadhihi al-hafila ila hadha al-makan?"
+  },
+  "transport.need_taxi": {
+    "t": "أحتاج إلى سيارة أجرة.",
+    "r": "Ahtaj ila sayyarat ujra."
+  },
+  "transport.take_me_to_address": {
+    "t": "خذني إلى هذا العنوان، من فضلك.",
+    "r": "Khudhni ila hadha al-unwan, min fadlak."
+  },
+  "transport.airport_please": {
+    "t": "إلى المطار، من فضلك.",
+    "r": "Ila al-matar, min fadlak."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "كم سيكلف ذلك؟",
+    "r": "Kam sayukallif dhalik?"
+  },
+  "transport.use_meter": {
+    "t": "شغّل العدّاد، من فضلك.",
+    "r": "Shaghghil al-addad, min fadlak."
+  },
+  "transport.stop_here": {
+    "t": "توقف هنا، من فضلك.",
+    "r": "Tawaqqaf huna, min fadlak."
+  },
+  "accommodation.have_reservation": {
+    "t": "لديّ حجز.",
+    "r": "Ladayya hajz."
+  },
+  "accommodation.room_available": {
+    "t": "هل لديكم غرفة متاحة؟",
+    "r": "Hal ladaykum ghurfa mutaha?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "لليلتين.",
+    "r": "Li-laylatayn."
+  },
+  "accommodation.price_per_night": {
+    "t": "كم السعر لليلة الواحدة؟",
+    "r": "Kam as-si'r lil-layla al-wahida?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "هل الفطور مشمول؟",
+    "r": "Hal al-futur mashmul?"
+  },
+  "accommodation.checkout_time": {
+    "t": "متى موعد تسجيل المغادرة؟",
+    "r": "Mata maw'id tasjil al-mughadara?"
+  },
+  "accommodation.wifi_password": {
+    "t": "ما كلمة سر الواي فاي؟",
+    "r": "Ma kalimat sirr al-wai-fai?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "هناك مشكلة في غرفتي.",
+    "r": "Hunak mushkila fi ghurfati."
+  },
+  "accommodation.ac_not_working": {
+    "t": "المكيف لا يعمل.",
+    "r": "Al-mukayyif la ya'mal."
+  },
+  "accommodation.more_towels": {
+    "t": "هل يمكنني الحصول على مناشف إضافية، من فضلك؟",
+    "r": "Hal yumkinuni al-husul ala manashif idafiyya, min fadlak?"
+  },
+  "accommodation.lost_key": {
+    "t": "فقدتُ مفتاح غرفتي.",
+    "r": "Faqadtu miftah ghurfati."
+  },
+  "accommodation.leave_luggage": {
+    "t": "هل يمكنني ترك أمتعتي هنا؟",
+    "r": "Hal yumkinuni tark amti'ati huna?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "هل يمكنك أن تطلب لي سيارة أجرة؟",
+    "r": "Hal yumkinuka an tatlub li sayyarat ujra?"
+  },
+  "accommodation.check_out": {
+    "t": "أريد تسجيل المغادرة.",
+    "r": "Urid tasjil al-mughadara."
+  },
+  "food.table_for_two": {
+    "t": "طاولة لشخصين، من فضلك.",
+    "r": "Tawila li-shakhsayn, min fadlak."
+  },
+  "food.menu_please": {
+    "t": "قائمة الطعام، من فضلك.",
+    "r": "Qa'imat at-ta'am, min fadlak."
+  },
+  "food.english_menu": {
+    "t": "هل لديكم قائمة طعام بالإنجليزية؟",
+    "r": "Hal ladaykum qa'imat ta'am bil-injiliziyya?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "بماذا تنصح؟",
+    "r": "Bimadha tansah?"
+  },
+  "food.ill_have_this": {
+    "t": "سآخذ هذا، من فضلك.",
+    "r": "Sa'akhudh hadha, min fadlak."
+  },
+  "food.water_please": {
+    "t": "ماء، من فضلك.",
+    "r": "Ma', min fadlak."
+  },
+  "food.coffee_please": {
+    "t": "فنجان قهوة، من فضلك.",
+    "r": "Finjan qahwa, min fadlak."
+  },
+  "food.beer_please": {
+    "t": "بيرة واحدة، من فضلك.",
+    "r": "Bira wahida, min fadlak."
+  },
+  "food.im_vegetarian": {
+    "t": "أنا نباتي.",
+    "r": "Ana nabati.",
+    "ft": "أنا نباتية.",
+    "fr": "Ana nabatiyya."
+  },
+  "food.allergic_nuts": {
+    "t": "عندي حساسية من المكسرات.",
+    "r": "Indi hassasiyya min al-mukassarat."
+  },
+  "food.is_it_spicy": {
+    "t": "هل هذا حار؟",
+    "r": "Hal hadha harr?"
+  },
+  "food.not_spicy": {
+    "t": "غير حار، من فضلك.",
+    "r": "Ghayr harr, min fadlak."
+  },
+  "food.delicious": {
+    "t": "لذيذ جدًا!",
+    "r": "Ladhidh jiddan!"
+  },
+  "food.cheers": {
+    "t": "في صحتك!",
+    "r": "Fi sihhatak!"
+  },
+  "food.check_please": {
+    "t": "الحساب، من فضلك.",
+    "r": "Al-hisab, min fadlak."
+  },
+  "food.pay_by_card": {
+    "t": "هل يمكنني الدفع بالبطاقة؟",
+    "r": "Hal yumkinuni ad-daf' bil-bitaqa?"
+  },
+  "shopping.how_much": {
+    "t": "بكم هذا؟",
+    "r": "Bikam hadha?",
+    "n": "Colloquial: Bikam da? (Egypt), Addaysh? (Levant)"
+  },
+  "shopping.too_expensive": {
+    "t": "هذا غالٍ جدًا.",
+    "r": "Hadha ghalin jiddan."
+  },
+  "shopping.lower_price": {
+    "t": "هل يمكنك تخفيض السعر؟",
+    "r": "Hal yumkinuka takhfid as-si'r?"
+  },
+  "shopping.just_looking": {
+    "t": "أنا أتفرج فقط، شكرًا.",
+    "r": "Ana atafarraj faqat, shukran."
+  },
+  "shopping.ill_take_it": {
+    "t": "سآخذه.",
+    "r": "Sa'akhudhuh."
+  },
+  "shopping.accept_cards": {
+    "t": "هل تقبلون بطاقات الائتمان؟",
+    "r": "Hal taqbalun bitaqat al-i'timan?"
+  },
+  "shopping.pay_cash": {
+    "t": "سأدفع نقدًا.",
+    "r": "Sa'adfa' naqdan."
+  },
+  "shopping.receipt": {
+    "t": "هل يمكنني الحصول على إيصال، من فضلك؟",
+    "r": "Hal yumkinuni al-husul ala isal, min fadlak?"
+  },
+  "shopping.bag": {
+    "t": "هل يمكنني الحصول على كيس، من فضلك؟",
+    "r": "Hal yumkinuni al-husul ala kis, min fadlak?"
+  },
+  "shopping.try_on": {
+    "t": "هل يمكنني تجربة هذا؟",
+    "r": "Hal yumkinuni tajribat hadha?"
+  },
+  "shopping.other_size": {
+    "t": "هل لديكم هذا بمقاس آخر؟",
+    "r": "Hal ladaykum hadha bi-maqas akhar?"
+  },
+  "shopping.what_time_open": {
+    "t": "متى تفتحون؟",
+    "r": "Mata taftahun?"
+  },
+  "shopping.what_time_close": {
+    "t": "متى تغلقون؟",
+    "r": "Mata tughliqun?"
+  },
+  "shopping.exchange_money": {
+    "t": "أين يمكنني صرف العملة؟",
+    "r": "Ayna yumkinuni sarf al-umla?"
+  },
+  "shopping.sim_card": {
+    "t": "أين يمكنني شراء شريحة هاتف؟",
+    "r": "Ayna yumkinuni shira' sharihat hatif?"
+  },
+  "health.where_pharmacy": {
+    "t": "أين الصيدلية؟",
+    "r": "Ayna as-saydaliyya?"
+  },
+  "health.feel_sick": {
+    "t": "لستُ على ما يرام.",
+    "r": "Lastu ala ma yuram."
+  },
+  "health.headache": {
+    "t": "عندي صداع.",
+    "r": "Indi suda'."
+  },
+  "health.stomachache": {
+    "t": "عندي ألم في المعدة.",
+    "r": "Indi alam fil-ma'ida."
+  },
+  "health.fever": {
+    "t": "عندي حُمّى.",
+    "r": "Indi humma."
+  },
+  "health.cold": {
+    "t": "عندي زكام.",
+    "r": "Indi zukam."
+  },
+  "health.hurts_here": {
+    "t": "يؤلمني هنا.",
+    "r": "Yu'limuni huna."
+  },
+  "health.medicine_for_this": {
+    "t": "هل لديكم دواء لهذا؟",
+    "r": "Hal ladaykum dawa' li-hadha?"
+  },
+  "health.allergic_penicillin": {
+    "t": "عندي حساسية من البنسلين.",
+    "r": "Indi hassasiyya min al-binisilin."
+  },
+  "health.diabetic": {
+    "t": "عندي مرض السكري.",
+    "r": "Indi marad as-sukkari."
+  },
+  "health.pregnant": {
+    "t": "أنا حامل.",
+    "r": "Ana hamil."
+  },
+  "health.need_dentist": {
+    "t": "أحتاج إلى طبيب أسنان.",
+    "r": "Ahtaj ila tabib asnan."
+  },
+  "health.travel_insurance": {
+    "t": "لديّ تأمين سفر.",
+    "r": "Ladayya ta'min safar."
+  },
+  "health.need_prescription": {
+    "t": "هل أحتاج إلى وصفة طبية؟",
+    "r": "Hal ahtaj ila wasfa tibbiyya?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "أين مكتب المعلومات السياحية؟",
+    "r": "Ayna maktab al-ma'lumat as-siyahiyya?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "كم رسوم الدخول؟",
+    "r": "Kam rusum ad-dukhul?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "ما ساعات العمل؟",
+    "r": "Ma sa'at al-amal?"
+  },
+  "sightseeing.student_discount": {
+    "t": "هل يوجد خصم للطلاب؟",
+    "r": "Hal yujad khasm lit-tullab?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "هل توجد جولة إرشادية بالإنجليزية؟",
+    "r": "Hal tujad jawla irshadiyya bil-injiliziyya?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "ما الأماكن التي تستحق الزيارة هنا؟",
+    "r": "Ma al-amakin allati tastahiqq az-ziyara huna?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "هل يمكنني التقاط صورة؟",
+    "r": "Hal yumkinuni iltiqat sura?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "هل يمكنك التقاط صورة لنا؟",
+    "r": "Hal yumkinuka iltiqat sura lana?"
+  },
+  "sightseeing.where_museum": {
+    "t": "أين المتحف؟",
+    "r": "Ayna al-mathaf?"
+  },
+  "sightseeing.where_beach": {
+    "t": "أين الشاطئ؟",
+    "r": "Ayna ash-shati'?"
+  },
+  "numbers.0": {
+    "t": "صفر",
+    "r": "Sifr"
+  },
+  "numbers.1": {
+    "t": "واحد",
+    "r": "Wahid"
+  },
+  "numbers.2": {
+    "t": "اثنان",
+    "r": "Ithnan"
+  },
+  "numbers.3": {
+    "t": "ثلاثة",
+    "r": "Thalatha"
+  },
+  "numbers.4": {
+    "t": "أربعة",
+    "r": "Arba'a"
+  },
+  "numbers.5": {
+    "t": "خمسة",
+    "r": "Khamsa"
+  },
+  "numbers.6": {
+    "t": "ستة",
+    "r": "Sitta"
+  },
+  "numbers.7": {
+    "t": "سبعة",
+    "r": "Sab'a"
+  },
+  "numbers.8": {
+    "t": "ثمانية",
+    "r": "Thamaniya"
+  },
+  "numbers.9": {
+    "t": "تسعة",
+    "r": "Tis'a"
+  },
+  "numbers.10": {
+    "t": "عشرة",
+    "r": "Ashara"
+  },
+  "numbers.20": {
+    "t": "عشرون",
+    "r": "Ishrun"
+  },
+  "numbers.50": {
+    "t": "خمسون",
+    "r": "Khamsun"
+  },
+  "numbers.100": {
+    "t": "مئة",
+    "r": "Mi'a"
+  },
+  "numbers.1000": {
+    "t": "ألف",
+    "r": "Alf"
+  },
+  "time.what_time_is_it": {
+    "t": "كم الساعة؟",
+    "r": "Kam as-sa'a?"
+  },
+  "time.how_long": {
+    "t": "كم من الوقت يستغرق ذلك؟",
+    "r": "Kam min al-waqt yastaghriq dhalik?"
+  },
+  "time.one_moment": {
+    "t": "لحظة، من فضلك.",
+    "r": "Lahza, min fadlak."
+  },
+  "time.now": {
+    "t": "الآن",
+    "r": "Al-aan"
+  },
+  "time.later": {
+    "t": "لاحقًا",
+    "r": "Lahiqan"
+  },
+  "time.today": {
+    "t": "اليوم",
+    "r": "Al-yawm"
+  },
+  "time.tomorrow": {
+    "t": "غدًا",
+    "r": "Ghadan"
+  },
+  "time.yesterday": {
+    "t": "أمس",
+    "r": "Ams"
+  },
+  "time.monday": {
+    "t": "الاثنين",
+    "r": "Al-ithnayn"
+  },
+  "time.tuesday": {
+    "t": "الثلاثاء",
+    "r": "Ath-thulatha"
+  },
+  "time.wednesday": {
+    "t": "الأربعاء",
+    "r": "Al-arbi'a"
+  },
+  "time.thursday": {
+    "t": "الخميس",
+    "r": "Al-khamis"
+  },
+  "time.friday": {
+    "t": "الجمعة",
+    "r": "Al-jum'a"
+  },
+  "time.saturday": {
+    "t": "السبت",
+    "r": "As-sabt"
+  },
+  "time.sunday": {
+    "t": "الأحد",
+    "r": "Al-ahad"
+  }
+}

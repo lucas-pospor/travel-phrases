@@ -1,0 +1,719 @@
+{
+  "basics.hello": {
+    "t": "你好",
+    "r": "Nǐ hǎo"
+  },
+  "basics.good_morning": {
+    "t": "早上好",
+    "r": "Zǎoshang hǎo"
+  },
+  "basics.good_evening": {
+    "t": "晚上好",
+    "r": "Wǎnshang hǎo"
+  },
+  "basics.good_night": {
+    "t": "晚安",
+    "r": "Wǎn'ān"
+  },
+  "basics.goodbye": {
+    "t": "再见",
+    "r": "Zàijiàn"
+  },
+  "basics.see_you_later": {
+    "t": "回头见",
+    "r": "Huítóu jiàn"
+  },
+  "basics.yes": {
+    "t": "是的",
+    "r": "Shì de",
+    "n": "Often you answer by repeating the verb instead"
+  },
+  "basics.no": {
+    "t": "不是",
+    "r": "Bú shì",
+    "n": "To decline an offer: bú yòng, xièxie"
+  },
+  "basics.please": {
+    "t": "请",
+    "r": "Qǐng"
+  },
+  "basics.thank_you": {
+    "t": "谢谢",
+    "r": "Xièxie"
+  },
+  "basics.thank_you_very_much": {
+    "t": "非常感谢",
+    "r": "Fēicháng gǎnxiè"
+  },
+  "basics.youre_welcome": {
+    "t": "不客气",
+    "r": "Bú kèqi"
+  },
+  "basics.excuse_me": {
+    "t": "不好意思",
+    "r": "Bù hǎoyìsi",
+    "n": "To squeeze past someone you can also say jièguò"
+  },
+  "basics.sorry": {
+    "t": "对不起",
+    "r": "Duìbuqǐ"
+  },
+  "basics.no_problem": {
+    "t": "没问题",
+    "r": "Méi wèntí"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "你会说英语吗？",
+    "r": "Nǐ huì shuō Yīngyǔ ma?"
+  },
+  "conversation.speak_a_little": {
+    "t": "我会说一点中文。",
+    "r": "Wǒ huì shuō yìdiǎn Zhōngwén."
+  },
+  "conversation.dont_understand": {
+    "t": "我听不懂。",
+    "r": "Wǒ tīng bu dǒng."
+  },
+  "conversation.understand": {
+    "t": "我明白了。",
+    "r": "Wǒ míngbai le."
+  },
+  "conversation.speak_slowly": {
+    "t": "请说慢一点。",
+    "r": "Qǐng shuō màn yìdiǎn."
+  },
+  "conversation.repeat": {
+    "t": "请再说一遍。",
+    "r": "Qǐng zài shuō yí biàn."
+  },
+  "conversation.write_it_down": {
+    "t": "能帮我写下来吗？",
+    "r": "Néng bāng wǒ xiě xiàlai ma?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "这是什么意思？",
+    "r": "Zhè shì shénme yìsi?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "这个用中文怎么说？",
+    "r": "Zhège yòng Zhōngwén zěnme shuō?"
+  },
+  "conversation.whats_your_name": {
+    "t": "请问你叫什么名字？",
+    "r": "Qǐngwèn nǐ jiào shénme míngzi?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "很高兴认识你。",
+    "r": "Hěn gāoxìng rènshi nǐ."
+  },
+  "conversation.how_are_you": {
+    "t": "你好吗？",
+    "r": "Nǐ hǎo ma?",
+    "n": "Mostly used with people you already know"
+  },
+  "conversation.im_fine": {
+    "t": "我很好，谢谢。",
+    "r": "Wǒ hěn hǎo, xièxie."
+  },
+  "conversation.where_are_you_from": {
+    "t": "你是哪里人？",
+    "r": "Nǐ shì nǎlǐ rén?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "我是游客。",
+    "r": "Wǒ shì yóukè."
+  },
+  "conversation.first_time_here": {
+    "t": "我是第一次来这里。",
+    "r": "Wǒ shì dì-yī cì lái zhèlǐ."
+  },
+  "emergency.help": {
+    "t": "救命！",
+    "r": "Jiùmìng!"
+  },
+  "emergency.call_police": {
+    "t": "快报警！",
+    "r": "Kuài bàojǐng!"
+  },
+  "emergency.call_ambulance": {
+    "t": "快叫救护车！",
+    "r": "Kuài jiào jiùhùchē!"
+  },
+  "emergency.fire": {
+    "t": "着火了！",
+    "r": "Zháohuǒ le!"
+  },
+  "emergency.need_doctor": {
+    "t": "我需要看医生。",
+    "r": "Wǒ xūyào kàn yīshēng."
+  },
+  "emergency.its_an_emergency": {
+    "t": "这是紧急情况。",
+    "r": "Zhè shì jǐnjí qíngkuàng."
+  },
+  "emergency.can_you_help_me": {
+    "t": "您能帮我一下吗？",
+    "r": "Nín néng bāng wǒ yíxià ma?"
+  },
+  "emergency.im_lost": {
+    "t": "我迷路了。",
+    "r": "Wǒ mílù le."
+  },
+  "emergency.wallet_stolen": {
+    "t": "我的钱包被偷了。",
+    "r": "Wǒ de qiánbāo bèi tōu le."
+  },
+  "emergency.lost_passport": {
+    "t": "我的护照丢了。",
+    "r": "Wǒ de hùzhào diū le."
+  },
+  "emergency.where_hospital": {
+    "t": "医院在哪里？",
+    "r": "Yīyuàn zài nǎlǐ?"
+  },
+  "emergency.where_police_station": {
+    "t": "派出所在哪里？",
+    "r": "Pàichūsuǒ zài nǎlǐ?"
+  },
+  "emergency.contact_embassy": {
+    "t": "我需要联系我们国家的大使馆。",
+    "r": "Wǒ xūyào liánxì wǒmen guójiā de dàshǐguǎn."
+  },
+  "emergency.use_your_phone": {
+    "t": "能借您的手机打个电话吗？",
+    "r": "Néng jiè nín de shǒujī dǎ ge diànhuà ma?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "别烦我！",
+    "r": "Bié fán wǒ!"
+  },
+  "directions.where_bathroom": {
+    "t": "洗手间在哪里？",
+    "r": "Xǐshǒujiān zài nǎlǐ?"
+  },
+  "directions.where_is_this": {
+    "t": "这个地方在哪里？",
+    "r": "Zhège dìfang zài nǎlǐ?"
+  },
+  "directions.how_get_to_address": {
+    "t": "去这个地址怎么走？",
+    "r": "Qù zhège dìzhǐ zěnme zǒu?"
+  },
+  "directions.is_it_far": {
+    "t": "离这里远吗？",
+    "r": "Lí zhèlǐ yuǎn ma?"
+  },
+  "directions.can_i_walk": {
+    "t": "走路能到吗？",
+    "r": "Zǒulù néng dào ma?"
+  },
+  "directions.show_on_map": {
+    "t": "您能在地图上指给我看吗？",
+    "r": "Nín néng zài dìtú shang zhǐ gěi wǒ kàn ma?"
+  },
+  "directions.left": {
+    "t": "左边",
+    "r": "Zuǒbian"
+  },
+  "directions.right": {
+    "t": "右边",
+    "r": "Yòubian"
+  },
+  "directions.straight_ahead": {
+    "t": "一直往前走",
+    "r": "Yìzhí wǎng qián zǒu"
+  },
+  "directions.turn_left": {
+    "t": "左转",
+    "r": "Zuǒzhuǎn"
+  },
+  "directions.turn_right": {
+    "t": "右转",
+    "r": "Yòuzhuǎn"
+  },
+  "directions.here": {
+    "t": "这里",
+    "r": "Zhèlǐ"
+  },
+  "directions.there": {
+    "t": "那里",
+    "r": "Nàlǐ"
+  },
+  "directions.where_entrance": {
+    "t": "入口在哪里？",
+    "r": "Rùkǒu zài nǎlǐ?"
+  },
+  "directions.where_exit": {
+    "t": "出口在哪里？",
+    "r": "Chūkǒu zài nǎlǐ?"
+  },
+  "directions.where_atm": {
+    "t": "附近哪里有取款机？",
+    "r": "Fùjìn nǎlǐ yǒu qǔkuǎnjī?"
+  },
+  "transport.where_train_station": {
+    "t": "火车站在哪里？",
+    "r": "Huǒchēzhàn zài nǎlǐ?"
+  },
+  "transport.where_bus_stop": {
+    "t": "公交站在哪里？",
+    "r": "Gōngjiāozhàn zài nǎlǐ?"
+  },
+  "transport.where_metro": {
+    "t": "地铁站在哪里？",
+    "r": "Dìtiězhàn zài nǎlǐ?"
+  },
+  "transport.one_ticket": {
+    "t": "请给我一张票。",
+    "r": "Qǐng gěi wǒ yì zhāng piào."
+  },
+  "transport.two_tickets": {
+    "t": "请给我两张票。",
+    "r": "Qǐng gěi wǒ liǎng zhāng piào."
+  },
+  "transport.round_trip": {
+    "t": "请给我一张往返票。",
+    "r": "Qǐng gěi wǒ yì zhāng wǎngfǎn piào."
+  },
+  "transport.how_much_ticket": {
+    "t": "一张票多少钱？",
+    "r": "Yì zhāng piào duōshao qián?"
+  },
+  "transport.next_train": {
+    "t": "下一班火车几点开？",
+    "r": "Xià yì bān huǒchē jǐ diǎn kāi?"
+  },
+  "transport.which_platform": {
+    "t": "从几号站台出发？",
+    "r": "Cóng jǐ hào zhàntái chūfā?"
+  },
+  "transport.does_this_go_here": {
+    "t": "这辆公交车去这里吗？",
+    "r": "Zhè liàng gōngjiāochē qù zhèlǐ ma?"
+  },
+  "transport.need_taxi": {
+    "t": "我要打车。",
+    "r": "Wǒ yào dǎchē."
+  },
+  "transport.take_me_to_address": {
+    "t": "请送我到这个地址。",
+    "r": "Qǐng sòng wǒ dào zhège dìzhǐ."
+  },
+  "transport.airport_please": {
+    "t": "去机场，谢谢。",
+    "r": "Qù jīchǎng, xièxie."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "大概多少钱？",
+    "r": "Dàgài duōshao qián?"
+  },
+  "transport.use_meter": {
+    "t": "请打表。",
+    "r": "Qǐng dǎbiǎo."
+  },
+  "transport.stop_here": {
+    "t": "请在这里停车。",
+    "r": "Qǐng zài zhèlǐ tíngchē."
+  },
+  "accommodation.have_reservation": {
+    "t": "我订了房间。",
+    "r": "Wǒ dìng le fángjiān."
+  },
+  "accommodation.room_available": {
+    "t": "还有空房间吗？",
+    "r": "Hái yǒu kòng fángjiān ma?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "住两晚。",
+    "r": "Zhù liǎng wǎn."
+  },
+  "accommodation.price_per_night": {
+    "t": "一晚多少钱？",
+    "r": "Yì wǎn duōshao qián?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "含早餐吗？",
+    "r": "Hán zǎocān ma?"
+  },
+  "accommodation.checkout_time": {
+    "t": "几点退房？",
+    "r": "Jǐ diǎn tuìfáng?"
+  },
+  "accommodation.wifi_password": {
+    "t": "WiFi密码是多少？",
+    "r": "WiFi mìmǎ shì duōshao?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "我的房间有点问题。",
+    "r": "Wǒ de fángjiān yǒudiǎn wèntí."
+  },
+  "accommodation.ac_not_working": {
+    "t": "空调坏了。",
+    "r": "Kōngtiáo huài le."
+  },
+  "accommodation.more_towels": {
+    "t": "能再给我几条毛巾吗？",
+    "r": "Néng zài gěi wǒ jǐ tiáo máojīn ma?"
+  },
+  "accommodation.lost_key": {
+    "t": "我的房卡丢了。",
+    "r": "Wǒ de fángkǎ diū le."
+  },
+  "accommodation.leave_luggage": {
+    "t": "可以寄存行李吗？",
+    "r": "Kěyǐ jìcún xíngli ma?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "能帮我叫一辆出租车吗？",
+    "r": "Néng bāng wǒ jiào yí liàng chūzūchē ma?"
+  },
+  "accommodation.check_out": {
+    "t": "我要退房。",
+    "r": "Wǒ yào tuìfáng."
+  },
+  "food.table_for_two": {
+    "t": "我们两个人。",
+    "r": "Wǒmen liǎng ge rén."
+  },
+  "food.menu_please": {
+    "t": "请给我看一下菜单。",
+    "r": "Qǐng gěi wǒ kàn yíxià càidān."
+  },
+  "food.english_menu": {
+    "t": "有英文菜单吗？",
+    "r": "Yǒu Yīngwén càidān ma?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "有什么推荐的吗？",
+    "r": "Yǒu shénme tuījiàn de ma?"
+  },
+  "food.ill_have_this": {
+    "t": "我要这个。",
+    "r": "Wǒ yào zhège."
+  },
+  "food.water_please": {
+    "t": "请给我一杯水。",
+    "r": "Qǐng gěi wǒ yì bēi shuǐ.",
+    "n": "Water often comes warm; ask for bīngshuǐ for cold"
+  },
+  "food.coffee_please": {
+    "t": "我要一杯咖啡。",
+    "r": "Wǒ yào yì bēi kāfēi."
+  },
+  "food.beer_please": {
+    "t": "来一瓶啤酒。",
+    "r": "Lái yì píng píjiǔ."
+  },
+  "food.im_vegetarian": {
+    "t": "我吃素。",
+    "r": "Wǒ chī sù."
+  },
+  "food.allergic_nuts": {
+    "t": "我对坚果过敏。",
+    "r": "Wǒ duì jiānguǒ guòmǐn.",
+    "n": "Peanuts (huāshēng) may not count as nuts; say both"
+  },
+  "food.is_it_spicy": {
+    "t": "这个辣吗？",
+    "r": "Zhège là ma?"
+  },
+  "food.not_spicy": {
+    "t": "不要辣，谢谢。",
+    "r": "Bú yào là, xièxie."
+  },
+  "food.delicious": {
+    "t": "太好吃了！",
+    "r": "Tài hǎochī le!"
+  },
+  "food.cheers": {
+    "t": "干杯！",
+    "r": "Gānbēi!"
+  },
+  "food.check_please": {
+    "t": "麻烦买单。",
+    "r": "Máfan mǎidān."
+  },
+  "food.pay_by_card": {
+    "t": "可以刷卡吗？",
+    "r": "Kěyǐ shuākǎ ma?",
+    "n": "Many places prefer Alipay or WeChat Pay"
+  },
+  "shopping.how_much": {
+    "t": "这个多少钱？",
+    "r": "Zhège duōshao qián?"
+  },
+  "shopping.too_expensive": {
+    "t": "太贵了。",
+    "r": "Tài guì le."
+  },
+  "shopping.lower_price": {
+    "t": "能便宜一点吗？",
+    "r": "Néng piányi yìdiǎn ma?"
+  },
+  "shopping.just_looking": {
+    "t": "我随便看看，谢谢。",
+    "r": "Wǒ suíbiàn kànkan, xièxie."
+  },
+  "shopping.ill_take_it": {
+    "t": "就要这个吧。",
+    "r": "Jiù yào zhège ba."
+  },
+  "shopping.accept_cards": {
+    "t": "可以刷信用卡吗？",
+    "r": "Kěyǐ shuā xìnyòngkǎ ma?"
+  },
+  "shopping.pay_cash": {
+    "t": "我付现金。",
+    "r": "Wǒ fù xiànjīn."
+  },
+  "shopping.receipt": {
+    "t": "能给我小票吗？",
+    "r": "Néng gěi wǒ xiǎopiào ma?"
+  },
+  "shopping.bag": {
+    "t": "能给我一个袋子吗？",
+    "r": "Néng gěi wǒ yí ge dàizi ma?"
+  },
+  "shopping.try_on": {
+    "t": "我可以试穿一下吗？",
+    "r": "Wǒ kěyǐ shìchuān yíxià ma?"
+  },
+  "shopping.other_size": {
+    "t": "这个有别的尺码吗？",
+    "r": "Zhège yǒu bié de chǐmǎ ma?"
+  },
+  "shopping.what_time_open": {
+    "t": "你们几点开门？",
+    "r": "Nǐmen jǐ diǎn kāimén?"
+  },
+  "shopping.what_time_close": {
+    "t": "你们几点关门？",
+    "r": "Nǐmen jǐ diǎn guānmén?"
+  },
+  "shopping.exchange_money": {
+    "t": "在哪里可以换钱？",
+    "r": "Zài nǎlǐ kěyǐ huànqián?"
+  },
+  "shopping.sim_card": {
+    "t": "在哪里能买手机卡？",
+    "r": "Zài nǎlǐ néng mǎi shǒujīkǎ?"
+  },
+  "health.where_pharmacy": {
+    "t": "药店在哪里？",
+    "r": "Yàodiàn zài nǎlǐ?"
+  },
+  "health.feel_sick": {
+    "t": "我不舒服。",
+    "r": "Wǒ bù shūfu."
+  },
+  "health.headache": {
+    "t": "我头疼。",
+    "r": "Wǒ tóu téng."
+  },
+  "health.stomachache": {
+    "t": "我肚子疼。",
+    "r": "Wǒ dùzi téng."
+  },
+  "health.fever": {
+    "t": "我发烧了。",
+    "r": "Wǒ fāshāo le."
+  },
+  "health.cold": {
+    "t": "我感冒了。",
+    "r": "Wǒ gǎnmào le."
+  },
+  "health.hurts_here": {
+    "t": "这里疼。",
+    "r": "Zhèlǐ téng."
+  },
+  "health.medicine_for_this": {
+    "t": "有治这个的药吗？",
+    "r": "Yǒu zhì zhège de yào ma?"
+  },
+  "health.allergic_penicillin": {
+    "t": "我对青霉素过敏。",
+    "r": "Wǒ duì qīngméisù guòmǐn."
+  },
+  "health.diabetic": {
+    "t": "我有糖尿病。",
+    "r": "Wǒ yǒu tángniàobìng."
+  },
+  "health.pregnant": {
+    "t": "我怀孕了。",
+    "r": "Wǒ huáiyùn le."
+  },
+  "health.need_dentist": {
+    "t": "我需要看牙医。",
+    "r": "Wǒ xūyào kàn yáyī."
+  },
+  "health.travel_insurance": {
+    "t": "我有旅游保险。",
+    "r": "Wǒ yǒu lǚyóu bǎoxiǎn."
+  },
+  "health.need_prescription": {
+    "t": "需要处方吗？",
+    "r": "Xūyào chǔfāng ma?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "游客中心在哪里？",
+    "r": "Yóukè zhōngxīn zài nǎlǐ?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "门票多少钱？",
+    "r": "Ménpiào duōshao qián?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "开放时间是几点到几点？",
+    "r": "Kāifàng shíjiān shì jǐ diǎn dào jǐ diǎn?"
+  },
+  "sightseeing.student_discount": {
+    "t": "学生有优惠吗？",
+    "r": "Xuésheng yǒu yōuhuì ma?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "有英文导游吗？",
+    "r": "Yǒu Yīngwén dǎoyóu ma?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "这附近有什么好玩的地方？",
+    "r": "Zhè fùjìn yǒu shénme hǎowán de dìfang?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "可以拍照吗？",
+    "r": "Kěyǐ pāizhào ma?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "能帮我们拍张照吗？",
+    "r": "Néng bāng wǒmen pāi zhāng zhào ma?"
+  },
+  "sightseeing.where_museum": {
+    "t": "博物馆在哪里？",
+    "r": "Bówùguǎn zài nǎlǐ?"
+  },
+  "sightseeing.where_beach": {
+    "t": "海滩在哪里？",
+    "r": "Hǎitān zài nǎlǐ?"
+  },
+  "numbers.0": {
+    "t": "零",
+    "r": "Líng"
+  },
+  "numbers.1": {
+    "t": "一",
+    "r": "Yī",
+    "n": "Read as yāo in phone, room and bus numbers"
+  },
+  "numbers.2": {
+    "t": "二",
+    "r": "Èr",
+    "n": "When counting things use liǎng, e.g. two tickets"
+  },
+  "numbers.3": {
+    "t": "三",
+    "r": "Sān"
+  },
+  "numbers.4": {
+    "t": "四",
+    "r": "Sì"
+  },
+  "numbers.5": {
+    "t": "五",
+    "r": "Wǔ"
+  },
+  "numbers.6": {
+    "t": "六",
+    "r": "Liù"
+  },
+  "numbers.7": {
+    "t": "七",
+    "r": "Qī"
+  },
+  "numbers.8": {
+    "t": "八",
+    "r": "Bā"
+  },
+  "numbers.9": {
+    "t": "九",
+    "r": "Jiǔ"
+  },
+  "numbers.10": {
+    "t": "十",
+    "r": "Shí"
+  },
+  "numbers.20": {
+    "t": "二十",
+    "r": "Èrshí"
+  },
+  "numbers.50": {
+    "t": "五十",
+    "r": "Wǔshí"
+  },
+  "numbers.100": {
+    "t": "一百",
+    "r": "Yìbǎi"
+  },
+  "numbers.1000": {
+    "t": "一千",
+    "r": "Yìqiān"
+  },
+  "time.what_time_is_it": {
+    "t": "现在几点了？",
+    "r": "Xiànzài jǐ diǎn le?"
+  },
+  "time.how_long": {
+    "t": "要多长时间？",
+    "r": "Yào duō cháng shíjiān?"
+  },
+  "time.one_moment": {
+    "t": "请稍等。",
+    "r": "Qǐng shāo děng."
+  },
+  "time.now": {
+    "t": "现在",
+    "r": "Xiànzài"
+  },
+  "time.later": {
+    "t": "等会儿",
+    "r": "Děng huìr"
+  },
+  "time.today": {
+    "t": "今天",
+    "r": "Jīntiān"
+  },
+  "time.tomorrow": {
+    "t": "明天",
+    "r": "Míngtiān"
+  },
+  "time.yesterday": {
+    "t": "昨天",
+    "r": "Zuótiān"
+  },
+  "time.monday": {
+    "t": "星期一",
+    "r": "Xīngqīyī"
+  },
+  "time.tuesday": {
+    "t": "星期二",
+    "r": "Xīngqī'èr"
+  },
+  "time.wednesday": {
+    "t": "星期三",
+    "r": "Xīngqīsān"
+  },
+  "time.thursday": {
+    "t": "星期四",
+    "r": "Xīngqīsì"
+  },
+  "time.friday": {
+    "t": "星期五",
+    "r": "Xīngqīwǔ"
+  },
+  "time.saturday": {
+    "t": "星期六",
+    "r": "Xīngqīliù"
+  },
+  "time.sunday": {
+    "t": "星期天",
+    "r": "Xīngqītiān"
+  }
+}

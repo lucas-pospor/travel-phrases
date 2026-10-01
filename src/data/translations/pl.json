@@ -1,0 +1,545 @@
+{
+  "basics.hello": {
+    "t": "Dzień dobry"
+  },
+  "basics.good_morning": {
+    "t": "Dzień dobry",
+    "n": "Same greeting as 'Hello'; used until evening."
+  },
+  "basics.good_evening": {
+    "t": "Dobry wieczór"
+  },
+  "basics.good_night": {
+    "t": "Dobranoc"
+  },
+  "basics.goodbye": {
+    "t": "Do widzenia"
+  },
+  "basics.see_you_later": {
+    "t": "Do zobaczenia"
+  },
+  "basics.yes": {
+    "t": "Tak"
+  },
+  "basics.no": {
+    "t": "Nie"
+  },
+  "basics.please": {
+    "t": "Proszę"
+  },
+  "basics.thank_you": {
+    "t": "Dziękuję"
+  },
+  "basics.thank_you_very_much": {
+    "t": "Dziękuję bardzo"
+  },
+  "basics.youre_welcome": {
+    "t": "Nie ma za co"
+  },
+  "basics.excuse_me": {
+    "t": "Przepraszam"
+  },
+  "basics.sorry": {
+    "t": "Przepraszam"
+  },
+  "basics.no_problem": {
+    "t": "Nie ma problemu"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "Czy mówi pan po angielsku?",
+    "n": "To a woman, say pani instead of pan."
+  },
+  "conversation.speak_a_little": {
+    "t": "Mówię trochę po polsku."
+  },
+  "conversation.dont_understand": {
+    "t": "Nie rozumiem."
+  },
+  "conversation.understand": {
+    "t": "Rozumiem."
+  },
+  "conversation.speak_slowly": {
+    "t": "Proszę mówić wolniej."
+  },
+  "conversation.repeat": {
+    "t": "Proszę powtórzyć."
+  },
+  "conversation.write_it_down": {
+    "t": "Proszę to zapisać."
+  },
+  "conversation.what_does_this_mean": {
+    "t": "Co to znaczy?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "Jak to powiedzieć po polsku?"
+  },
+  "conversation.whats_your_name": {
+    "t": "Jak pan ma na imię?",
+    "n": "To a woman, say pani instead of pan."
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "Miło mi."
+  },
+  "conversation.how_are_you": {
+    "t": "Jak się pan ma?",
+    "n": "To a woman, say pani instead of pan."
+  },
+  "conversation.im_fine": {
+    "t": "Dobrze, dziękuję."
+  },
+  "conversation.where_are_you_from": {
+    "t": "Skąd pan jest?",
+    "n": "To a woman, say pani instead of pan."
+  },
+  "conversation.im_a_tourist": {
+    "t": "Jestem turystą.",
+    "ft": "Jestem turystką."
+  },
+  "conversation.first_time_here": {
+    "t": "Jestem tu pierwszy raz."
+  },
+  "emergency.help": {
+    "t": "Pomocy!"
+  },
+  "emergency.call_police": {
+    "t": "Proszę wezwać policję!"
+  },
+  "emergency.call_ambulance": {
+    "t": "Proszę wezwać karetkę!"
+  },
+  "emergency.fire": {
+    "t": "Pożar!"
+  },
+  "emergency.need_doctor": {
+    "t": "Potrzebuję lekarza."
+  },
+  "emergency.its_an_emergency": {
+    "t": "To nagły wypadek."
+  },
+  "emergency.can_you_help_me": {
+    "t": "Czy mogę prosić o pomoc?"
+  },
+  "emergency.im_lost": {
+    "t": "Zgubiłem się.",
+    "ft": "Zgubiłam się."
+  },
+  "emergency.wallet_stolen": {
+    "t": "Ukradziono mi portfel."
+  },
+  "emergency.lost_passport": {
+    "t": "Zgubiłem paszport.",
+    "ft": "Zgubiłam paszport."
+  },
+  "emergency.where_hospital": {
+    "t": "Gdzie jest szpital?"
+  },
+  "emergency.where_police_station": {
+    "t": "Gdzie jest komisariat policji?"
+  },
+  "emergency.contact_embassy": {
+    "t": "Muszę się skontaktować ze swoją ambasadą."
+  },
+  "emergency.use_your_phone": {
+    "t": "Czy mogę skorzystać z telefonu?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "Proszę mnie zostawić w spokoju!"
+  },
+  "directions.where_bathroom": {
+    "t": "Gdzie jest toaleta?"
+  },
+  "directions.where_is_this": {
+    "t": "Gdzie to jest?"
+  },
+  "directions.how_get_to_address": {
+    "t": "Jak się dostać pod ten adres?"
+  },
+  "directions.is_it_far": {
+    "t": "Czy to daleko?"
+  },
+  "directions.can_i_walk": {
+    "t": "Czy można tam dojść pieszo?"
+  },
+  "directions.show_on_map": {
+    "t": "Proszę mi pokazać na mapie."
+  },
+  "directions.left": {
+    "t": "W lewo"
+  },
+  "directions.right": {
+    "t": "W prawo"
+  },
+  "directions.straight_ahead": {
+    "t": "Prosto"
+  },
+  "directions.turn_left": {
+    "t": "Proszę skręcić w lewo"
+  },
+  "directions.turn_right": {
+    "t": "Proszę skręcić w prawo"
+  },
+  "directions.here": {
+    "t": "Tutaj"
+  },
+  "directions.there": {
+    "t": "Tam"
+  },
+  "directions.where_entrance": {
+    "t": "Gdzie jest wejście?"
+  },
+  "directions.where_exit": {
+    "t": "Gdzie jest wyjście?"
+  },
+  "directions.where_atm": {
+    "t": "Gdzie jest bankomat?"
+  },
+  "transport.where_train_station": {
+    "t": "Gdzie jest dworzec kolejowy?"
+  },
+  "transport.where_bus_stop": {
+    "t": "Gdzie jest przystanek autobusowy?"
+  },
+  "transport.where_metro": {
+    "t": "Gdzie jest stacja metra?"
+  },
+  "transport.one_ticket": {
+    "t": "Poproszę jeden bilet."
+  },
+  "transport.two_tickets": {
+    "t": "Poproszę dwa bilety."
+  },
+  "transport.round_trip": {
+    "t": "Poproszę bilet w obie strony."
+  },
+  "transport.how_much_ticket": {
+    "t": "Ile kosztuje bilet?"
+  },
+  "transport.next_train": {
+    "t": "Kiedy odjeżdża następny pociąg?"
+  },
+  "transport.which_platform": {
+    "t": "Z którego peronu odjeżdża pociąg?"
+  },
+  "transport.does_this_go_here": {
+    "t": "Czy ten autobus jedzie tutaj?"
+  },
+  "transport.need_taxi": {
+    "t": "Potrzebuję taksówki."
+  },
+  "transport.take_me_to_address": {
+    "t": "Proszę mnie zawieźć pod ten adres."
+  },
+  "transport.airport_please": {
+    "t": "Na lotnisko, proszę."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "Ile to będzie kosztować?"
+  },
+  "transport.use_meter": {
+    "t": "Proszę włączyć licznik."
+  },
+  "transport.stop_here": {
+    "t": "Proszę się tu zatrzymać."
+  },
+  "accommodation.have_reservation": {
+    "t": "Mam rezerwację."
+  },
+  "accommodation.room_available": {
+    "t": "Czy jest wolny pokój?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "Na dwie noce."
+  },
+  "accommodation.price_per_night": {
+    "t": "Ile kosztuje jedna noc?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "Czy śniadanie jest wliczone w cenę?"
+  },
+  "accommodation.checkout_time": {
+    "t": "Do której trzeba zwolnić pokój?"
+  },
+  "accommodation.wifi_password": {
+    "t": "Jakie jest hasło do Wi-Fi?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "Mam problem z pokojem."
+  },
+  "accommodation.ac_not_working": {
+    "t": "Klimatyzacja nie działa."
+  },
+  "accommodation.more_towels": {
+    "t": "Czy mogę prosić o więcej ręczników?"
+  },
+  "accommodation.lost_key": {
+    "t": "Zgubiłem klucz do pokoju.",
+    "ft": "Zgubiłam klucz do pokoju."
+  },
+  "accommodation.leave_luggage": {
+    "t": "Czy mogę tu zostawić bagaż?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "Czy mogę prosić o zamówienie taksówki?"
+  },
+  "accommodation.check_out": {
+    "t": "Chciałbym się wymeldować.",
+    "ft": "Chciałabym się wymeldować."
+  },
+  "food.table_for_two": {
+    "t": "Poproszę stolik dla dwóch osób."
+  },
+  "food.menu_please": {
+    "t": "Poproszę menu."
+  },
+  "food.english_menu": {
+    "t": "Czy jest menu po angielsku?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "Co warto zamówić?"
+  },
+  "food.ill_have_this": {
+    "t": "Poproszę to."
+  },
+  "food.water_please": {
+    "t": "Poproszę wodę."
+  },
+  "food.coffee_please": {
+    "t": "Poproszę kawę."
+  },
+  "food.beer_please": {
+    "t": "Poproszę piwo."
+  },
+  "food.im_vegetarian": {
+    "t": "Jestem wegetarianinem.",
+    "ft": "Jestem wegetarianką."
+  },
+  "food.allergic_nuts": {
+    "t": "Mam alergię na orzechy."
+  },
+  "food.is_it_spicy": {
+    "t": "Czy to jest ostre?"
+  },
+  "food.not_spicy": {
+    "t": "Proszę, żeby nie było ostre."
+  },
+  "food.delicious": {
+    "t": "Pyszne!"
+  },
+  "food.cheers": {
+    "t": "Na zdrowie!"
+  },
+  "food.check_please": {
+    "t": "Poproszę rachunek."
+  },
+  "food.pay_by_card": {
+    "t": "Czy mogę zapłacić kartą?"
+  },
+  "shopping.how_much": {
+    "t": "Ile to kosztuje?"
+  },
+  "shopping.too_expensive": {
+    "t": "To za drogo."
+  },
+  "shopping.lower_price": {
+    "t": "Czy można taniej?"
+  },
+  "shopping.just_looking": {
+    "t": "Tylko się rozglądam, dziękuję."
+  },
+  "shopping.ill_take_it": {
+    "t": "Wezmę to."
+  },
+  "shopping.accept_cards": {
+    "t": "Czy można płacić kartą kredytową?"
+  },
+  "shopping.pay_cash": {
+    "t": "Zapłacę gotówką."
+  },
+  "shopping.receipt": {
+    "t": "Czy mogę prosić o paragon?"
+  },
+  "shopping.bag": {
+    "t": "Czy mogę prosić o torbę?"
+  },
+  "shopping.try_on": {
+    "t": "Czy mogę to przymierzyć?"
+  },
+  "shopping.other_size": {
+    "t": "Czy jest to w innym rozmiarze?"
+  },
+  "shopping.what_time_open": {
+    "t": "Od której jest otwarte?"
+  },
+  "shopping.what_time_close": {
+    "t": "Do której jest otwarte?"
+  },
+  "shopping.exchange_money": {
+    "t": "Gdzie mogę wymienić pieniądze?"
+  },
+  "shopping.sim_card": {
+    "t": "Gdzie mogę kupić kartę SIM?"
+  },
+  "health.where_pharmacy": {
+    "t": "Gdzie jest apteka?"
+  },
+  "health.feel_sick": {
+    "t": "Źle się czuję."
+  },
+  "health.headache": {
+    "t": "Boli mnie głowa."
+  },
+  "health.stomachache": {
+    "t": "Boli mnie brzuch."
+  },
+  "health.fever": {
+    "t": "Mam gorączkę."
+  },
+  "health.cold": {
+    "t": "Jestem przeziębiony.",
+    "ft": "Jestem przeziębiona."
+  },
+  "health.hurts_here": {
+    "t": "Boli mnie tutaj."
+  },
+  "health.medicine_for_this": {
+    "t": "Czy jest jakiś lek na to?"
+  },
+  "health.allergic_penicillin": {
+    "t": "Mam alergię na penicylinę."
+  },
+  "health.diabetic": {
+    "t": "Mam cukrzycę."
+  },
+  "health.pregnant": {
+    "t": "Jestem w ciąży."
+  },
+  "health.need_dentist": {
+    "t": "Potrzebuję dentysty."
+  },
+  "health.travel_insurance": {
+    "t": "Mam ubezpieczenie podróżne."
+  },
+  "health.need_prescription": {
+    "t": "Czy potrzebna jest recepta?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "Gdzie jest informacja turystyczna?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "Ile kosztuje wstęp?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "Jakie są godziny otwarcia?"
+  },
+  "sightseeing.student_discount": {
+    "t": "Czy jest zniżka dla studentów?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "Czy jest zwiedzanie z przewodnikiem po angielsku?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "Co warto zobaczyć w okolicy?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "Czy mogę zrobić zdjęcie?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "Czy mogę prosić o zrobienie nam zdjęcia?"
+  },
+  "sightseeing.where_museum": {
+    "t": "Gdzie jest muzeum?"
+  },
+  "sightseeing.where_beach": {
+    "t": "Gdzie jest plaża?"
+  },
+  "numbers.0": {
+    "t": "Zero"
+  },
+  "numbers.1": {
+    "t": "Jeden"
+  },
+  "numbers.2": {
+    "t": "Dwa"
+  },
+  "numbers.3": {
+    "t": "Trzy"
+  },
+  "numbers.4": {
+    "t": "Cztery"
+  },
+  "numbers.5": {
+    "t": "Pięć"
+  },
+  "numbers.6": {
+    "t": "Sześć"
+  },
+  "numbers.7": {
+    "t": "Siedem"
+  },
+  "numbers.8": {
+    "t": "Osiem"
+  },
+  "numbers.9": {
+    "t": "Dziewięć"
+  },
+  "numbers.10": {
+    "t": "Dziesięć"
+  },
+  "numbers.20": {
+    "t": "Dwadzieścia"
+  },
+  "numbers.50": {
+    "t": "Pięćdziesiąt"
+  },
+  "numbers.100": {
+    "t": "Sto"
+  },
+  "numbers.1000": {
+    "t": "Tysiąc"
+  },
+  "time.what_time_is_it": {
+    "t": "Która jest godzina?"
+  },
+  "time.how_long": {
+    "t": "Ile to potrwa?"
+  },
+  "time.one_moment": {
+    "t": "Chwileczkę, proszę."
+  },
+  "time.now": {
+    "t": "Teraz"
+  },
+  "time.later": {
+    "t": "Później"
+  },
+  "time.today": {
+    "t": "Dzisiaj"
+  },
+  "time.tomorrow": {
+    "t": "Jutro"
+  },
+  "time.yesterday": {
+    "t": "Wczoraj"
+  },
+  "time.monday": {
+    "t": "Poniedziałek"
+  },
+  "time.tuesday": {
+    "t": "Wtorek"
+  },
+  "time.wednesday": {
+    "t": "Środa"
+  },
+  "time.thursday": {
+    "t": "Czwartek"
+  },
+  "time.friday": {
+    "t": "Piątek"
+  },
+  "time.saturday": {
+    "t": "Sobota"
+  },
+  "time.sunday": {
+    "t": "Niedziela"
+  }
+}

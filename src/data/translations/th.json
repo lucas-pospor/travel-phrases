@@ -1,0 +1,996 @@
+{
+  "basics.hello": {
+    "t": "สวัสดีครับ",
+    "r": "Sawatdi khrap",
+    "ft": "สวัสดีค่ะ",
+    "fr": "Sawatdi kha"
+  },
+  "basics.good_morning": {
+    "t": "อรุณสวัสดิ์ครับ",
+    "r": "Arun sawat khrap",
+    "ft": "อรุณสวัสดิ์ค่ะ",
+    "fr": "Arun sawat kha",
+    "n": "Formal; most Thais just say Sawatdi"
+  },
+  "basics.good_evening": {
+    "t": "สวัสดีตอนเย็นครับ",
+    "r": "Sawatdi ton yen khrap",
+    "ft": "สวัสดีตอนเย็นค่ะ",
+    "fr": "Sawatdi ton yen kha",
+    "n": "Plain Sawatdi is more common"
+  },
+  "basics.good_night": {
+    "t": "ราตรีสวัสดิ์ครับ",
+    "r": "Ratri sawat khrap",
+    "ft": "ราตรีสวัสดิ์ค่ะ",
+    "fr": "Ratri sawat kha"
+  },
+  "basics.goodbye": {
+    "t": "ลาก่อนครับ",
+    "r": "La kon khrap",
+    "ft": "ลาก่อนค่ะ",
+    "fr": "La kon kha",
+    "n": "Sounds final; Sawatdi is the everyday goodbye"
+  },
+  "basics.see_you_later": {
+    "t": "แล้วเจอกันนะครับ",
+    "r": "Laeo joe kan na khrap",
+    "ft": "แล้วเจอกันนะคะ",
+    "fr": "Laeo joe kan na kha"
+  },
+  "basics.yes": {
+    "t": "ใช่ครับ",
+    "r": "Chai khrap",
+    "ft": "ใช่ค่ะ",
+    "fr": "Chai kha",
+    "n": "Just khrap or kha on its own is also a polite yes"
+  },
+  "basics.no": {
+    "t": "ไม่ใช่ครับ",
+    "r": "Mai chai khrap",
+    "ft": "ไม่ใช่ค่ะ",
+    "fr": "Mai chai kha",
+    "n": "To decline an offer, say Mai ao"
+  },
+  "basics.please": {
+    "t": "ขอหน่อยครับ",
+    "r": "Kho noi khrap",
+    "ft": "ขอหน่อยค่ะ",
+    "fr": "Kho noi kha",
+    "n": "To ask for an item: Kho + item + noi"
+  },
+  "basics.thank_you": {
+    "t": "ขอบคุณครับ",
+    "r": "Khop khun khrap",
+    "ft": "ขอบคุณค่ะ",
+    "fr": "Khop khun kha"
+  },
+  "basics.thank_you_very_much": {
+    "t": "ขอบคุณมากครับ",
+    "r": "Khop khun mak khrap",
+    "ft": "ขอบคุณมากค่ะ",
+    "fr": "Khop khun mak kha"
+  },
+  "basics.youre_welcome": {
+    "t": "ไม่เป็นไรครับ",
+    "r": "Mai pen rai khrap",
+    "ft": "ไม่เป็นไรค่ะ",
+    "fr": "Mai pen rai kha"
+  },
+  "basics.excuse_me": {
+    "t": "ขอโทษนะครับ",
+    "r": "Kho thot na khrap",
+    "ft": "ขอโทษนะคะ",
+    "fr": "Kho thot na kha"
+  },
+  "basics.sorry": {
+    "t": "ขอโทษครับ",
+    "r": "Kho thot khrap",
+    "ft": "ขอโทษค่ะ",
+    "fr": "Kho thot kha"
+  },
+  "basics.no_problem": {
+    "t": "ไม่เป็นไรครับ",
+    "r": "Mai pen rai khrap",
+    "ft": "ไม่เป็นไรค่ะ",
+    "fr": "Mai pen rai kha"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "พูดภาษาอังกฤษได้ไหมครับ",
+    "r": "Phut phasa angkrit dai mai khrap?",
+    "ft": "พูดภาษาอังกฤษได้ไหมคะ",
+    "fr": "Phut phasa angkrit dai mai kha?"
+  },
+  "conversation.speak_a_little": {
+    "t": "ผมพูดภาษาไทยได้นิดหน่อยครับ",
+    "r": "Phom phut phasa thai dai nit noi khrap.",
+    "ft": "ฉันพูดภาษาไทยได้นิดหน่อยค่ะ",
+    "fr": "Chan phut phasa thai dai nit noi kha."
+  },
+  "conversation.dont_understand": {
+    "t": "ไม่เข้าใจครับ",
+    "r": "Mai khao jai khrap.",
+    "ft": "ไม่เข้าใจค่ะ",
+    "fr": "Mai khao jai kha."
+  },
+  "conversation.understand": {
+    "t": "เข้าใจแล้วครับ",
+    "r": "Khao jai laeo khrap.",
+    "ft": "เข้าใจแล้วค่ะ",
+    "fr": "Khao jai laeo kha."
+  },
+  "conversation.speak_slowly": {
+    "t": "ช่วยพูดช้าๆ หน่อยได้ไหมครับ",
+    "r": "Chuai phut cha cha noi dai mai khrap?",
+    "ft": "ช่วยพูดช้าๆ หน่อยได้ไหมคะ",
+    "fr": "Chuai phut cha cha noi dai mai kha?"
+  },
+  "conversation.repeat": {
+    "t": "ช่วยพูดอีกครั้งได้ไหมครับ",
+    "r": "Chuai phut ik khrang dai mai khrap?",
+    "ft": "ช่วยพูดอีกครั้งได้ไหมคะ",
+    "fr": "Chuai phut ik khrang dai mai kha?"
+  },
+  "conversation.write_it_down": {
+    "t": "ช่วยเขียนให้หน่อยได้ไหมครับ",
+    "r": "Chuai khian hai noi dai mai khrap?",
+    "ft": "ช่วยเขียนให้หน่อยได้ไหมคะ",
+    "fr": "Chuai khian hai noi dai mai kha?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "อันนี้แปลว่าอะไรครับ",
+    "r": "An ni plae wa arai khrap?",
+    "ft": "อันนี้แปลว่าอะไรคะ",
+    "fr": "An ni plae wa arai kha?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "อันนี้ภาษาไทยเรียกว่าอะไรครับ",
+    "r": "An ni phasa thai riak wa arai khrap?",
+    "ft": "อันนี้ภาษาไทยเรียกว่าอะไรคะ",
+    "fr": "An ni phasa thai riak wa arai kha?"
+  },
+  "conversation.whats_your_name": {
+    "t": "คุณชื่ออะไรครับ",
+    "r": "Khun chue arai khrap?",
+    "ft": "คุณชื่ออะไรคะ",
+    "fr": "Khun chue arai kha?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "ยินดีที่ได้รู้จักครับ",
+    "r": "Yindi thi dai ru jak khrap.",
+    "ft": "ยินดีที่ได้รู้จักค่ะ",
+    "fr": "Yindi thi dai ru jak kha."
+  },
+  "conversation.how_are_you": {
+    "t": "สบายดีไหมครับ",
+    "r": "Sabai di mai khrap?",
+    "ft": "สบายดีไหมคะ",
+    "fr": "Sabai di mai kha?"
+  },
+  "conversation.im_fine": {
+    "t": "ผมสบายดี ขอบคุณครับ",
+    "r": "Phom sabai di, khop khun khrap.",
+    "ft": "ฉันสบายดี ขอบคุณค่ะ",
+    "fr": "Chan sabai di, khop khun kha."
+  },
+  "conversation.where_are_you_from": {
+    "t": "คุณมาจากไหนครับ",
+    "r": "Khun ma jak nai khrap?",
+    "ft": "คุณมาจากไหนคะ",
+    "fr": "Khun ma jak nai kha?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "ผมเป็นนักท่องเที่ยวครับ",
+    "r": "Phom pen nak thong thiao khrap.",
+    "ft": "ฉันเป็นนักท่องเที่ยวค่ะ",
+    "fr": "Chan pen nak thong thiao kha."
+  },
+  "conversation.first_time_here": {
+    "t": "ผมมาที่นี่ครั้งแรกครับ",
+    "r": "Phom ma thi ni khrang raek khrap.",
+    "ft": "ฉันมาที่นี่ครั้งแรกค่ะ",
+    "fr": "Chan ma thi ni khrang raek kha."
+  },
+  "emergency.help": {
+    "t": "ช่วยด้วย!",
+    "r": "Chuai duai!"
+  },
+  "emergency.call_police": {
+    "t": "ช่วยเรียกตำรวจด้วย!",
+    "r": "Chuai riak tamruat duai!"
+  },
+  "emergency.call_ambulance": {
+    "t": "ช่วยเรียกรถพยาบาลด้วย!",
+    "r": "Chuai riak rot phayaban duai!"
+  },
+  "emergency.fire": {
+    "t": "ไฟไหม้!",
+    "r": "Fai mai!"
+  },
+  "emergency.need_doctor": {
+    "t": "ผมต้องไปหาหมอครับ",
+    "r": "Phom tong pai ha mo khrap.",
+    "ft": "ฉันต้องไปหาหมอค่ะ",
+    "fr": "Chan tong pai ha mo kha."
+  },
+  "emergency.its_an_emergency": {
+    "t": "เป็นเหตุฉุกเฉินครับ",
+    "r": "Pen het chuk choen khrap.",
+    "ft": "เป็นเหตุฉุกเฉินค่ะ",
+    "fr": "Pen het chuk choen kha."
+  },
+  "emergency.can_you_help_me": {
+    "t": "ช่วยผมหน่อยได้ไหมครับ",
+    "r": "Chuai phom noi dai mai khrap?",
+    "ft": "ช่วยฉันหน่อยได้ไหมคะ",
+    "fr": "Chuai chan noi dai mai kha?"
+  },
+  "emergency.im_lost": {
+    "t": "ผมหลงทางครับ",
+    "r": "Phom long thang khrap.",
+    "ft": "ฉันหลงทางค่ะ",
+    "fr": "Chan long thang kha."
+  },
+  "emergency.wallet_stolen": {
+    "t": "กระเป๋าสตางค์ของผมถูกขโมยครับ",
+    "r": "Krapao satang khong phom thuk khamoi khrap.",
+    "ft": "กระเป๋าสตางค์ของฉันถูกขโมยค่ะ",
+    "fr": "Krapao satang khong chan thuk khamoi kha."
+  },
+  "emergency.lost_passport": {
+    "t": "ผมทำพาสปอร์ตหายครับ",
+    "r": "Phom tham phatsapot hai khrap.",
+    "ft": "ฉันทำพาสปอร์ตหายค่ะ",
+    "fr": "Chan tham phatsapot hai kha."
+  },
+  "emergency.where_hospital": {
+    "t": "โรงพยาบาลอยู่ที่ไหนครับ",
+    "r": "Rong phayaban yu thi nai khrap?",
+    "ft": "โรงพยาบาลอยู่ที่ไหนคะ",
+    "fr": "Rong phayaban yu thi nai kha?"
+  },
+  "emergency.where_police_station": {
+    "t": "สถานีตำรวจอยู่ที่ไหนครับ",
+    "r": "Sathani tamruat yu thi nai khrap?",
+    "ft": "สถานีตำรวจอยู่ที่ไหนคะ",
+    "fr": "Sathani tamruat yu thi nai kha?"
+  },
+  "emergency.contact_embassy": {
+    "t": "ผมต้องติดต่อสถานทูตครับ",
+    "r": "Phom tong tit to sathan thut khrap.",
+    "ft": "ฉันต้องติดต่อสถานทูตค่ะ",
+    "fr": "Chan tong tit to sathan thut kha."
+  },
+  "emergency.use_your_phone": {
+    "t": "ขอยืมโทรศัพท์หน่อยได้ไหมครับ",
+    "r": "Kho yuem thorasap noi dai mai khrap?",
+    "ft": "ขอยืมโทรศัพท์หน่อยได้ไหมคะ",
+    "fr": "Kho yuem thorasap noi dai mai kha?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "อย่ายุ่งกับผม!",
+    "r": "Ya yung kap phom!",
+    "ft": "อย่ายุ่งกับฉัน!",
+    "fr": "Ya yung kap chan!"
+  },
+  "directions.where_bathroom": {
+    "t": "ห้องน้ำอยู่ที่ไหนครับ",
+    "r": "Hong nam yu thi nai khrap?",
+    "ft": "ห้องน้ำอยู่ที่ไหนคะ",
+    "fr": "Hong nam yu thi nai kha?"
+  },
+  "directions.where_is_this": {
+    "t": "ที่นี่อยู่ที่ไหนครับ",
+    "r": "Thi ni yu thi nai khrap?",
+    "ft": "ที่นี่อยู่ที่ไหนคะ",
+    "fr": "Thi ni yu thi nai kha?"
+  },
+  "directions.how_get_to_address": {
+    "t": "ไปที่อยู่นี้ยังไงครับ",
+    "r": "Pai thi yu ni yang ngai khrap?",
+    "ft": "ไปที่อยู่นี้ยังไงคะ",
+    "fr": "Pai thi yu ni yang ngai kha?"
+  },
+  "directions.is_it_far": {
+    "t": "ไกลไหมครับ",
+    "r": "Klai mai khrap?",
+    "ft": "ไกลไหมคะ",
+    "fr": "Klai mai kha?"
+  },
+  "directions.can_i_walk": {
+    "t": "เดินไปได้ไหมครับ",
+    "r": "Doen pai dai mai khrap?",
+    "ft": "เดินไปได้ไหมคะ",
+    "fr": "Doen pai dai mai kha?"
+  },
+  "directions.show_on_map": {
+    "t": "ช่วยชี้ในแผนที่ให้หน่อยได้ไหมครับ",
+    "r": "Chuai chi nai phaen thi hai noi dai mai khrap?",
+    "ft": "ช่วยชี้ในแผนที่ให้หน่อยได้ไหมคะ",
+    "fr": "Chuai chi nai phaen thi hai noi dai mai kha?"
+  },
+  "directions.left": {
+    "t": "ซ้าย",
+    "r": "Sai"
+  },
+  "directions.right": {
+    "t": "ขวา",
+    "r": "Khwa"
+  },
+  "directions.straight_ahead": {
+    "t": "ตรงไป",
+    "r": "Trong pai"
+  },
+  "directions.turn_left": {
+    "t": "เลี้ยวซ้ายครับ",
+    "r": "Liao sai khrap",
+    "ft": "เลี้ยวซ้ายค่ะ",
+    "fr": "Liao sai kha"
+  },
+  "directions.turn_right": {
+    "t": "เลี้ยวขวาครับ",
+    "r": "Liao khwa khrap",
+    "ft": "เลี้ยวขวาค่ะ",
+    "fr": "Liao khwa kha"
+  },
+  "directions.here": {
+    "t": "ที่นี่",
+    "r": "Thi ni"
+  },
+  "directions.there": {
+    "t": "ที่นั่น",
+    "r": "Thi nan"
+  },
+  "directions.where_entrance": {
+    "t": "ทางเข้าอยู่ที่ไหนครับ",
+    "r": "Thang khao yu thi nai khrap?",
+    "ft": "ทางเข้าอยู่ที่ไหนคะ",
+    "fr": "Thang khao yu thi nai kha?"
+  },
+  "directions.where_exit": {
+    "t": "ทางออกอยู่ที่ไหนครับ",
+    "r": "Thang ok yu thi nai khrap?",
+    "ft": "ทางออกอยู่ที่ไหนคะ",
+    "fr": "Thang ok yu thi nai kha?"
+  },
+  "directions.where_atm": {
+    "t": "ตู้เอทีเอ็มอยู่ที่ไหนครับ",
+    "r": "Tu ATM yu thi nai khrap?",
+    "ft": "ตู้เอทีเอ็มอยู่ที่ไหนคะ",
+    "fr": "Tu ATM yu thi nai kha?"
+  },
+  "transport.where_train_station": {
+    "t": "สถานีรถไฟอยู่ที่ไหนครับ",
+    "r": "Sathani rot fai yu thi nai khrap?",
+    "ft": "สถานีรถไฟอยู่ที่ไหนคะ",
+    "fr": "Sathani rot fai yu thi nai kha?"
+  },
+  "transport.where_bus_stop": {
+    "t": "ป้ายรถเมล์อยู่ที่ไหนครับ",
+    "r": "Pai rot me yu thi nai khrap?",
+    "ft": "ป้ายรถเมล์อยู่ที่ไหนคะ",
+    "fr": "Pai rot me yu thi nai kha?"
+  },
+  "transport.where_metro": {
+    "t": "สถานีรถไฟฟ้าอยู่ที่ไหนครับ",
+    "r": "Sathani rot fai fa yu thi nai khrap?",
+    "ft": "สถานีรถไฟฟ้าอยู่ที่ไหนคะ",
+    "fr": "Sathani rot fai fa yu thi nai kha?",
+    "n": "Rot fai fa covers Bangkok's BTS and MRT"
+  },
+  "transport.one_ticket": {
+    "t": "ขอตั๋วหนึ่งใบครับ",
+    "r": "Kho tua nueng bai khrap.",
+    "ft": "ขอตั๋วหนึ่งใบค่ะ",
+    "fr": "Kho tua nueng bai kha."
+  },
+  "transport.two_tickets": {
+    "t": "ขอตั๋วสองใบครับ",
+    "r": "Kho tua song bai khrap.",
+    "ft": "ขอตั๋วสองใบค่ะ",
+    "fr": "Kho tua song bai kha."
+  },
+  "transport.round_trip": {
+    "t": "ขอตั๋วไปกลับหนึ่งใบครับ",
+    "r": "Kho tua pai klap nueng bai khrap.",
+    "ft": "ขอตั๋วไปกลับหนึ่งใบค่ะ",
+    "fr": "Kho tua pai klap nueng bai kha."
+  },
+  "transport.how_much_ticket": {
+    "t": "ตั๋วราคาเท่าไหร่ครับ",
+    "r": "Tua rakha thao rai khrap?",
+    "ft": "ตั๋วราคาเท่าไหร่คะ",
+    "fr": "Tua rakha thao rai kha?"
+  },
+  "transport.next_train": {
+    "t": "รถไฟขบวนต่อไปออกกี่โมงครับ",
+    "r": "Rot fai khabuan to pai ok ki mong khrap?",
+    "ft": "รถไฟขบวนต่อไปออกกี่โมงคะ",
+    "fr": "Rot fai khabuan to pai ok ki mong kha?"
+  },
+  "transport.which_platform": {
+    "t": "ออกจากชานชาลาที่เท่าไหร่ครับ",
+    "r": "Ok jak chan chala thi thao rai khrap?",
+    "ft": "ออกจากชานชาลาที่เท่าไหร่คะ",
+    "fr": "Ok jak chan chala thi thao rai kha?"
+  },
+  "transport.does_this_go_here": {
+    "t": "รถเมล์คันนี้ไปที่นี่ไหมครับ",
+    "r": "Rot me khan ni pai thi ni mai khrap?",
+    "ft": "รถเมล์คันนี้ไปที่นี่ไหมคะ",
+    "fr": "Rot me khan ni pai thi ni mai kha?"
+  },
+  "transport.need_taxi": {
+    "t": "ผมต้องการแท็กซี่ครับ",
+    "r": "Phom tong kan thaeksi khrap.",
+    "ft": "ฉันต้องการแท็กซี่ค่ะ",
+    "fr": "Chan tong kan thaeksi kha."
+  },
+  "transport.take_me_to_address": {
+    "t": "ช่วยไปส่งตามที่อยู่นี้หน่อยครับ",
+    "r": "Chuai pai song tam thi yu ni noi khrap.",
+    "ft": "ช่วยไปส่งตามที่อยู่นี้หน่อยค่ะ",
+    "fr": "Chuai pai song tam thi yu ni noi kha."
+  },
+  "transport.airport_please": {
+    "t": "ไปสนามบินครับ",
+    "r": "Pai sanam bin khrap.",
+    "ft": "ไปสนามบินค่ะ",
+    "fr": "Pai sanam bin kha.",
+    "n": "Bangkok has two: Suvarnabhumi and Don Mueang"
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "ไปเท่าไหร่ครับ",
+    "r": "Pai thao rai khrap?",
+    "ft": "ไปเท่าไหร่คะ",
+    "fr": "Pai thao rai kha?"
+  },
+  "transport.use_meter": {
+    "t": "ช่วยเปิดมิเตอร์ด้วยครับ",
+    "r": "Chuai poet mitoe duai khrap.",
+    "ft": "ช่วยเปิดมิเตอร์ด้วยค่ะ",
+    "fr": "Chuai poet mitoe duai kha."
+  },
+  "transport.stop_here": {
+    "t": "จอดตรงนี้ครับ",
+    "r": "Jot trong ni khrap.",
+    "ft": "จอดตรงนี้ค่ะ",
+    "fr": "Jot trong ni kha."
+  },
+  "accommodation.have_reservation": {
+    "t": "ผมจองห้องไว้แล้วครับ",
+    "r": "Phom jong hong wai laeo khrap.",
+    "ft": "ฉันจองห้องไว้แล้วค่ะ",
+    "fr": "Chan jong hong wai laeo kha."
+  },
+  "accommodation.room_available": {
+    "t": "มีห้องว่างไหมครับ",
+    "r": "Mi hong wang mai khrap?",
+    "ft": "มีห้องว่างไหมคะ",
+    "fr": "Mi hong wang mai kha?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "สองคืนครับ",
+    "r": "Song khuen khrap.",
+    "ft": "สองคืนค่ะ",
+    "fr": "Song khuen kha."
+  },
+  "accommodation.price_per_night": {
+    "t": "คืนละเท่าไหร่ครับ",
+    "r": "Khuen la thao rai khrap?",
+    "ft": "คืนละเท่าไหร่คะ",
+    "fr": "Khuen la thao rai kha?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "รวมอาหารเช้าไหมครับ",
+    "r": "Ruam ahan chao mai khrap?",
+    "ft": "รวมอาหารเช้าไหมคะ",
+    "fr": "Ruam ahan chao mai kha?"
+  },
+  "accommodation.checkout_time": {
+    "t": "เช็กเอาต์กี่โมงครับ",
+    "r": "Chek ao ki mong khrap?",
+    "ft": "เช็กเอาต์กี่โมงคะ",
+    "fr": "Chek ao ki mong kha?"
+  },
+  "accommodation.wifi_password": {
+    "t": "รหัสไวไฟคืออะไรครับ",
+    "r": "Rahat wai fai khue arai khrap?",
+    "ft": "รหัสไวไฟคืออะไรคะ",
+    "fr": "Rahat wai fai khue arai kha?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "ห้องของผมมีปัญหาครับ",
+    "r": "Hong khong phom mi panha khrap.",
+    "ft": "ห้องของฉันมีปัญหาค่ะ",
+    "fr": "Hong khong chan mi panha kha."
+  },
+  "accommodation.ac_not_working": {
+    "t": "แอร์ไม่ทำงานครับ",
+    "r": "Ae mai tham ngan khrap.",
+    "ft": "แอร์ไม่ทำงานค่ะ",
+    "fr": "Ae mai tham ngan kha."
+  },
+  "accommodation.more_towels": {
+    "t": "ขอผ้าเช็ดตัวเพิ่มได้ไหมครับ",
+    "r": "Kho pha chet tua phoem dai mai khrap?",
+    "ft": "ขอผ้าเช็ดตัวเพิ่มได้ไหมคะ",
+    "fr": "Kho pha chet tua phoem dai mai kha?"
+  },
+  "accommodation.lost_key": {
+    "t": "ผมทำกุญแจห้องหายครับ",
+    "r": "Phom tham kunjae hong hai khrap.",
+    "ft": "ฉันทำกุญแจห้องหายค่ะ",
+    "fr": "Chan tham kunjae hong hai kha."
+  },
+  "accommodation.leave_luggage": {
+    "t": "ฝากกระเป๋าไว้ที่นี่ได้ไหมครับ",
+    "r": "Fak krapao wai thi ni dai mai khrap?",
+    "ft": "ฝากกระเป๋าไว้ที่นี่ได้ไหมคะ",
+    "fr": "Fak krapao wai thi ni dai mai kha?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "ช่วยเรียกแท็กซี่ให้หน่อยได้ไหมครับ",
+    "r": "Chuai riak thaeksi hai noi dai mai khrap?",
+    "ft": "ช่วยเรียกแท็กซี่ให้หน่อยได้ไหมคะ",
+    "fr": "Chuai riak thaeksi hai noi dai mai kha?"
+  },
+  "accommodation.check_out": {
+    "t": "ขอเช็กเอาต์ครับ",
+    "r": "Kho chek ao khrap.",
+    "ft": "ขอเช็กเอาต์ค่ะ",
+    "fr": "Kho chek ao kha."
+  },
+  "food.table_for_two": {
+    "t": "ขอโต๊ะสองที่ครับ",
+    "r": "Kho to song thi khrap.",
+    "ft": "ขอโต๊ะสองที่ค่ะ",
+    "fr": "Kho to song thi kha."
+  },
+  "food.menu_please": {
+    "t": "ขอเมนูหน่อยครับ",
+    "r": "Kho menu noi khrap.",
+    "ft": "ขอเมนูหน่อยค่ะ",
+    "fr": "Kho menu noi kha."
+  },
+  "food.english_menu": {
+    "t": "มีเมนูภาษาอังกฤษไหมครับ",
+    "r": "Mi menu phasa angkrit mai khrap?",
+    "ft": "มีเมนูภาษาอังกฤษไหมคะ",
+    "fr": "Mi menu phasa angkrit mai kha?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "มีอะไรแนะนำไหมครับ",
+    "r": "Mi arai nae nam mai khrap?",
+    "ft": "มีอะไรแนะนำไหมคะ",
+    "fr": "Mi arai nae nam mai kha?"
+  },
+  "food.ill_have_this": {
+    "t": "ขออันนี้ครับ",
+    "r": "Kho an ni khrap.",
+    "ft": "ขออันนี้ค่ะ",
+    "fr": "Kho an ni kha."
+  },
+  "food.water_please": {
+    "t": "ขอน้ำเปล่าครับ",
+    "r": "Kho nam plao khrap.",
+    "ft": "ขอน้ำเปล่าค่ะ",
+    "fr": "Kho nam plao kha."
+  },
+  "food.coffee_please": {
+    "t": "ขอกาแฟหนึ่งแก้วครับ",
+    "r": "Kho kafae nueng kaeo khrap.",
+    "ft": "ขอกาแฟหนึ่งแก้วค่ะ",
+    "fr": "Kho kafae nueng kaeo kha."
+  },
+  "food.beer_please": {
+    "t": "ขอเบียร์หนึ่งขวดครับ",
+    "r": "Kho bia nueng khuat khrap.",
+    "ft": "ขอเบียร์หนึ่งขวดค่ะ",
+    "fr": "Kho bia nueng khuat kha."
+  },
+  "food.im_vegetarian": {
+    "t": "ผมกินมังสวิรัติครับ",
+    "r": "Phom kin mangsawirat khrap.",
+    "ft": "ฉันกินมังสวิรัติค่ะ",
+    "fr": "Chan kin mangsawirat kha."
+  },
+  "food.allergic_nuts": {
+    "t": "ผมแพ้ถั่วครับ",
+    "r": "Phom phae thua khrap.",
+    "ft": "ฉันแพ้ถั่วค่ะ",
+    "fr": "Chan phae thua kha."
+  },
+  "food.is_it_spicy": {
+    "t": "เผ็ดไหมครับ",
+    "r": "Phet mai khrap?",
+    "ft": "เผ็ดไหมคะ",
+    "fr": "Phet mai kha?"
+  },
+  "food.not_spicy": {
+    "t": "ไม่เผ็ดนะครับ",
+    "r": "Mai phet na khrap.",
+    "ft": "ไม่เผ็ดนะคะ",
+    "fr": "Mai phet na kha."
+  },
+  "food.delicious": {
+    "t": "อร่อยมากครับ!",
+    "r": "Aroi mak khrap!",
+    "ft": "อร่อยมากค่ะ!",
+    "fr": "Aroi mak kha!"
+  },
+  "food.cheers": {
+    "t": "ชนแก้ว!",
+    "r": "Chon kaeo!"
+  },
+  "food.check_please": {
+    "t": "เก็บเงินด้วยครับ",
+    "r": "Kep ngoen duai khrap.",
+    "ft": "เก็บเงินด้วยค่ะ",
+    "fr": "Kep ngoen duai kha."
+  },
+  "food.pay_by_card": {
+    "t": "จ่ายด้วยบัตรได้ไหมครับ",
+    "r": "Jai duai bat dai mai khrap?",
+    "ft": "จ่ายด้วยบัตรได้ไหมคะ",
+    "fr": "Jai duai bat dai mai kha?"
+  },
+  "shopping.how_much": {
+    "t": "อันนี้เท่าไหร่ครับ",
+    "r": "An ni thao rai khrap?",
+    "ft": "อันนี้เท่าไหร่คะ",
+    "fr": "An ni thao rai kha?"
+  },
+  "shopping.too_expensive": {
+    "t": "แพงไปครับ",
+    "r": "Phaeng pai khrap.",
+    "ft": "แพงไปค่ะ",
+    "fr": "Phaeng pai kha."
+  },
+  "shopping.lower_price": {
+    "t": "ลดหน่อยได้ไหมครับ",
+    "r": "Lot noi dai mai khrap?",
+    "ft": "ลดหน่อยได้ไหมคะ",
+    "fr": "Lot noi dai mai kha?"
+  },
+  "shopping.just_looking": {
+    "t": "แค่ดูเฉยๆ ขอบคุณครับ",
+    "r": "Khae du choei choei, khop khun khrap.",
+    "ft": "แค่ดูเฉยๆ ขอบคุณค่ะ",
+    "fr": "Khae du choei choei, khop khun kha."
+  },
+  "shopping.ill_take_it": {
+    "t": "เอาอันนี้ครับ",
+    "r": "Ao an ni khrap.",
+    "ft": "เอาอันนี้ค่ะ",
+    "fr": "Ao an ni kha."
+  },
+  "shopping.accept_cards": {
+    "t": "รับบัตรเครดิตไหมครับ",
+    "r": "Rap bat khredit mai khrap?",
+    "ft": "รับบัตรเครดิตไหมคะ",
+    "fr": "Rap bat khredit mai kha?"
+  },
+  "shopping.pay_cash": {
+    "t": "จ่ายเงินสดครับ",
+    "r": "Jai ngoen sot khrap.",
+    "ft": "จ่ายเงินสดค่ะ",
+    "fr": "Jai ngoen sot kha."
+  },
+  "shopping.receipt": {
+    "t": "ขอใบเสร็จด้วยครับ",
+    "r": "Kho bai set duai khrap.",
+    "ft": "ขอใบเสร็จด้วยค่ะ",
+    "fr": "Kho bai set duai kha."
+  },
+  "shopping.bag": {
+    "t": "ขอถุงด้วยครับ",
+    "r": "Kho thung duai khrap.",
+    "ft": "ขอถุงด้วยค่ะ",
+    "fr": "Kho thung duai kha."
+  },
+  "shopping.try_on": {
+    "t": "ลองใส่ได้ไหมครับ",
+    "r": "Long sai dai mai khrap?",
+    "ft": "ลองใส่ได้ไหมคะ",
+    "fr": "Long sai dai mai kha?"
+  },
+  "shopping.other_size": {
+    "t": "อันนี้มีไซซ์อื่นไหมครับ",
+    "r": "An ni mi sai uen mai khrap?",
+    "ft": "อันนี้มีไซซ์อื่นไหมคะ",
+    "fr": "An ni mi sai uen mai kha?"
+  },
+  "shopping.what_time_open": {
+    "t": "เปิดกี่โมงครับ",
+    "r": "Poet ki mong khrap?",
+    "ft": "เปิดกี่โมงคะ",
+    "fr": "Poet ki mong kha?"
+  },
+  "shopping.what_time_close": {
+    "t": "ปิดกี่โมงครับ",
+    "r": "Pit ki mong khrap?",
+    "ft": "ปิดกี่โมงคะ",
+    "fr": "Pit ki mong kha?"
+  },
+  "shopping.exchange_money": {
+    "t": "แลกเงินได้ที่ไหนครับ",
+    "r": "Laek ngoen dai thi nai khrap?",
+    "ft": "แลกเงินได้ที่ไหนคะ",
+    "fr": "Laek ngoen dai thi nai kha?"
+  },
+  "shopping.sim_card": {
+    "t": "ซื้อซิมการ์ดได้ที่ไหนครับ",
+    "r": "Sue sim kat dai thi nai khrap?",
+    "ft": "ซื้อซิมการ์ดได้ที่ไหนคะ",
+    "fr": "Sue sim kat dai thi nai kha?"
+  },
+  "health.where_pharmacy": {
+    "t": "ร้านขายยาอยู่ที่ไหนครับ",
+    "r": "Ran khai ya yu thi nai khrap?",
+    "ft": "ร้านขายยาอยู่ที่ไหนคะ",
+    "fr": "Ran khai ya yu thi nai kha?"
+  },
+  "health.feel_sick": {
+    "t": "ผมรู้สึกไม่สบายครับ",
+    "r": "Phom ru suek mai sabai khrap.",
+    "ft": "ฉันรู้สึกไม่สบายค่ะ",
+    "fr": "Chan ru suek mai sabai kha."
+  },
+  "health.headache": {
+    "t": "ผมปวดหัวครับ",
+    "r": "Phom puat hua khrap.",
+    "ft": "ฉันปวดหัวค่ะ",
+    "fr": "Chan puat hua kha."
+  },
+  "health.stomachache": {
+    "t": "ผมปวดท้องครับ",
+    "r": "Phom puat thong khrap.",
+    "ft": "ฉันปวดท้องค่ะ",
+    "fr": "Chan puat thong kha."
+  },
+  "health.fever": {
+    "t": "ผมมีไข้ครับ",
+    "r": "Phom mi khai khrap.",
+    "ft": "ฉันมีไข้ค่ะ",
+    "fr": "Chan mi khai kha."
+  },
+  "health.cold": {
+    "t": "ผมเป็นหวัดครับ",
+    "r": "Phom pen wat khrap.",
+    "ft": "ฉันเป็นหวัดค่ะ",
+    "fr": "Chan pen wat kha."
+  },
+  "health.hurts_here": {
+    "t": "เจ็บตรงนี้ครับ",
+    "r": "Jep trong ni khrap.",
+    "ft": "เจ็บตรงนี้ค่ะ",
+    "fr": "Jep trong ni kha."
+  },
+  "health.medicine_for_this": {
+    "t": "มียาสำหรับอาการนี้ไหมครับ",
+    "r": "Mi ya samrap akan ni mai khrap?",
+    "ft": "มียาสำหรับอาการนี้ไหมคะ",
+    "fr": "Mi ya samrap akan ni mai kha?"
+  },
+  "health.allergic_penicillin": {
+    "t": "ผมแพ้ยาเพนิซิลลินครับ",
+    "r": "Phom phae ya phenisillin khrap.",
+    "ft": "ฉันแพ้ยาเพนิซิลลินค่ะ",
+    "fr": "Chan phae ya phenisillin kha."
+  },
+  "health.diabetic": {
+    "t": "ผมเป็นเบาหวานครับ",
+    "r": "Phom pen bao wan khrap.",
+    "ft": "ฉันเป็นเบาหวานค่ะ",
+    "fr": "Chan pen bao wan kha."
+  },
+  "health.pregnant": {
+    "t": "ฉันตั้งครรภ์ค่ะ",
+    "r": "Chan tang khan kha."
+  },
+  "health.need_dentist": {
+    "t": "ผมต้องไปหาหมอฟันครับ",
+    "r": "Phom tong pai ha mo fan khrap.",
+    "ft": "ฉันต้องไปหาหมอฟันค่ะ",
+    "fr": "Chan tong pai ha mo fan kha."
+  },
+  "health.travel_insurance": {
+    "t": "ผมมีประกันการเดินทางครับ",
+    "r": "Phom mi prakan kan doen thang khrap.",
+    "ft": "ฉันมีประกันการเดินทางค่ะ",
+    "fr": "Chan mi prakan kan doen thang kha."
+  },
+  "health.need_prescription": {
+    "t": "ต้องมีใบสั่งยาไหมครับ",
+    "r": "Tong mi bai sang ya mai khrap?",
+    "ft": "ต้องมีใบสั่งยาไหมคะ",
+    "fr": "Tong mi bai sang ya mai kha?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "ศูนย์บริการนักท่องเที่ยวอยู่ที่ไหนครับ",
+    "r": "Sun borikan nak thong thiao yu thi nai khrap?",
+    "ft": "ศูนย์บริการนักท่องเที่ยวอยู่ที่ไหนคะ",
+    "fr": "Sun borikan nak thong thiao yu thi nai kha?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "ค่าเข้าเท่าไหร่ครับ",
+    "r": "Kha khao thao rai khrap?",
+    "ft": "ค่าเข้าเท่าไหร่คะ",
+    "fr": "Kha khao thao rai kha?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "เปิดกี่โมงถึงกี่โมงครับ",
+    "r": "Poet ki mong thueng ki mong khrap?",
+    "ft": "เปิดกี่โมงถึงกี่โมงคะ",
+    "fr": "Poet ki mong thueng ki mong kha?"
+  },
+  "sightseeing.student_discount": {
+    "t": "มีส่วนลดนักศึกษาไหมครับ",
+    "r": "Mi suan lot nak sueksa mai khrap?",
+    "ft": "มีส่วนลดนักศึกษาไหมคะ",
+    "fr": "Mi suan lot nak sueksa mai kha?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "มีทัวร์พร้อมไกด์ภาษาอังกฤษไหมครับ",
+    "r": "Mi thua phrom kai phasa angkrit mai khrap?",
+    "ft": "มีทัวร์พร้อมไกด์ภาษาอังกฤษไหมคะ",
+    "fr": "Mi thua phrom kai phasa angkrit mai kha?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "แถวนี้มีที่ไหนน่าเที่ยวบ้างครับ",
+    "r": "Thaeo ni mi thi nai na thiao bang khrap?",
+    "ft": "แถวนี้มีที่ไหนน่าเที่ยวบ้างคะ",
+    "fr": "Thaeo ni mi thi nai na thiao bang kha?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "ถ่ายรูปได้ไหมครับ",
+    "r": "Thai rup dai mai khrap?",
+    "ft": "ถ่ายรูปได้ไหมคะ",
+    "fr": "Thai rup dai mai kha?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "ช่วยถ่ายรูปให้พวกเราหน่อยได้ไหมครับ",
+    "r": "Chuai thai rup hai phuak rao noi dai mai khrap?",
+    "ft": "ช่วยถ่ายรูปให้พวกเราหน่อยได้ไหมคะ",
+    "fr": "Chuai thai rup hai phuak rao noi dai mai kha?"
+  },
+  "sightseeing.where_museum": {
+    "t": "พิพิธภัณฑ์อยู่ที่ไหนครับ",
+    "r": "Phiphitthaphan yu thi nai khrap?",
+    "ft": "พิพิธภัณฑ์อยู่ที่ไหนคะ",
+    "fr": "Phiphitthaphan yu thi nai kha?"
+  },
+  "sightseeing.where_beach": {
+    "t": "ชายหาดอยู่ที่ไหนครับ",
+    "r": "Chai hat yu thi nai khrap?",
+    "ft": "ชายหาดอยู่ที่ไหนคะ",
+    "fr": "Chai hat yu thi nai kha?"
+  },
+  "numbers.0": {
+    "t": "ศูนย์",
+    "r": "Sun"
+  },
+  "numbers.1": {
+    "t": "หนึ่ง",
+    "r": "Nueng"
+  },
+  "numbers.2": {
+    "t": "สอง",
+    "r": "Song"
+  },
+  "numbers.3": {
+    "t": "สาม",
+    "r": "Sam"
+  },
+  "numbers.4": {
+    "t": "สี่",
+    "r": "Si"
+  },
+  "numbers.5": {
+    "t": "ห้า",
+    "r": "Ha"
+  },
+  "numbers.6": {
+    "t": "หก",
+    "r": "Hok"
+  },
+  "numbers.7": {
+    "t": "เจ็ด",
+    "r": "Jet"
+  },
+  "numbers.8": {
+    "t": "แปด",
+    "r": "Paet"
+  },
+  "numbers.9": {
+    "t": "เก้า",
+    "r": "Kao"
+  },
+  "numbers.10": {
+    "t": "สิบ",
+    "r": "Sip"
+  },
+  "numbers.20": {
+    "t": "ยี่สิบ",
+    "r": "Yi sip"
+  },
+  "numbers.50": {
+    "t": "ห้าสิบ",
+    "r": "Ha sip"
+  },
+  "numbers.100": {
+    "t": "หนึ่งร้อย",
+    "r": "Nueng roi"
+  },
+  "numbers.1000": {
+    "t": "หนึ่งพัน",
+    "r": "Nueng phan"
+  },
+  "time.what_time_is_it": {
+    "t": "ตอนนี้กี่โมงแล้วครับ",
+    "r": "Ton ni ki mong laeo khrap?",
+    "ft": "ตอนนี้กี่โมงแล้วคะ",
+    "fr": "Ton ni ki mong laeo kha?"
+  },
+  "time.how_long": {
+    "t": "ใช้เวลานานเท่าไหร่ครับ",
+    "r": "Chai wela nan thao rai khrap?",
+    "ft": "ใช้เวลานานเท่าไหร่คะ",
+    "fr": "Chai wela nan thao rai kha?"
+  },
+  "time.one_moment": {
+    "t": "รอสักครู่นะครับ",
+    "r": "Ro sak khru na khrap.",
+    "ft": "รอสักครู่นะคะ",
+    "fr": "Ro sak khru na kha."
+  },
+  "time.now": {
+    "t": "ตอนนี้",
+    "r": "Ton ni"
+  },
+  "time.later": {
+    "t": "ทีหลัง",
+    "r": "Thi lang"
+  },
+  "time.today": {
+    "t": "วันนี้",
+    "r": "Wan ni"
+  },
+  "time.tomorrow": {
+    "t": "พรุ่งนี้",
+    "r": "Phrung ni"
+  },
+  "time.yesterday": {
+    "t": "เมื่อวาน",
+    "r": "Muea wan"
+  },
+  "time.monday": {
+    "t": "วันจันทร์",
+    "r": "Wan jan"
+  },
+  "time.tuesday": {
+    "t": "วันอังคาร",
+    "r": "Wan angkhan"
+  },
+  "time.wednesday": {
+    "t": "วันพุธ",
+    "r": "Wan phut"
+  },
+  "time.thursday": {
+    "t": "วันพฤหัสบดี",
+    "r": "Wan pharuehatsabodi"
+  },
+  "time.friday": {
+    "t": "วันศุกร์",
+    "r": "Wan suk"
+  },
+  "time.saturday": {
+    "t": "วันเสาร์",
+    "r": "Wan sao"
+  },
+  "time.sunday": {
+    "t": "วันอาทิตย์",
+    "r": "Wan athit"
+  }
+}

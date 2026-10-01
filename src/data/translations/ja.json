@@ -1,0 +1,719 @@
+{
+  "basics.hello": {
+    "t": "こんにちは",
+    "r": "Konnichiwa"
+  },
+  "basics.good_morning": {
+    "t": "おはようございます",
+    "r": "Ohayō gozaimasu"
+  },
+  "basics.good_evening": {
+    "t": "こんばんは",
+    "r": "Konbanwa"
+  },
+  "basics.good_night": {
+    "t": "おやすみなさい",
+    "r": "Oyasuminasai"
+  },
+  "basics.goodbye": {
+    "t": "さようなら",
+    "r": "Sayōnara"
+  },
+  "basics.see_you_later": {
+    "t": "では、またあとで",
+    "r": "Dewa, mata atode"
+  },
+  "basics.yes": {
+    "t": "はい",
+    "r": "Hai"
+  },
+  "basics.no": {
+    "t": "いいえ",
+    "r": "Iie"
+  },
+  "basics.please": {
+    "t": "お願いします",
+    "r": "Onegaishimasu",
+    "n": "For requests; when offering something, say dōzo"
+  },
+  "basics.thank_you": {
+    "t": "ありがとうございます",
+    "r": "Arigatō gozaimasu"
+  },
+  "basics.thank_you_very_much": {
+    "t": "どうもありがとうございます",
+    "r": "Dōmo arigatō gozaimasu"
+  },
+  "basics.youre_welcome": {
+    "t": "どういたしまして",
+    "r": "Dō itashimashite"
+  },
+  "basics.excuse_me": {
+    "t": "すみません",
+    "r": "Sumimasen",
+    "n": "Also works as 'thank you' for small favors"
+  },
+  "basics.sorry": {
+    "t": "ごめんなさい",
+    "r": "Gomen nasai"
+  },
+  "basics.no_problem": {
+    "t": "大丈夫です",
+    "r": "Daijōbu desu"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "英語は話せますか？",
+    "r": "Eigo wa hanasemasu ka?"
+  },
+  "conversation.speak_a_little": {
+    "t": "日本語が少し話せます。",
+    "r": "Nihongo ga sukoshi hanasemasu."
+  },
+  "conversation.dont_understand": {
+    "t": "わかりません。",
+    "r": "Wakarimasen."
+  },
+  "conversation.understand": {
+    "t": "わかりました。",
+    "r": "Wakarimashita."
+  },
+  "conversation.speak_slowly": {
+    "t": "もう少しゆっくり話していただけますか？",
+    "r": "Mō sukoshi yukkuri hanashite itadakemasu ka?"
+  },
+  "conversation.repeat": {
+    "t": "もう一度言っていただけますか？",
+    "r": "Mō ichido itte itadakemasu ka?"
+  },
+  "conversation.write_it_down": {
+    "t": "紙に書いていただけますか？",
+    "r": "Kami ni kaite itadakemasu ka?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "これはどういう意味ですか？",
+    "r": "Kore wa dō iu imi desu ka?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "これは日本語で何と言いますか？",
+    "r": "Kore wa Nihongo de nan to iimasu ka?"
+  },
+  "conversation.whats_your_name": {
+    "t": "お名前は何ですか？",
+    "r": "Onamae wa nan desu ka?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "はじめまして、よろしくお願いします。",
+    "r": "Hajimemashite, yoroshiku onegaishimasu."
+  },
+  "conversation.how_are_you": {
+    "t": "お元気ですか？",
+    "r": "Ogenki desu ka?",
+    "n": "Used with people you haven't seen in a while"
+  },
+  "conversation.im_fine": {
+    "t": "元気です。ありがとうございます。",
+    "r": "Genki desu. Arigatō gozaimasu."
+  },
+  "conversation.where_are_you_from": {
+    "t": "ご出身はどちらですか？",
+    "r": "Goshusshin wa dochira desu ka?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "観光で来ました。",
+    "r": "Kankō de kimashita."
+  },
+  "conversation.first_time_here": {
+    "t": "ここに来るのは初めてです。",
+    "r": "Koko ni kuru no wa hajimete desu."
+  },
+  "emergency.help": {
+    "t": "助けて！",
+    "r": "Tasukete!"
+  },
+  "emergency.call_police": {
+    "t": "警察を呼んでください！",
+    "r": "Keisatsu o yonde kudasai!"
+  },
+  "emergency.call_ambulance": {
+    "t": "救急車を呼んでください！",
+    "r": "Kyūkyūsha o yonde kudasai!"
+  },
+  "emergency.fire": {
+    "t": "火事だ！",
+    "r": "Kaji da!"
+  },
+  "emergency.need_doctor": {
+    "t": "医者が必要です。",
+    "r": "Isha ga hitsuyō desu."
+  },
+  "emergency.its_an_emergency": {
+    "t": "緊急です。",
+    "r": "Kinkyū desu."
+  },
+  "emergency.can_you_help_me": {
+    "t": "助けていただけますか？",
+    "r": "Tasukete itadakemasu ka?"
+  },
+  "emergency.im_lost": {
+    "t": "道に迷いました。",
+    "r": "Michi ni mayoimashita."
+  },
+  "emergency.wallet_stolen": {
+    "t": "財布を盗まれました。",
+    "r": "Saifu o nusumaremashita."
+  },
+  "emergency.lost_passport": {
+    "t": "パスポートをなくしました。",
+    "r": "Pasupōto o nakushimashita."
+  },
+  "emergency.where_hospital": {
+    "t": "病院はどこですか？",
+    "r": "Byōin wa doko desu ka?"
+  },
+  "emergency.where_police_station": {
+    "t": "交番はどこですか？",
+    "r": "Kōban wa doko desu ka?",
+    "n": "A kōban is a small neighborhood police post"
+  },
+  "emergency.contact_embassy": {
+    "t": "大使館に連絡しなければなりません。",
+    "r": "Taishikan ni renraku shinakereba narimasen."
+  },
+  "emergency.use_your_phone": {
+    "t": "電話をお借りできますか？",
+    "r": "Denwa o okari dekimasu ka?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "ほっといてください！",
+    "r": "Hottoite kudasai!"
+  },
+  "directions.where_bathroom": {
+    "t": "トイレはどこですか？",
+    "r": "Toire wa doko desu ka?"
+  },
+  "directions.where_is_this": {
+    "t": "この場所はどこですか？",
+    "r": "Kono basho wa doko desu ka?"
+  },
+  "directions.how_get_to_address": {
+    "t": "この住所へはどうやって行けばいいですか？",
+    "r": "Kono jūsho e wa dō yatte ikeba ii desu ka?"
+  },
+  "directions.is_it_far": {
+    "t": "遠いですか？",
+    "r": "Tōi desu ka?"
+  },
+  "directions.can_i_walk": {
+    "t": "歩いて行けますか？",
+    "r": "Aruite ikemasu ka?"
+  },
+  "directions.show_on_map": {
+    "t": "地図で教えていただけますか？",
+    "r": "Chizu de oshiete itadakemasu ka?"
+  },
+  "directions.left": {
+    "t": "ひだり",
+    "r": "Hidari"
+  },
+  "directions.right": {
+    "t": "みぎ",
+    "r": "Migi"
+  },
+  "directions.straight_ahead": {
+    "t": "まっすぐ",
+    "r": "Massugu"
+  },
+  "directions.turn_left": {
+    "t": "左に曲がってください",
+    "r": "Hidari ni magatte kudasai"
+  },
+  "directions.turn_right": {
+    "t": "右に曲がってください",
+    "r": "Migi ni magatte kudasai"
+  },
+  "directions.here": {
+    "t": "ここ",
+    "r": "Koko"
+  },
+  "directions.there": {
+    "t": "あそこ",
+    "r": "Asoko"
+  },
+  "directions.where_entrance": {
+    "t": "入口はどこですか？",
+    "r": "Iriguchi wa doko desu ka?"
+  },
+  "directions.where_exit": {
+    "t": "出口はどこですか？",
+    "r": "Deguchi wa doko desu ka?"
+  },
+  "directions.where_atm": {
+    "t": "ATMはどこにありますか？",
+    "r": "Ētīemu wa doko ni arimasu ka?",
+    "n": "Convenience-store ATMs usually take foreign cards"
+  },
+  "transport.where_train_station": {
+    "t": "駅はどこですか？",
+    "r": "Eki wa doko desu ka?"
+  },
+  "transport.where_bus_stop": {
+    "t": "バス停はどこですか？",
+    "r": "Basutei wa doko desu ka?"
+  },
+  "transport.where_metro": {
+    "t": "地下鉄の駅はどこですか？",
+    "r": "Chikatetsu no eki wa doko desu ka?"
+  },
+  "transport.one_ticket": {
+    "t": "切符を一枚お願いします。",
+    "r": "Kippu o ichimai onegaishimasu."
+  },
+  "transport.two_tickets": {
+    "t": "切符を二枚お願いします。",
+    "r": "Kippu o nimai onegaishimasu."
+  },
+  "transport.round_trip": {
+    "t": "往復切符を一枚お願いします。",
+    "r": "Ōfuku kippu o ichimai onegaishimasu."
+  },
+  "transport.how_much_ticket": {
+    "t": "切符はいくらですか？",
+    "r": "Kippu wa ikura desu ka?"
+  },
+  "transport.next_train": {
+    "t": "次の電車は何時に出ますか？",
+    "r": "Tsugi no densha wa nanji ni demasu ka?"
+  },
+  "transport.which_platform": {
+    "t": "何番線から出ますか？",
+    "r": "Nanbansen kara demasu ka?"
+  },
+  "transport.does_this_go_here": {
+    "t": "このバスはここに行きますか？",
+    "r": "Kono basu wa koko ni ikimasu ka?"
+  },
+  "transport.need_taxi": {
+    "t": "タクシーに乗りたいです。",
+    "r": "Takushī ni noritai desu."
+  },
+  "transport.take_me_to_address": {
+    "t": "この住所までお願いします。",
+    "r": "Kono jūsho made onegaishimasu."
+  },
+  "transport.airport_please": {
+    "t": "空港までお願いします。",
+    "r": "Kūkō made onegaishimasu."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "いくらぐらいかかりますか？",
+    "r": "Ikura gurai kakarimasu ka?"
+  },
+  "transport.use_meter": {
+    "t": "メーターを使ってください。",
+    "r": "Mētā o tsukatte kudasai."
+  },
+  "transport.stop_here": {
+    "t": "ここで停めてください。",
+    "r": "Koko de tomete kudasai."
+  },
+  "accommodation.have_reservation": {
+    "t": "予約しています。",
+    "r": "Yoyaku shite imasu."
+  },
+  "accommodation.room_available": {
+    "t": "空室はありますか？",
+    "r": "Kūshitsu wa arimasu ka?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "二泊です。",
+    "r": "Nihaku desu."
+  },
+  "accommodation.price_per_night": {
+    "t": "一泊いくらですか？",
+    "r": "Ippaku ikura desu ka?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "朝食は付いていますか？",
+    "r": "Chōshoku wa tsuite imasu ka?"
+  },
+  "accommodation.checkout_time": {
+    "t": "チェックアウトは何時ですか？",
+    "r": "Chekkuauto wa nanji desu ka?"
+  },
+  "accommodation.wifi_password": {
+    "t": "Wi-Fiのパスワードは何ですか？",
+    "r": "Waifai no pasuwādo wa nan desu ka?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "部屋にちょっと問題があるのですが。",
+    "r": "Heya ni chotto mondai ga aru no desu ga."
+  },
+  "accommodation.ac_not_working": {
+    "t": "エアコンが動きません。",
+    "r": "Eakon ga ugokimasen."
+  },
+  "accommodation.more_towels": {
+    "t": "タオルをもう少しいただけますか？",
+    "r": "Taoru o mō sukoshi itadakemasu ka?"
+  },
+  "accommodation.lost_key": {
+    "t": "部屋の鍵をなくしました。",
+    "r": "Heya no kagi o nakushimashita."
+  },
+  "accommodation.leave_luggage": {
+    "t": "荷物を預けてもいいですか？",
+    "r": "Nimotsu o azukete mo ii desu ka?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "タクシーを呼んでいただけますか？",
+    "r": "Takushī o yonde itadakemasu ka?"
+  },
+  "accommodation.check_out": {
+    "t": "チェックアウトをお願いします。",
+    "r": "Chekkuauto o onegaishimasu."
+  },
+  "food.table_for_two": {
+    "t": "二人です。",
+    "r": "Futari desu."
+  },
+  "food.menu_please": {
+    "t": "メニューをお願いします。",
+    "r": "Menyū o onegaishimasu."
+  },
+  "food.english_menu": {
+    "t": "英語のメニューはありますか？",
+    "r": "Eigo no menyū wa arimasu ka?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "おすすめは何ですか？",
+    "r": "Osusume wa nan desu ka?"
+  },
+  "food.ill_have_this": {
+    "t": "これをお願いします。",
+    "r": "Kore o onegaishimasu."
+  },
+  "food.water_please": {
+    "t": "お水をお願いします。",
+    "r": "Omizu o onegaishimasu."
+  },
+  "food.coffee_please": {
+    "t": "コーヒーを一つお願いします。",
+    "r": "Kōhī o hitotsu onegaishimasu."
+  },
+  "food.beer_please": {
+    "t": "ビールを一つお願いします。",
+    "r": "Bīru o hitotsu onegaishimasu."
+  },
+  "food.im_vegetarian": {
+    "t": "ベジタリアンです。",
+    "r": "Bejitarian desu.",
+    "n": "Many dishes contain dashi (fish stock)"
+  },
+  "food.allergic_nuts": {
+    "t": "ナッツアレルギーがあります。",
+    "r": "Nattsu arerugī ga arimasu."
+  },
+  "food.is_it_spicy": {
+    "t": "これはからいですか？",
+    "r": "Kore wa karai desu ka?"
+  },
+  "food.not_spicy": {
+    "t": "からくしないでください。",
+    "r": "Karaku shinaide kudasai."
+  },
+  "food.delicious": {
+    "t": "とてもおいしいです！",
+    "r": "Totemo oishii desu!"
+  },
+  "food.cheers": {
+    "t": "乾杯！",
+    "r": "Kanpai!"
+  },
+  "food.check_please": {
+    "t": "お会計をお願いします。",
+    "r": "Okaikei o onegaishimasu."
+  },
+  "food.pay_by_card": {
+    "t": "カードで払えますか？",
+    "r": "Kādo de haraemasu ka?"
+  },
+  "shopping.how_much": {
+    "t": "これはいくらですか？",
+    "r": "Kore wa ikura desu ka?"
+  },
+  "shopping.too_expensive": {
+    "t": "高すぎます。",
+    "r": "Takasugimasu."
+  },
+  "shopping.lower_price": {
+    "t": "もう少し安くなりませんか？",
+    "r": "Mō sukoshi yasuku narimasen ka?",
+    "n": "Bargaining is unusual in Japan outside markets"
+  },
+  "shopping.just_looking": {
+    "t": "見ているだけです。ありがとうございます。",
+    "r": "Mite iru dake desu. Arigatō gozaimasu."
+  },
+  "shopping.ill_take_it": {
+    "t": "これにします。",
+    "r": "Kore ni shimasu."
+  },
+  "shopping.accept_cards": {
+    "t": "クレジットカードは使えますか？",
+    "r": "Kurejitto kādo wa tsukaemasu ka?"
+  },
+  "shopping.pay_cash": {
+    "t": "現金で払います。",
+    "r": "Genkin de haraimasu."
+  },
+  "shopping.receipt": {
+    "t": "レシートをいただけますか？",
+    "r": "Reshīto o itadakemasu ka?"
+  },
+  "shopping.bag": {
+    "t": "袋をいただけますか？",
+    "r": "Fukuro o itadakemasu ka?"
+  },
+  "shopping.try_on": {
+    "t": "試着してもいいですか？",
+    "r": "Shichaku shite mo ii desu ka?"
+  },
+  "shopping.other_size": {
+    "t": "これの別のサイズはありますか？",
+    "r": "Kore no betsu no saizu wa arimasu ka?"
+  },
+  "shopping.what_time_open": {
+    "t": "何時からやっていますか？",
+    "r": "Nanji kara yatte imasu ka?"
+  },
+  "shopping.what_time_close": {
+    "t": "何時に閉まりますか？",
+    "r": "Nanji ni shimarimasu ka?"
+  },
+  "shopping.exchange_money": {
+    "t": "どこで両替できますか？",
+    "r": "Doko de ryōgae dekimasu ka?"
+  },
+  "shopping.sim_card": {
+    "t": "シムカードはどこで買えますか？",
+    "r": "Shimu kādo wa doko de kaemasu ka?"
+  },
+  "health.where_pharmacy": {
+    "t": "薬局はどこですか？",
+    "r": "Yakkyoku wa doko desu ka?"
+  },
+  "health.feel_sick": {
+    "t": "具合が悪いです。",
+    "r": "Guai ga warui desu."
+  },
+  "health.headache": {
+    "t": "頭が痛いです。",
+    "r": "Atama ga itai desu."
+  },
+  "health.stomachache": {
+    "t": "お腹が痛いです。",
+    "r": "Onaka ga itai desu."
+  },
+  "health.fever": {
+    "t": "熱があります。",
+    "r": "Netsu ga arimasu."
+  },
+  "health.cold": {
+    "t": "風邪をひいています。",
+    "r": "Kaze o hiite imasu."
+  },
+  "health.hurts_here": {
+    "t": "ここが痛いです。",
+    "r": "Koko ga itai desu."
+  },
+  "health.medicine_for_this": {
+    "t": "これに効く薬はありますか？",
+    "r": "Kore ni kiku kusuri wa arimasu ka?"
+  },
+  "health.allergic_penicillin": {
+    "t": "ペニシリンアレルギーがあります。",
+    "r": "Penishirin arerugī ga arimasu."
+  },
+  "health.diabetic": {
+    "t": "糖尿病です。",
+    "r": "Tōnyōbyō desu."
+  },
+  "health.pregnant": {
+    "t": "妊娠しています。",
+    "r": "Ninshin shite imasu."
+  },
+  "health.need_dentist": {
+    "t": "歯医者に診てもらいたいです。",
+    "r": "Haisha ni mite moraitai desu."
+  },
+  "health.travel_insurance": {
+    "t": "旅行保険に入っています。",
+    "r": "Ryokō hoken ni haitte imasu."
+  },
+  "health.need_prescription": {
+    "t": "処方箋は必要ですか？",
+    "r": "Shohōsen wa hitsuyō desu ka?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "観光案内所はどこですか？",
+    "r": "Kankō annaijo wa doko desu ka?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "入場料はいくらですか？",
+    "r": "Nyūjōryō wa ikura desu ka?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "開館時間は何時から何時までですか？",
+    "r": "Kaikan jikan wa nanji kara nanji made desu ka?"
+  },
+  "sightseeing.student_discount": {
+    "t": "学生割引はありますか？",
+    "r": "Gakusei waribiki wa arimasu ka?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "英語のガイドツアーはありますか？",
+    "r": "Eigo no gaido tsuā wa arimasu ka?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "この辺りでおすすめの観光スポットはありますか？",
+    "r": "Kono atari de osusume no kankō supotto wa arimasu ka?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "写真を撮ってもいいですか？",
+    "r": "Shashin o totte mo ii desu ka?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "写真を撮っていただけますか？",
+    "r": "Shashin o totte itadakemasu ka?"
+  },
+  "sightseeing.where_museum": {
+    "t": "博物館はどこですか？",
+    "r": "Hakubutsukan wa doko desu ka?"
+  },
+  "sightseeing.where_beach": {
+    "t": "ビーチはどこですか？",
+    "r": "Bīchi wa doko desu ka?"
+  },
+  "numbers.0": {
+    "t": "ゼロ",
+    "r": "Zero"
+  },
+  "numbers.1": {
+    "t": "いち",
+    "r": "Ichi"
+  },
+  "numbers.2": {
+    "t": "に",
+    "r": "Ni"
+  },
+  "numbers.3": {
+    "t": "さん",
+    "r": "San"
+  },
+  "numbers.4": {
+    "t": "よん",
+    "r": "Yon",
+    "n": "Also read shi, but yon is more common"
+  },
+  "numbers.5": {
+    "t": "ご",
+    "r": "Go"
+  },
+  "numbers.6": {
+    "t": "ろく",
+    "r": "Roku"
+  },
+  "numbers.7": {
+    "t": "なな",
+    "r": "Nana",
+    "n": "Also read shichi"
+  },
+  "numbers.8": {
+    "t": "はち",
+    "r": "Hachi"
+  },
+  "numbers.9": {
+    "t": "きゅう",
+    "r": "Kyū"
+  },
+  "numbers.10": {
+    "t": "じゅう",
+    "r": "Jū"
+  },
+  "numbers.20": {
+    "t": "にじゅう",
+    "r": "Nijū"
+  },
+  "numbers.50": {
+    "t": "ごじゅう",
+    "r": "Gojū"
+  },
+  "numbers.100": {
+    "t": "ひゃく",
+    "r": "Hyaku"
+  },
+  "numbers.1000": {
+    "t": "せん",
+    "r": "Sen"
+  },
+  "time.what_time_is_it": {
+    "t": "今何時ですか？",
+    "r": "Ima nanji desu ka?"
+  },
+  "time.how_long": {
+    "t": "どのくらいかかりますか？",
+    "r": "Dono kurai kakarimasu ka?"
+  },
+  "time.one_moment": {
+    "t": "ちょっと待ってください。",
+    "r": "Chotto matte kudasai."
+  },
+  "time.now": {
+    "t": "いま",
+    "r": "Ima"
+  },
+  "time.later": {
+    "t": "あとで",
+    "r": "Atode"
+  },
+  "time.today": {
+    "t": "きょう",
+    "r": "Kyō"
+  },
+  "time.tomorrow": {
+    "t": "あした",
+    "r": "Ashita"
+  },
+  "time.yesterday": {
+    "t": "きのう",
+    "r": "Kinō"
+  },
+  "time.monday": {
+    "t": "月曜日",
+    "r": "Getsuyōbi"
+  },
+  "time.tuesday": {
+    "t": "火曜日",
+    "r": "Kayōbi"
+  },
+  "time.wednesday": {
+    "t": "水曜日",
+    "r": "Suiyōbi"
+  },
+  "time.thursday": {
+    "t": "木曜日",
+    "r": "Mokuyōbi"
+  },
+  "time.friday": {
+    "t": "金曜日",
+    "r": "Kin'yōbi"
+  },
+  "time.saturday": {
+    "t": "土曜日",
+    "r": "Doyōbi"
+  },
+  "time.sunday": {
+    "t": "日曜日",
+    "r": "Nichiyōbi"
+  }
+}

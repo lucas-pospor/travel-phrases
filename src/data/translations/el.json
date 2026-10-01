@@ -1,0 +1,714 @@
+{
+  "basics.hello": {
+    "t": "Γεια σας",
+    "r": "Ya sas"
+  },
+  "basics.good_morning": {
+    "t": "Καλημέρα",
+    "r": "Kaliméra"
+  },
+  "basics.good_evening": {
+    "t": "Καλησπέρα",
+    "r": "Kalispéra"
+  },
+  "basics.good_night": {
+    "t": "Καληνύχτα",
+    "r": "Kaliníhta"
+  },
+  "basics.goodbye": {
+    "t": "Αντίο σας",
+    "r": "Andío sas"
+  },
+  "basics.see_you_later": {
+    "t": "Τα λέμε αργότερα",
+    "r": "Ta léme argótera"
+  },
+  "basics.yes": {
+    "t": "Ναι",
+    "r": "Ne"
+  },
+  "basics.no": {
+    "t": "Όχι",
+    "r": "Óhi"
+  },
+  "basics.please": {
+    "t": "Παρακαλώ",
+    "r": "Parakaló"
+  },
+  "basics.thank_you": {
+    "t": "Ευχαριστώ",
+    "r": "Efharistó"
+  },
+  "basics.thank_you_very_much": {
+    "t": "Ευχαριστώ πολύ",
+    "r": "Efharistó polí"
+  },
+  "basics.youre_welcome": {
+    "t": "Παρακαλώ",
+    "r": "Parakaló"
+  },
+  "basics.excuse_me": {
+    "t": "Με συγχωρείτε",
+    "r": "Me sinhoríte"
+  },
+  "basics.sorry": {
+    "t": "Συγγνώμη",
+    "r": "Signómi"
+  },
+  "basics.no_problem": {
+    "t": "Κανένα πρόβλημα",
+    "r": "Kanéna próvlima"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "Μιλάτε αγγλικά;",
+    "r": "Miláte angliká?"
+  },
+  "conversation.speak_a_little": {
+    "t": "Μιλάω λίγα ελληνικά.",
+    "r": "Miláo líga eliniká."
+  },
+  "conversation.dont_understand": {
+    "t": "Δεν καταλαβαίνω.",
+    "r": "Den katalavéno."
+  },
+  "conversation.understand": {
+    "t": "Καταλαβαίνω.",
+    "r": "Katalavéno."
+  },
+  "conversation.speak_slowly": {
+    "t": "Μπορείτε να μιλάτε πιο αργά, παρακαλώ;",
+    "r": "Boríte na miláte pio argá, parakaló?"
+  },
+  "conversation.repeat": {
+    "t": "Μπορείτε να το επαναλάβετε, παρακαλώ;",
+    "r": "Boríte na to epanalávete, parakaló?"
+  },
+  "conversation.write_it_down": {
+    "t": "Μπορείτε να το γράψετε, παρακαλώ;",
+    "r": "Boríte na to grápsete, parakaló?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "Τι σημαίνει αυτό;",
+    "r": "Ti siméni aftó?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "Πώς λέγεται αυτό στα ελληνικά;",
+    "r": "Pos léyete aftó sta eliniká?"
+  },
+  "conversation.whats_your_name": {
+    "t": "Πώς σας λένε;",
+    "r": "Pos sas léne?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "Χαίρω πολύ.",
+    "r": "Héro polí."
+  },
+  "conversation.how_are_you": {
+    "t": "Τι κάνετε;",
+    "r": "Ti kánete?"
+  },
+  "conversation.im_fine": {
+    "t": "Καλά, ευχαριστώ.",
+    "r": "Kalá, efharistó."
+  },
+  "conversation.where_are_you_from": {
+    "t": "Από πού είστε;",
+    "r": "Apó pou íste?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "Είμαι τουρίστας.",
+    "r": "Íme tourístas.",
+    "ft": "Είμαι τουρίστρια.",
+    "fr": "Íme tourístria."
+  },
+  "conversation.first_time_here": {
+    "t": "Είναι η πρώτη μου φορά εδώ.",
+    "r": "Íne i próti mou forá edó."
+  },
+  "emergency.help": {
+    "t": "Βοήθεια!",
+    "r": "Voíthia!"
+  },
+  "emergency.call_police": {
+    "t": "Καλέστε την αστυνομία!",
+    "r": "Kaléste tin astinomía!"
+  },
+  "emergency.call_ambulance": {
+    "t": "Καλέστε ασθενοφόρο!",
+    "r": "Kaléste asthenofóro!"
+  },
+  "emergency.fire": {
+    "t": "Φωτιά!",
+    "r": "Fotiá!"
+  },
+  "emergency.need_doctor": {
+    "t": "Χρειάζομαι γιατρό.",
+    "r": "Hriázome yatró."
+  },
+  "emergency.its_an_emergency": {
+    "t": "Είναι επείγον.",
+    "r": "Íne epígon."
+  },
+  "emergency.can_you_help_me": {
+    "t": "Μπορείτε να με βοηθήσετε, παρακαλώ;",
+    "r": "Boríte na me voithísete, parakaló?"
+  },
+  "emergency.im_lost": {
+    "t": "Χάθηκα.",
+    "r": "Háthika."
+  },
+  "emergency.wallet_stolen": {
+    "t": "Μου έκλεψαν το πορτοφόλι.",
+    "r": "Mou éklepsan to portofóli."
+  },
+  "emergency.lost_passport": {
+    "t": "Έχασα το διαβατήριό μου.",
+    "r": "Éhasa to diavatírió mou."
+  },
+  "emergency.where_hospital": {
+    "t": "Πού είναι το νοσοκομείο;",
+    "r": "Pou íne to nosokomío?"
+  },
+  "emergency.where_police_station": {
+    "t": "Πού είναι το αστυνομικό τμήμα;",
+    "r": "Pou íne to astinomikó tmíma?"
+  },
+  "emergency.contact_embassy": {
+    "t": "Πρέπει να επικοινωνήσω με την πρεσβεία μου.",
+    "r": "Prépi na epikinoníso me tin presvía mou."
+  },
+  "emergency.use_your_phone": {
+    "t": "Μπορώ να χρησιμοποιήσω το τηλέφωνό σας;",
+    "r": "Boró na hrisimopiíso to tiléfonó sas?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "Αφήστε με ήσυχο!",
+    "r": "Afíste me ísiho!",
+    "ft": "Αφήστε με ήσυχη!",
+    "fr": "Afíste me ísihi!"
+  },
+  "directions.where_bathroom": {
+    "t": "Πού είναι η τουαλέτα;",
+    "r": "Pou íne i toualéta?"
+  },
+  "directions.where_is_this": {
+    "t": "Πού είναι αυτό;",
+    "r": "Pou íne aftó?"
+  },
+  "directions.how_get_to_address": {
+    "t": "Πώς μπορώ να πάω σε αυτή τη διεύθυνση;",
+    "r": "Pos boró na páo se aftí ti diéfthinsi?"
+  },
+  "directions.is_it_far": {
+    "t": "Είναι μακριά;",
+    "r": "Íne makriá?"
+  },
+  "directions.can_i_walk": {
+    "t": "Μπορώ να πάω με τα πόδια;",
+    "r": "Boró na páo me ta pódia?"
+  },
+  "directions.show_on_map": {
+    "t": "Μπορείτε να μου το δείξετε στον χάρτη;",
+    "r": "Boríte na mou to díxete ston hárti?"
+  },
+  "directions.left": {
+    "t": "Αριστερά",
+    "r": "Aristerá"
+  },
+  "directions.right": {
+    "t": "Δεξιά",
+    "r": "Dexiá"
+  },
+  "directions.straight_ahead": {
+    "t": "Ευθεία",
+    "r": "Efthía"
+  },
+  "directions.turn_left": {
+    "t": "Στρίψτε αριστερά",
+    "r": "Strípste aristerá"
+  },
+  "directions.turn_right": {
+    "t": "Στρίψτε δεξιά",
+    "r": "Strípste dexiá"
+  },
+  "directions.here": {
+    "t": "Εδώ",
+    "r": "Edó"
+  },
+  "directions.there": {
+    "t": "Εκεί",
+    "r": "Ekí"
+  },
+  "directions.where_entrance": {
+    "t": "Πού είναι η είσοδος;",
+    "r": "Pou íne i ísodos?"
+  },
+  "directions.where_exit": {
+    "t": "Πού είναι η έξοδος;",
+    "r": "Pou íne i éxodos?"
+  },
+  "directions.where_atm": {
+    "t": "Πού υπάρχει ένα μηχάνημα ανάληψης;",
+    "r": "Pou ipárhi éna mihánima analípsis?"
+  },
+  "transport.where_train_station": {
+    "t": "Πού είναι ο σιδηροδρομικός σταθμός;",
+    "r": "Pou íne o sidirodromikós stathmós?"
+  },
+  "transport.where_bus_stop": {
+    "t": "Πού είναι η στάση του λεωφορείου;",
+    "r": "Pou íne i stási tou leoforíou?"
+  },
+  "transport.where_metro": {
+    "t": "Πού είναι ο σταθμός του μετρό;",
+    "r": "Pou íne o stathmós tou metró?"
+  },
+  "transport.one_ticket": {
+    "t": "Ένα εισιτήριο, παρακαλώ.",
+    "r": "Éna isitírio, parakaló."
+  },
+  "transport.two_tickets": {
+    "t": "Δύο εισιτήρια, παρακαλώ.",
+    "r": "Dío isitíria, parakaló."
+  },
+  "transport.round_trip": {
+    "t": "Ένα εισιτήριο με επιστροφή, παρακαλώ.",
+    "r": "Éna isitírio me epistrofí, parakaló."
+  },
+  "transport.how_much_ticket": {
+    "t": "Πόσο κάνει το εισιτήριο;",
+    "r": "Póso káni to isitírio?"
+  },
+  "transport.next_train": {
+    "t": "Πότε φεύγει το επόμενο τρένο;",
+    "r": "Póte févyi to epómeno tréno?"
+  },
+  "transport.which_platform": {
+    "t": "Από ποια αποβάθρα φεύγει;",
+    "r": "Apó pia apováthra févyi?"
+  },
+  "transport.does_this_go_here": {
+    "t": "Αυτό το λεωφορείο πάει εδώ;",
+    "r": "Aftó to leoforío pái edó?"
+  },
+  "transport.need_taxi": {
+    "t": "Χρειάζομαι ταξί.",
+    "r": "Hriázome taxí."
+  },
+  "transport.take_me_to_address": {
+    "t": "Πηγαίνετέ με σε αυτή τη διεύθυνση, παρακαλώ.",
+    "r": "Piyéneté me se aftí ti diéfthinsi, parakaló."
+  },
+  "transport.airport_please": {
+    "t": "Στο αεροδρόμιο, παρακαλώ.",
+    "r": "Sto aerodrómio, parakaló."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "Πόσο θα κοστίσει;",
+    "r": "Póso tha kostísi?"
+  },
+  "transport.use_meter": {
+    "t": "Βάλτε το ταξίμετρο, παρακαλώ.",
+    "r": "Válte to taxímetro, parakaló."
+  },
+  "transport.stop_here": {
+    "t": "Σταματήστε εδώ, παρακαλώ.",
+    "r": "Stamatíste edó, parakaló."
+  },
+  "accommodation.have_reservation": {
+    "t": "Έχω κάνει κράτηση.",
+    "r": "Ého káni krátisi."
+  },
+  "accommodation.room_available": {
+    "t": "Έχετε ελεύθερο δωμάτιο;",
+    "r": "Éhete eléfthero domátio?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "Για δύο βράδια.",
+    "r": "Ya dío vrádia."
+  },
+  "accommodation.price_per_night": {
+    "t": "Πόσο κάνει η βραδιά;",
+    "r": "Póso káni i vradiá?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "Περιλαμβάνεται το πρωινό;",
+    "r": "Perilamvánete to proinó?"
+  },
+  "accommodation.checkout_time": {
+    "t": "Τι ώρα πρέπει να αδειάσω το δωμάτιο;",
+    "r": "Ti óra prépi na adiáso to domátio?"
+  },
+  "accommodation.wifi_password": {
+    "t": "Ποιος είναι ο κωδικός του Wi-Fi;",
+    "r": "Pios íne o kodikós tou Wi-Fi?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "Υπάρχει ένα πρόβλημα με το δωμάτιό μου.",
+    "r": "Ipárhi éna próvlima me to domátió mou."
+  },
+  "accommodation.ac_not_working": {
+    "t": "Το κλιματιστικό δεν λειτουργεί.",
+    "r": "To klimatistikó den litouryí."
+  },
+  "accommodation.more_towels": {
+    "t": "Μπορείτε να μου φέρετε κι άλλες πετσέτες, παρακαλώ;",
+    "r": "Boríte na mou férete ki áles petsétes, parakaló?"
+  },
+  "accommodation.lost_key": {
+    "t": "Έχασα το κλειδί του δωματίου μου.",
+    "r": "Éhasa to klidí tou domatíou mou."
+  },
+  "accommodation.leave_luggage": {
+    "t": "Μπορώ να αφήσω τις βαλίτσες μου εδώ;",
+    "r": "Boró na afíso tis valítses mou edó?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "Μπορείτε να μου καλέσετε ένα ταξί;",
+    "r": "Boríte na mou kalésete éna taxí?"
+  },
+  "accommodation.check_out": {
+    "t": "Θα ήθελα να αδειάσω το δωμάτιο.",
+    "r": "Tha íthela na adiáso to domátio."
+  },
+  "food.table_for_two": {
+    "t": "Ένα τραπέζι για δύο, παρακαλώ.",
+    "r": "Éna trapézi ya dío, parakaló."
+  },
+  "food.menu_please": {
+    "t": "Τον κατάλογο, παρακαλώ.",
+    "r": "Ton katálogo, parakaló."
+  },
+  "food.english_menu": {
+    "t": "Έχετε κατάλογο στα αγγλικά;",
+    "r": "Éhete katálogo sta angliká?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "Τι προτείνετε;",
+    "r": "Ti protínete?"
+  },
+  "food.ill_have_this": {
+    "t": "Θα πάρω αυτό, παρακαλώ.",
+    "r": "Tha páro aftó, parakaló."
+  },
+  "food.water_please": {
+    "t": "Νερό, παρακαλώ.",
+    "r": "Neró, parakaló."
+  },
+  "food.coffee_please": {
+    "t": "Έναν καφέ, παρακαλώ.",
+    "r": "Énan kafé, parakaló."
+  },
+  "food.beer_please": {
+    "t": "Μια μπύρα, παρακαλώ.",
+    "r": "Mia bíra, parakaló."
+  },
+  "food.im_vegetarian": {
+    "t": "Είμαι χορτοφάγος.",
+    "r": "Íme hortofágos."
+  },
+  "food.allergic_nuts": {
+    "t": "Έχω αλλεργία στους ξηρούς καρπούς.",
+    "r": "Ého aleryía stous xiroús karpoús."
+  },
+  "food.is_it_spicy": {
+    "t": "Είναι καυτερό;",
+    "r": "Íne kafteró?"
+  },
+  "food.not_spicy": {
+    "t": "Όχι καυτερό, παρακαλώ.",
+    "r": "Óhi kafteró, parakaló."
+  },
+  "food.delicious": {
+    "t": "Είναι πεντανόστιμο!",
+    "r": "Íne pendanóstimo!"
+  },
+  "food.cheers": {
+    "t": "Στην υγειά μας!",
+    "r": "Stin iyá mas!"
+  },
+  "food.check_please": {
+    "t": "Τον λογαριασμό, παρακαλώ.",
+    "r": "Ton logariasmó, parakaló."
+  },
+  "food.pay_by_card": {
+    "t": "Μπορώ να πληρώσω με κάρτα;",
+    "r": "Boró na pliróso me kárta?"
+  },
+  "shopping.how_much": {
+    "t": "Πόσο κάνει αυτό;",
+    "r": "Póso káni aftó?"
+  },
+  "shopping.too_expensive": {
+    "t": "Είναι πολύ ακριβό.",
+    "r": "Íne polí akrivó."
+  },
+  "shopping.lower_price": {
+    "t": "Μπορείτε να μου κάνετε μια καλύτερη τιμή;",
+    "r": "Boríte na mou kánete mia kalíteri timí?"
+  },
+  "shopping.just_looking": {
+    "t": "Απλώς κοιτάζω, ευχαριστώ.",
+    "r": "Aplós kitázo, efharistó."
+  },
+  "shopping.ill_take_it": {
+    "t": "Θα το πάρω.",
+    "r": "Tha to páro."
+  },
+  "shopping.accept_cards": {
+    "t": "Δέχεστε πιστωτικές κάρτες;",
+    "r": "Déheste pistotikés kártes?"
+  },
+  "shopping.pay_cash": {
+    "t": "Θα πληρώσω με μετρητά.",
+    "r": "Tha pliróso me metritá."
+  },
+  "shopping.receipt": {
+    "t": "Μου δίνετε μια απόδειξη, παρακαλώ;",
+    "r": "Mou dínete mia apódixi, parakaló?"
+  },
+  "shopping.bag": {
+    "t": "Μου δίνετε μια σακούλα, παρακαλώ;",
+    "r": "Mou dínete mia sakoúla, parakaló?"
+  },
+  "shopping.try_on": {
+    "t": "Μπορώ να το δοκιμάσω;",
+    "r": "Boró na to dokimáso?"
+  },
+  "shopping.other_size": {
+    "t": "Το έχετε σε άλλο νούμερο;",
+    "r": "To éhete se álo noúmero?"
+  },
+  "shopping.what_time_open": {
+    "t": "Τι ώρα ανοίγετε;",
+    "r": "Ti óra aníyete?"
+  },
+  "shopping.what_time_close": {
+    "t": "Τι ώρα κλείνετε;",
+    "r": "Ti óra klínete?"
+  },
+  "shopping.exchange_money": {
+    "t": "Πού μπορώ να αλλάξω χρήματα;",
+    "r": "Pou boró na aláxo hrímata?"
+  },
+  "shopping.sim_card": {
+    "t": "Πού μπορώ να αγοράσω κάρτα SIM;",
+    "r": "Pou boró na agoráso kárta SIM?"
+  },
+  "health.where_pharmacy": {
+    "t": "Πού είναι το φαρμακείο;",
+    "r": "Pou íne to farmakío?"
+  },
+  "health.feel_sick": {
+    "t": "Δεν νιώθω καλά.",
+    "r": "Den niótho kalá."
+  },
+  "health.headache": {
+    "t": "Έχω πονοκέφαλο.",
+    "r": "Ého ponokéfalo."
+  },
+  "health.stomachache": {
+    "t": "Πονάει το στομάχι μου.",
+    "r": "Ponái to stomáhi mou."
+  },
+  "health.fever": {
+    "t": "Έχω πυρετό.",
+    "r": "Ého piretó."
+  },
+  "health.cold": {
+    "t": "Έχω κρυώσει.",
+    "r": "Ého kriósi."
+  },
+  "health.hurts_here": {
+    "t": "Πονάει εδώ.",
+    "r": "Ponái edó."
+  },
+  "health.medicine_for_this": {
+    "t": "Έχετε κάποιο φάρμακο για αυτό;",
+    "r": "Éhete kápio fármako ya aftó?"
+  },
+  "health.allergic_penicillin": {
+    "t": "Έχω αλλεργία στην πενικιλίνη.",
+    "r": "Ého aleryía stin penikilíni."
+  },
+  "health.diabetic": {
+    "t": "Έχω διαβήτη.",
+    "r": "Ého diavíti."
+  },
+  "health.pregnant": {
+    "t": "Είμαι έγκυος.",
+    "r": "Íme éngios."
+  },
+  "health.need_dentist": {
+    "t": "Χρειάζομαι οδοντίατρο.",
+    "r": "Hriázome odondíatro."
+  },
+  "health.travel_insurance": {
+    "t": "Έχω ταξιδιωτική ασφάλιση.",
+    "r": "Ého taxidiotikí asfálisi."
+  },
+  "health.need_prescription": {
+    "t": "Χρειάζεται συνταγή;",
+    "r": "Hriázete sindayí?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "Πού είναι το γραφείο τουριστικών πληροφοριών;",
+    "r": "Pou íne to grafío touristikón pliroforión?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "Πόσο κάνει η είσοδος;",
+    "r": "Póso káni i ísodos?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "Ποιες είναι οι ώρες λειτουργίας;",
+    "r": "Pies íne i óres litouryías?"
+  },
+  "sightseeing.student_discount": {
+    "t": "Υπάρχει φοιτητική έκπτωση;",
+    "r": "Ipárhi fititikí ékptosi?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "Υπάρχει ξενάγηση στα αγγλικά;",
+    "r": "Ipárhi xenáyisi sta angliká?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "Τι αξίζει να δει κανείς εδώ γύρω;",
+    "r": "Ti axízi na di kanís edó yíro?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "Μπορώ να βγάλω φωτογραφία;",
+    "r": "Boró na vgálo fotografía?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "Μπορείτε να μας βγάλετε μια φωτογραφία;",
+    "r": "Boríte na mas vgálete mia fotografía?"
+  },
+  "sightseeing.where_museum": {
+    "t": "Πού είναι το μουσείο;",
+    "r": "Pou íne to mousío?"
+  },
+  "sightseeing.where_beach": {
+    "t": "Πού είναι η παραλία;",
+    "r": "Pou íne i paralía?"
+  },
+  "numbers.0": {
+    "t": "Μηδέν",
+    "r": "Midén"
+  },
+  "numbers.1": {
+    "t": "Ένα",
+    "r": "Éna"
+  },
+  "numbers.2": {
+    "t": "Δύο",
+    "r": "Dío"
+  },
+  "numbers.3": {
+    "t": "Τρία",
+    "r": "Tría"
+  },
+  "numbers.4": {
+    "t": "Τέσσερα",
+    "r": "Tésera"
+  },
+  "numbers.5": {
+    "t": "Πέντε",
+    "r": "Pénde"
+  },
+  "numbers.6": {
+    "t": "Έξι",
+    "r": "Éxi"
+  },
+  "numbers.7": {
+    "t": "Επτά",
+    "r": "Eptá"
+  },
+  "numbers.8": {
+    "t": "Οκτώ",
+    "r": "Októ"
+  },
+  "numbers.9": {
+    "t": "Εννέα",
+    "r": "Enéa"
+  },
+  "numbers.10": {
+    "t": "Δέκα",
+    "r": "Déka"
+  },
+  "numbers.20": {
+    "t": "Είκοσι",
+    "r": "Íkosi"
+  },
+  "numbers.50": {
+    "t": "Πενήντα",
+    "r": "Penínda"
+  },
+  "numbers.100": {
+    "t": "Εκατό",
+    "r": "Ekató"
+  },
+  "numbers.1000": {
+    "t": "Χίλια",
+    "r": "Hília"
+  },
+  "time.what_time_is_it": {
+    "t": "Τι ώρα είναι;",
+    "r": "Ti óra íne?"
+  },
+  "time.how_long": {
+    "t": "Πόση ώρα κάνει;",
+    "r": "Pósi óra káni?"
+  },
+  "time.one_moment": {
+    "t": "Μια στιγμή, παρακαλώ.",
+    "r": "Mia stigmí, parakaló."
+  },
+  "time.now": {
+    "t": "Τώρα",
+    "r": "Tóra"
+  },
+  "time.later": {
+    "t": "Αργότερα",
+    "r": "Argótera"
+  },
+  "time.today": {
+    "t": "Σήμερα",
+    "r": "Símera"
+  },
+  "time.tomorrow": {
+    "t": "Αύριο",
+    "r": "Ávrio"
+  },
+  "time.yesterday": {
+    "t": "Χθες",
+    "r": "Hthes"
+  },
+  "time.monday": {
+    "t": "Δευτέρα",
+    "r": "Deftéra"
+  },
+  "time.tuesday": {
+    "t": "Τρίτη",
+    "r": "Tríti"
+  },
+  "time.wednesday": {
+    "t": "Τετάρτη",
+    "r": "Tetárti"
+  },
+  "time.thursday": {
+    "t": "Πέμπτη",
+    "r": "Pémpti"
+  },
+  "time.friday": {
+    "t": "Παρασκευή",
+    "r": "Paraskeví"
+  },
+  "time.saturday": {
+    "t": "Σάββατο",
+    "r": "Sávato"
+  },
+  "time.sunday": {
+    "t": "Κυριακή",
+    "r": "Kiriakí"
+  }
+}

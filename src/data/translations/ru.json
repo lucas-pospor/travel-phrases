@@ -1,0 +1,721 @@
+{
+  "basics.hello": {
+    "t": "Здравствуйте",
+    "r": "Zdravstvuyte"
+  },
+  "basics.good_morning": {
+    "t": "Доброе утро",
+    "r": "Dobroye utro"
+  },
+  "basics.good_evening": {
+    "t": "Добрый вечер",
+    "r": "Dobry vecher"
+  },
+  "basics.good_night": {
+    "t": "Спокойной ночи",
+    "r": "Spokoynoy nochi"
+  },
+  "basics.goodbye": {
+    "t": "До свидания",
+    "r": "Do svidaniya"
+  },
+  "basics.see_you_later": {
+    "t": "До встречи",
+    "r": "Do vstrechi"
+  },
+  "basics.yes": {
+    "t": "Да",
+    "r": "Da"
+  },
+  "basics.no": {
+    "t": "Нет",
+    "r": "Net"
+  },
+  "basics.please": {
+    "t": "Пожалуйста",
+    "r": "Pozhaluysta"
+  },
+  "basics.thank_you": {
+    "t": "Спасибо",
+    "r": "Spasibo"
+  },
+  "basics.thank_you_very_much": {
+    "t": "Большое спасибо",
+    "r": "Bolshoye spasibo"
+  },
+  "basics.youre_welcome": {
+    "t": "Пожалуйста",
+    "r": "Pozhaluysta",
+    "n": "Same word as 'please'."
+  },
+  "basics.excuse_me": {
+    "t": "Извините",
+    "r": "Izvinite"
+  },
+  "basics.sorry": {
+    "t": "Простите",
+    "r": "Prostite"
+  },
+  "basics.no_problem": {
+    "t": "Без проблем",
+    "r": "Bez problem"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "Вы говорите по-английски?",
+    "r": "Vy govorite po-angliyski?"
+  },
+  "conversation.speak_a_little": {
+    "t": "Я немного говорю по-русски.",
+    "r": "Ya nemnogo govoryu po-russki."
+  },
+  "conversation.dont_understand": {
+    "t": "Я не понимаю.",
+    "r": "Ya ne ponimayu."
+  },
+  "conversation.understand": {
+    "t": "Я понимаю.",
+    "r": "Ya ponimayu."
+  },
+  "conversation.speak_slowly": {
+    "t": "Говорите, пожалуйста, помедленнее.",
+    "r": "Govorite, pozhaluysta, pomedlenneye."
+  },
+  "conversation.repeat": {
+    "t": "Повторите, пожалуйста.",
+    "r": "Povtorite, pozhaluysta."
+  },
+  "conversation.write_it_down": {
+    "t": "Напишите это, пожалуйста.",
+    "r": "Napishite eto, pozhaluysta."
+  },
+  "conversation.what_does_this_mean": {
+    "t": "Что это значит?",
+    "r": "Chto eto znachit?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "Как это сказать по-русски?",
+    "r": "Kak eto skazat po-russki?"
+  },
+  "conversation.whats_your_name": {
+    "t": "Как вас зовут?",
+    "r": "Kak vas zovut?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "Приятно познакомиться.",
+    "r": "Priyatno poznakomitsya."
+  },
+  "conversation.how_are_you": {
+    "t": "Как у вас дела?",
+    "r": "Kak u vas dela?"
+  },
+  "conversation.im_fine": {
+    "t": "Всё хорошо, спасибо.",
+    "r": "Vsyo khorosho, spasibo."
+  },
+  "conversation.where_are_you_from": {
+    "t": "Откуда вы?",
+    "r": "Otkuda vy?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "Я турист.",
+    "r": "Ya turist.",
+    "ft": "Я туристка.",
+    "fr": "Ya turistka."
+  },
+  "conversation.first_time_here": {
+    "t": "Я здесь впервые.",
+    "r": "Ya zdes vpervye."
+  },
+  "emergency.help": {
+    "t": "Помогите!",
+    "r": "Pomogite!"
+  },
+  "emergency.call_police": {
+    "t": "Вызовите полицию!",
+    "r": "Vyzovite politsiyu!"
+  },
+  "emergency.call_ambulance": {
+    "t": "Вызовите скорую!",
+    "r": "Vyzovite skoruyu!"
+  },
+  "emergency.fire": {
+    "t": "Пожар!",
+    "r": "Pozhar!"
+  },
+  "emergency.need_doctor": {
+    "t": "Мне нужен врач.",
+    "r": "Mne nuzhen vrach."
+  },
+  "emergency.its_an_emergency": {
+    "t": "Это срочно.",
+    "r": "Eto srochno."
+  },
+  "emergency.can_you_help_me": {
+    "t": "Вы можете мне помочь?",
+    "r": "Vy mozhete mne pomoch?"
+  },
+  "emergency.im_lost": {
+    "t": "Я заблудился.",
+    "r": "Ya zabludilsya.",
+    "ft": "Я заблудилась.",
+    "fr": "Ya zabludilas."
+  },
+  "emergency.wallet_stolen": {
+    "t": "У меня украли кошелёк.",
+    "r": "U menya ukrali koshelyok."
+  },
+  "emergency.lost_passport": {
+    "t": "Я потерял паспорт.",
+    "r": "Ya poteryal pasport.",
+    "ft": "Я потеряла паспорт.",
+    "fr": "Ya poteryala pasport."
+  },
+  "emergency.where_hospital": {
+    "t": "Где больница?",
+    "r": "Gde bolnitsa?"
+  },
+  "emergency.where_police_station": {
+    "t": "Где отделение полиции?",
+    "r": "Gde otdeleniye politsii?"
+  },
+  "emergency.contact_embassy": {
+    "t": "Мне нужно связаться со своим посольством.",
+    "r": "Mne nuzhno svyazatsya so svoim posolstvom."
+  },
+  "emergency.use_your_phone": {
+    "t": "Можно позвонить с вашего телефона?",
+    "r": "Mozhno pozvonit s vashevo telefona?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "Оставьте меня в покое!",
+    "r": "Ostavte menya v pokoye!"
+  },
+  "directions.where_bathroom": {
+    "t": "Где туалет?",
+    "r": "Gde tualet?"
+  },
+  "directions.where_is_this": {
+    "t": "Где это находится?",
+    "r": "Gde eto nakhoditsya?"
+  },
+  "directions.how_get_to_address": {
+    "t": "Как добраться до этого адреса?",
+    "r": "Kak dobratsya do etovo adresa?"
+  },
+  "directions.is_it_far": {
+    "t": "Это далеко?",
+    "r": "Eto daleko?"
+  },
+  "directions.can_i_walk": {
+    "t": "Туда можно дойти пешком?",
+    "r": "Tuda mozhno doyti peshkom?"
+  },
+  "directions.show_on_map": {
+    "t": "Вы можете показать мне на карте?",
+    "r": "Vy mozhete pokazat mne na karte?"
+  },
+  "directions.left": {
+    "t": "Налево",
+    "r": "Nalevo"
+  },
+  "directions.right": {
+    "t": "Направо",
+    "r": "Napravo"
+  },
+  "directions.straight_ahead": {
+    "t": "Прямо",
+    "r": "Pryamo"
+  },
+  "directions.turn_left": {
+    "t": "Поверните налево",
+    "r": "Povernite nalevo"
+  },
+  "directions.turn_right": {
+    "t": "Поверните направо",
+    "r": "Povernite napravo"
+  },
+  "directions.here": {
+    "t": "Здесь",
+    "r": "Zdes"
+  },
+  "directions.there": {
+    "t": "Там",
+    "r": "Tam"
+  },
+  "directions.where_entrance": {
+    "t": "Где вход?",
+    "r": "Gde vkhod?"
+  },
+  "directions.where_exit": {
+    "t": "Где выход?",
+    "r": "Gde vykhod?"
+  },
+  "directions.where_atm": {
+    "t": "Где здесь банкомат?",
+    "r": "Gde zdes bankomat?"
+  },
+  "transport.where_train_station": {
+    "t": "Где вокзал?",
+    "r": "Gde vokzal?"
+  },
+  "transport.where_bus_stop": {
+    "t": "Где автобусная остановка?",
+    "r": "Gde avtobusnaya ostanovka?"
+  },
+  "transport.where_metro": {
+    "t": "Где станция метро?",
+    "r": "Gde stantsiya metro?"
+  },
+  "transport.one_ticket": {
+    "t": "Один билет, пожалуйста.",
+    "r": "Odin bilet, pozhaluysta."
+  },
+  "transport.two_tickets": {
+    "t": "Два билета, пожалуйста.",
+    "r": "Dva bileta, pozhaluysta."
+  },
+  "transport.round_trip": {
+    "t": "Билет туда и обратно, пожалуйста.",
+    "r": "Bilet tuda i obratno, pozhaluysta."
+  },
+  "transport.how_much_ticket": {
+    "t": "Сколько стоит билет?",
+    "r": "Skolko stoit bilet?"
+  },
+  "transport.next_train": {
+    "t": "Когда отходит следующий поезд?",
+    "r": "Kogda otkhodit sleduyushchiy poyezd?"
+  },
+  "transport.which_platform": {
+    "t": "С какой платформы отправляется поезд?",
+    "r": "S kakoy platformy otpravlyayetsya poyezd?"
+  },
+  "transport.does_this_go_here": {
+    "t": "Этот автобус идёт сюда?",
+    "r": "Etot avtobus idyot syuda?"
+  },
+  "transport.need_taxi": {
+    "t": "Мне нужно такси.",
+    "r": "Mne nuzhno taksi."
+  },
+  "transport.take_me_to_address": {
+    "t": "Отвезите меня, пожалуйста, по этому адресу.",
+    "r": "Otvezite menya, pozhaluysta, po etomu adresu."
+  },
+  "transport.airport_please": {
+    "t": "В аэропорт, пожалуйста.",
+    "r": "V aeroport, pozhaluysta."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "Сколько это будет стоить?",
+    "r": "Skolko eto budet stoit?"
+  },
+  "transport.use_meter": {
+    "t": "Включите, пожалуйста, счётчик.",
+    "r": "Vklyuchite, pozhaluysta, schotchik."
+  },
+  "transport.stop_here": {
+    "t": "Остановите здесь, пожалуйста.",
+    "r": "Ostanovite zdes, pozhaluysta."
+  },
+  "accommodation.have_reservation": {
+    "t": "У меня забронирован номер.",
+    "r": "U menya zabronirovan nomer."
+  },
+  "accommodation.room_available": {
+    "t": "У вас есть свободный номер?",
+    "r": "U vas yest svobodny nomer?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "На две ночи.",
+    "r": "Na dve nochi."
+  },
+  "accommodation.price_per_night": {
+    "t": "Сколько стоит номер за ночь?",
+    "r": "Skolko stoit nomer za noch?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "Завтрак включён?",
+    "r": "Zavtrak vklyuchon?"
+  },
+  "accommodation.checkout_time": {
+    "t": "Во сколько нужно освободить номер?",
+    "r": "Vo skolko nuzhno osvobodit nomer?"
+  },
+  "accommodation.wifi_password": {
+    "t": "Какой пароль от вайфая?",
+    "r": "Kakoy parol ot vayfaya?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "У меня проблема с номером.",
+    "r": "U menya problema s nomerom."
+  },
+  "accommodation.ac_not_working": {
+    "t": "Кондиционер не работает.",
+    "r": "Konditsioner ne rabotayet."
+  },
+  "accommodation.more_towels": {
+    "t": "Можно ещё полотенец, пожалуйста?",
+    "r": "Mozhno yeshcho polotenets, pozhaluysta?"
+  },
+  "accommodation.lost_key": {
+    "t": "Я потерял ключ от номера.",
+    "r": "Ya poteryal klyuch ot nomera.",
+    "ft": "Я потеряла ключ от номера.",
+    "fr": "Ya poteryala klyuch ot nomera."
+  },
+  "accommodation.leave_luggage": {
+    "t": "Можно оставить здесь багаж?",
+    "r": "Mozhno ostavit zdes bagazh?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "Вы не могли бы вызвать мне такси?",
+    "r": "Vy ne mogli by vyzvat mne taksi?"
+  },
+  "accommodation.check_out": {
+    "t": "Я хочу выписаться.",
+    "r": "Ya khochu vypisatsya."
+  },
+  "food.table_for_two": {
+    "t": "Столик на двоих, пожалуйста.",
+    "r": "Stolik na dvoikh, pozhaluysta."
+  },
+  "food.menu_please": {
+    "t": "Меню, пожалуйста.",
+    "r": "Menyu, pozhaluysta."
+  },
+  "food.english_menu": {
+    "t": "У вас есть меню на английском?",
+    "r": "U vas yest menyu na angliyskom?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "Что вы посоветуете?",
+    "r": "Chto vy posovetuyete?"
+  },
+  "food.ill_have_this": {
+    "t": "Мне вот это, пожалуйста.",
+    "r": "Mne vot eto, pozhaluysta."
+  },
+  "food.water_please": {
+    "t": "Воды, пожалуйста.",
+    "r": "Vody, pozhaluysta."
+  },
+  "food.coffee_please": {
+    "t": "Кофе, пожалуйста.",
+    "r": "Kofe, pozhaluysta."
+  },
+  "food.beer_please": {
+    "t": "Пиво, пожалуйста.",
+    "r": "Pivo, pozhaluysta."
+  },
+  "food.im_vegetarian": {
+    "t": "Я вегетарианец.",
+    "r": "Ya vegetarianets.",
+    "ft": "Я вегетарианка.",
+    "fr": "Ya vegetarianka."
+  },
+  "food.allergic_nuts": {
+    "t": "У меня аллергия на орехи.",
+    "r": "U menya allergiya na orekhi."
+  },
+  "food.is_it_spicy": {
+    "t": "Это острое?",
+    "r": "Eto ostroye?"
+  },
+  "food.not_spicy": {
+    "t": "Не острое, пожалуйста.",
+    "r": "Ne ostroye, pozhaluysta."
+  },
+  "food.delicious": {
+    "t": "Очень вкусно!",
+    "r": "Ochen vkusno!"
+  },
+  "food.cheers": {
+    "t": "За здоровье!",
+    "r": "Za zdorovye!"
+  },
+  "food.check_please": {
+    "t": "Счёт, пожалуйста.",
+    "r": "Schot, pozhaluysta."
+  },
+  "food.pay_by_card": {
+    "t": "Можно оплатить картой?",
+    "r": "Mozhno oplatit kartoy?"
+  },
+  "shopping.how_much": {
+    "t": "Сколько это стоит?",
+    "r": "Skolko eto stoit?"
+  },
+  "shopping.too_expensive": {
+    "t": "Это слишком дорого.",
+    "r": "Eto slishkom dorogo."
+  },
+  "shopping.lower_price": {
+    "t": "Можно подешевле?",
+    "r": "Mozhno podeshevle?"
+  },
+  "shopping.just_looking": {
+    "t": "Я просто смотрю, спасибо.",
+    "r": "Ya prosto smotryu, spasibo."
+  },
+  "shopping.ill_take_it": {
+    "t": "Я это возьму.",
+    "r": "Ya eto vozmu."
+  },
+  "shopping.accept_cards": {
+    "t": "Вы принимаете кредитные карты?",
+    "r": "Vy prinimayete kreditnye karty?"
+  },
+  "shopping.pay_cash": {
+    "t": "Я заплачу наличными.",
+    "r": "Ya zaplachu nalichnymi."
+  },
+  "shopping.receipt": {
+    "t": "Можно чек, пожалуйста?",
+    "r": "Mozhno chek, pozhaluysta?"
+  },
+  "shopping.bag": {
+    "t": "Можно пакет, пожалуйста?",
+    "r": "Mozhno paket, pozhaluysta?"
+  },
+  "shopping.try_on": {
+    "t": "Можно это примерить?",
+    "r": "Mozhno eto primerit?"
+  },
+  "shopping.other_size": {
+    "t": "У вас есть другой размер?",
+    "r": "U vas yest drugoy razmer?"
+  },
+  "shopping.what_time_open": {
+    "t": "Во сколько вы открываетесь?",
+    "r": "Vo skolko vy otkryvayetes?"
+  },
+  "shopping.what_time_close": {
+    "t": "Во сколько вы закрываетесь?",
+    "r": "Vo skolko vy zakryvayetes?"
+  },
+  "shopping.exchange_money": {
+    "t": "Где можно поменять деньги?",
+    "r": "Gde mozhno pomenyat dengi?"
+  },
+  "shopping.sim_card": {
+    "t": "Где можно купить сим-карту?",
+    "r": "Gde mozhno kupit sim-kartu?"
+  },
+  "health.where_pharmacy": {
+    "t": "Где аптека?",
+    "r": "Gde apteka?"
+  },
+  "health.feel_sick": {
+    "t": "Я плохо себя чувствую.",
+    "r": "Ya plokho sebya chuvstvuyu."
+  },
+  "health.headache": {
+    "t": "У меня болит голова.",
+    "r": "U menya bolit golova."
+  },
+  "health.stomachache": {
+    "t": "У меня болит живот.",
+    "r": "U menya bolit zhivot."
+  },
+  "health.fever": {
+    "t": "У меня температура.",
+    "r": "U menya temperatura."
+  },
+  "health.cold": {
+    "t": "У меня простуда.",
+    "r": "U menya prostuda."
+  },
+  "health.hurts_here": {
+    "t": "Вот здесь болит.",
+    "r": "Vot zdes bolit."
+  },
+  "health.medicine_for_this": {
+    "t": "У вас есть лекарство от этого?",
+    "r": "U vas yest lekarstvo ot etovo?"
+  },
+  "health.allergic_penicillin": {
+    "t": "У меня аллергия на пенициллин.",
+    "r": "U menya allergiya na penitsillin."
+  },
+  "health.diabetic": {
+    "t": "У меня диабет.",
+    "r": "U menya diabet."
+  },
+  "health.pregnant": {
+    "t": "Я беременна.",
+    "r": "Ya beremenna."
+  },
+  "health.need_dentist": {
+    "t": "Мне нужен стоматолог.",
+    "r": "Mne nuzhen stomatolog."
+  },
+  "health.travel_insurance": {
+    "t": "У меня есть туристическая страховка.",
+    "r": "U menya yest turisticheskaya strakhovka."
+  },
+  "health.need_prescription": {
+    "t": "Для этого нужен рецепт?",
+    "r": "Dlya etovo nuzhen retsept?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "Где туристический информационный центр?",
+    "r": "Gde turisticheskiy informatsionny tsentr?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "Сколько стоит вход?",
+    "r": "Skolko stoit vkhod?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "Какой у вас режим работы?",
+    "r": "Kakoy u vas rezhim raboty?"
+  },
+  "sightseeing.student_discount": {
+    "t": "Есть скидка для студентов?",
+    "r": "Yest skidka dlya studentov?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "Есть экскурсия на английском?",
+    "r": "Yest ekskursiya na angliyskom?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "Что здесь стоит посмотреть?",
+    "r": "Chto zdes stoit posmotret?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "Можно сделать фото?",
+    "r": "Mozhno sdelat foto?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "Вы не могли бы нас сфотографировать?",
+    "r": "Vy ne mogli by nas sfotografirovat?"
+  },
+  "sightseeing.where_museum": {
+    "t": "Где музей?",
+    "r": "Gde muzey?"
+  },
+  "sightseeing.where_beach": {
+    "t": "Где пляж?",
+    "r": "Gde plyazh?"
+  },
+  "numbers.0": {
+    "t": "Ноль",
+    "r": "Nol"
+  },
+  "numbers.1": {
+    "t": "Один",
+    "r": "Odin"
+  },
+  "numbers.2": {
+    "t": "Два",
+    "r": "Dva"
+  },
+  "numbers.3": {
+    "t": "Три",
+    "r": "Tri"
+  },
+  "numbers.4": {
+    "t": "Четыре",
+    "r": "Chetyre"
+  },
+  "numbers.5": {
+    "t": "Пять",
+    "r": "Pyat"
+  },
+  "numbers.6": {
+    "t": "Шесть",
+    "r": "Shest"
+  },
+  "numbers.7": {
+    "t": "Семь",
+    "r": "Sem"
+  },
+  "numbers.8": {
+    "t": "Восемь",
+    "r": "Vosem"
+  },
+  "numbers.9": {
+    "t": "Девять",
+    "r": "Devyat"
+  },
+  "numbers.10": {
+    "t": "Десять",
+    "r": "Desyat"
+  },
+  "numbers.20": {
+    "t": "Двадцать",
+    "r": "Dvadtsat"
+  },
+  "numbers.50": {
+    "t": "Пятьдесят",
+    "r": "Pyatdesyat"
+  },
+  "numbers.100": {
+    "t": "Сто",
+    "r": "Sto"
+  },
+  "numbers.1000": {
+    "t": "Тысяча",
+    "r": "Tysyacha"
+  },
+  "time.what_time_is_it": {
+    "t": "Который час?",
+    "r": "Kotory chas?"
+  },
+  "time.how_long": {
+    "t": "Сколько времени это займёт?",
+    "r": "Skolko vremeni eto zaymyot?"
+  },
+  "time.one_moment": {
+    "t": "Одну минуту, пожалуйста.",
+    "r": "Odnu minutu, pozhaluysta."
+  },
+  "time.now": {
+    "t": "Сейчас",
+    "r": "Seychas"
+  },
+  "time.later": {
+    "t": "Позже",
+    "r": "Pozzhe"
+  },
+  "time.today": {
+    "t": "Сегодня",
+    "r": "Sevodnya"
+  },
+  "time.tomorrow": {
+    "t": "Завтра",
+    "r": "Zavtra"
+  },
+  "time.yesterday": {
+    "t": "Вчера",
+    "r": "Vchera"
+  },
+  "time.monday": {
+    "t": "Понедельник",
+    "r": "Ponedelnik"
+  },
+  "time.tuesday": {
+    "t": "Вторник",
+    "r": "Vtornik"
+  },
+  "time.wednesday": {
+    "t": "Среда",
+    "r": "Sreda"
+  },
+  "time.thursday": {
+    "t": "Четверг",
+    "r": "Chetverg"
+  },
+  "time.friday": {
+    "t": "Пятница",
+    "r": "Pyatnitsa"
+  },
+  "time.saturday": {
+    "t": "Суббота",
+    "r": "Subbota"
+  },
+  "time.sunday": {
+    "t": "Воскресенье",
+    "r": "Voskresenye"
+  }
+}

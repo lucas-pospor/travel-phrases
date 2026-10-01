@@ -1,0 +1,736 @@
+{
+  "basics.hello": {
+    "t": "नमस्ते",
+    "r": "Namaste"
+  },
+  "basics.good_morning": {
+    "t": "सुप्रभात",
+    "r": "Suprabhaat",
+    "n": "In everyday speech, Namaste is more common"
+  },
+  "basics.good_evening": {
+    "t": "शुभ संध्या",
+    "r": "Shubh sandhya",
+    "n": "In everyday speech, Namaste is more common"
+  },
+  "basics.good_night": {
+    "t": "शुभ रात्रि",
+    "r": "Shubh raatri"
+  },
+  "basics.goodbye": {
+    "t": "नमस्ते",
+    "r": "Namaste",
+    "n": "Namaste is used for both hello and goodbye"
+  },
+  "basics.see_you_later": {
+    "t": "फिर मिलेंगे",
+    "r": "Phir milenge"
+  },
+  "basics.yes": {
+    "t": "हाँ",
+    "r": "Haan"
+  },
+  "basics.no": {
+    "t": "नहीं",
+    "r": "Nahin"
+  },
+  "basics.please": {
+    "t": "कृपया",
+    "r": "Kripya"
+  },
+  "basics.thank_you": {
+    "t": "धन्यवाद",
+    "r": "Dhanyavaad"
+  },
+  "basics.thank_you_very_much": {
+    "t": "बहुत-बहुत धन्यवाद",
+    "r": "Bahut-bahut dhanyavaad"
+  },
+  "basics.youre_welcome": {
+    "t": "कोई बात नहीं",
+    "r": "Koi baat nahin"
+  },
+  "basics.excuse_me": {
+    "t": "माफ़ कीजिए",
+    "r": "Maaf kijiye",
+    "n": "To call someone over: Suniye"
+  },
+  "basics.sorry": {
+    "t": "मुझे माफ़ कीजिए",
+    "r": "Mujhe maaf kijiye"
+  },
+  "basics.no_problem": {
+    "t": "कोई दिक्कत नहीं",
+    "r": "Koi dikkat nahin"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "क्या आप अंग्रेज़ी बोलते हैं?",
+    "r": "Kya aap angrezi bolte hain?"
+  },
+  "conversation.speak_a_little": {
+    "t": "मैं थोड़ी हिंदी बोलता हूँ।",
+    "r": "Main thodi Hindi bolta hoon.",
+    "ft": "मैं थोड़ी हिंदी बोलती हूँ।",
+    "fr": "Main thodi Hindi bolti hoon."
+  },
+  "conversation.dont_understand": {
+    "t": "मुझे समझ नहीं आया।",
+    "r": "Mujhe samajh nahin aaya."
+  },
+  "conversation.understand": {
+    "t": "मुझे समझ आ गया।",
+    "r": "Mujhe samajh aa gaya."
+  },
+  "conversation.speak_slowly": {
+    "t": "क्या आप थोड़ा धीरे बोल सकते हैं?",
+    "r": "Kya aap thoda dheere bol sakte hain?"
+  },
+  "conversation.repeat": {
+    "t": "क्या आप दोबारा बोल सकते हैं?",
+    "r": "Kya aap dobara bol sakte hain?"
+  },
+  "conversation.write_it_down": {
+    "t": "क्या आप इसे लिखकर दे सकते हैं?",
+    "r": "Kya aap ise likhkar de sakte hain?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "इसका मतलब क्या है?",
+    "r": "Iska matlab kya hai?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "इसे हिंदी में क्या कहते हैं?",
+    "r": "Ise Hindi mein kya kehte hain?"
+  },
+  "conversation.whats_your_name": {
+    "t": "आपका नाम क्या है?",
+    "r": "Aapka naam kya hai?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "आपसे मिलकर अच्छा लगा।",
+    "r": "Aapse milkar achha laga."
+  },
+  "conversation.how_are_you": {
+    "t": "आप कैसे हैं?",
+    "r": "Aap kaise hain?"
+  },
+  "conversation.im_fine": {
+    "t": "मैं ठीक हूँ, धन्यवाद।",
+    "r": "Main theek hoon, dhanyavaad."
+  },
+  "conversation.where_are_you_from": {
+    "t": "आप कहाँ से हैं?",
+    "r": "Aap kahan se hain?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "मैं टूरिस्ट हूँ।",
+    "r": "Main tourist hoon."
+  },
+  "conversation.first_time_here": {
+    "t": "मैं यहाँ पहली बार आया हूँ।",
+    "r": "Main yahan pehli baar aaya hoon.",
+    "ft": "मैं यहाँ पहली बार आई हूँ।",
+    "fr": "Main yahan pehli baar aayi hoon."
+  },
+  "emergency.help": {
+    "t": "बचाओ!",
+    "r": "Bachao!"
+  },
+  "emergency.call_police": {
+    "t": "पुलिस को बुलाइए!",
+    "r": "Police ko bulaiye!"
+  },
+  "emergency.call_ambulance": {
+    "t": "एम्बुलेंस बुलाइए!",
+    "r": "Ambulance bulaiye!"
+  },
+  "emergency.fire": {
+    "t": "आग लगी है!",
+    "r": "Aag lagi hai!"
+  },
+  "emergency.need_doctor": {
+    "t": "मुझे डॉक्टर चाहिए।",
+    "r": "Mujhe doctor chahiye."
+  },
+  "emergency.its_an_emergency": {
+    "t": "यह इमरजेंसी है।",
+    "r": "Yeh emergency hai."
+  },
+  "emergency.can_you_help_me": {
+    "t": "क्या आप मेरी मदद कर सकते हैं?",
+    "r": "Kya aap meri madad kar sakte hain?"
+  },
+  "emergency.im_lost": {
+    "t": "मैं रास्ता भूल गया हूँ।",
+    "r": "Main raasta bhool gaya hoon.",
+    "ft": "मैं रास्ता भूल गई हूँ।",
+    "fr": "Main raasta bhool gayi hoon."
+  },
+  "emergency.wallet_stolen": {
+    "t": "मेरा बटुआ चोरी हो गया है।",
+    "r": "Mera batua chori ho gaya hai."
+  },
+  "emergency.lost_passport": {
+    "t": "मेरा पासपोर्ट खो गया है।",
+    "r": "Mera passport kho gaya hai."
+  },
+  "emergency.where_hospital": {
+    "t": "अस्पताल कहाँ है?",
+    "r": "Aspataal kahan hai?"
+  },
+  "emergency.where_police_station": {
+    "t": "पुलिस स्टेशन कहाँ है?",
+    "r": "Police station kahan hai?"
+  },
+  "emergency.contact_embassy": {
+    "t": "मुझे अपने दूतावास से संपर्क करना है।",
+    "r": "Mujhe apne dootavaas se sampark karna hai."
+  },
+  "emergency.use_your_phone": {
+    "t": "क्या मैं आपका फ़ोन इस्तेमाल कर सकता हूँ?",
+    "r": "Kya main aapka phone istemaal kar sakta hoon?",
+    "ft": "क्या मैं आपका फ़ोन इस्तेमाल कर सकती हूँ?",
+    "fr": "Kya main aapka phone istemaal kar sakti hoon?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "मुझे परेशान मत करो!",
+    "r": "Mujhe pareshaan mat karo!"
+  },
+  "directions.where_bathroom": {
+    "t": "टॉयलेट कहाँ है?",
+    "r": "Toilet kahan hai?"
+  },
+  "directions.where_is_this": {
+    "t": "यह जगह कहाँ है?",
+    "r": "Yeh jagah kahan hai?"
+  },
+  "directions.how_get_to_address": {
+    "t": "मैं इस पते पर कैसे पहुँचूँ?",
+    "r": "Main is pate par kaise pahunchoon?"
+  },
+  "directions.is_it_far": {
+    "t": "क्या यह दूर है?",
+    "r": "Kya yeh door hai?"
+  },
+  "directions.can_i_walk": {
+    "t": "क्या वहाँ पैदल जा सकते हैं?",
+    "r": "Kya vahan paidal ja sakte hain?"
+  },
+  "directions.show_on_map": {
+    "t": "क्या आप मुझे नक्शे पर दिखा सकते हैं?",
+    "r": "Kya aap mujhe nakshe par dikha sakte hain?"
+  },
+  "directions.left": {
+    "t": "बाएँ",
+    "r": "Baayen"
+  },
+  "directions.right": {
+    "t": "दाएँ",
+    "r": "Daayen"
+  },
+  "directions.straight_ahead": {
+    "t": "सीधे",
+    "r": "Seedhe"
+  },
+  "directions.turn_left": {
+    "t": "बाएँ मुड़िए",
+    "r": "Baayen mudiye"
+  },
+  "directions.turn_right": {
+    "t": "दाएँ मुड़िए",
+    "r": "Daayen mudiye"
+  },
+  "directions.here": {
+    "t": "यहाँ",
+    "r": "Yahan"
+  },
+  "directions.there": {
+    "t": "वहाँ",
+    "r": "Vahan"
+  },
+  "directions.where_entrance": {
+    "t": "अंदर जाने का रास्ता कहाँ है?",
+    "r": "Andar jaane ka raasta kahan hai?"
+  },
+  "directions.where_exit": {
+    "t": "बाहर जाने का रास्ता कहाँ है?",
+    "r": "Baahar jaane ka raasta kahan hai?"
+  },
+  "directions.where_atm": {
+    "t": "एटीएम कहाँ है?",
+    "r": "ATM kahan hai?"
+  },
+  "transport.where_train_station": {
+    "t": "रेलवे स्टेशन कहाँ है?",
+    "r": "Railway station kahan hai?"
+  },
+  "transport.where_bus_stop": {
+    "t": "बस स्टॉप कहाँ है?",
+    "r": "Bus stop kahan hai?"
+  },
+  "transport.where_metro": {
+    "t": "मेट्रो स्टेशन कहाँ है?",
+    "r": "Metro station kahan hai?"
+  },
+  "transport.one_ticket": {
+    "t": "एक टिकट दीजिए।",
+    "r": "Ek ticket dijiye."
+  },
+  "transport.two_tickets": {
+    "t": "दो टिकट दीजिए।",
+    "r": "Do ticket dijiye."
+  },
+  "transport.round_trip": {
+    "t": "आने-जाने का एक टिकट दीजिए।",
+    "r": "Aane-jaane ka ek ticket dijiye."
+  },
+  "transport.how_much_ticket": {
+    "t": "टिकट कितने का है?",
+    "r": "Ticket kitne ka hai?"
+  },
+  "transport.next_train": {
+    "t": "अगली ट्रेन कब छूटेगी?",
+    "r": "Agli train kab chhootegi?"
+  },
+  "transport.which_platform": {
+    "t": "ट्रेन किस प्लेटफ़ॉर्म से जाएगी?",
+    "r": "Train kis platform se jaayegi?"
+  },
+  "transport.does_this_go_here": {
+    "t": "क्या यह बस यहाँ जाती है?",
+    "r": "Kya yeh bus yahan jaati hai?"
+  },
+  "transport.need_taxi": {
+    "t": "मुझे टैक्सी चाहिए।",
+    "r": "Mujhe taxi chahiye."
+  },
+  "transport.take_me_to_address": {
+    "t": "कृपया मुझे इस पते पर ले चलिए।",
+    "r": "Kripya mujhe is pate par le chaliye."
+  },
+  "transport.airport_please": {
+    "t": "एयरपोर्ट चलिए।",
+    "r": "Airport chaliye."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "कितने पैसे लगेंगे?",
+    "r": "Kitne paise lagenge?"
+  },
+  "transport.use_meter": {
+    "t": "कृपया मीटर से चलिए।",
+    "r": "Kripya meter se chaliye."
+  },
+  "transport.stop_here": {
+    "t": "कृपया यहाँ रोकिए।",
+    "r": "Kripya yahan rokiye."
+  },
+  "accommodation.have_reservation": {
+    "t": "मेरे नाम पर बुकिंग है।",
+    "r": "Mere naam par booking hai."
+  },
+  "accommodation.room_available": {
+    "t": "क्या आपके पास कोई कमरा खाली है?",
+    "r": "Kya aapke paas koi kamra khaali hai?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "दो रातों के लिए।",
+    "r": "Do raaton ke liye."
+  },
+  "accommodation.price_per_night": {
+    "t": "एक रात का किराया कितना है?",
+    "r": "Ek raat ka kiraya kitna hai?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "क्या नाश्ता शामिल है?",
+    "r": "Kya naashta shaamil hai?"
+  },
+  "accommodation.checkout_time": {
+    "t": "चेक-आउट कितने बजे है?",
+    "r": "Check-out kitne baje hai?"
+  },
+  "accommodation.wifi_password": {
+    "t": "वाई-फ़ाई का पासवर्ड क्या है?",
+    "r": "Wi-Fi ka password kya hai?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "मेरे कमरे में कुछ दिक्कत है।",
+    "r": "Mere kamre mein kuch dikkat hai."
+  },
+  "accommodation.ac_not_working": {
+    "t": "एसी काम नहीं कर रहा है।",
+    "r": "AC kaam nahin kar raha hai."
+  },
+  "accommodation.more_towels": {
+    "t": "क्या मुझे कुछ और तौलिए मिल सकते हैं?",
+    "r": "Kya mujhe kuch aur tauliye mil sakte hain?"
+  },
+  "accommodation.lost_key": {
+    "t": "मेरे कमरे की चाबी खो गई है।",
+    "r": "Mere kamre ki chaabi kho gayi hai."
+  },
+  "accommodation.leave_luggage": {
+    "t": "क्या मैं अपना सामान यहाँ छोड़ सकता हूँ?",
+    "r": "Kya main apna saamaan yahan chhod sakta hoon?",
+    "ft": "क्या मैं अपना सामान यहाँ छोड़ सकती हूँ?",
+    "fr": "Kya main apna saamaan yahan chhod sakti hoon?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "क्या आप मेरे लिए टैक्सी बुला सकते हैं?",
+    "r": "Kya aap mere liye taxi bula sakte hain?"
+  },
+  "accommodation.check_out": {
+    "t": "मुझे चेक-आउट करना है।",
+    "r": "Mujhe check-out karna hai."
+  },
+  "food.table_for_two": {
+    "t": "दो लोगों के लिए टेबल चाहिए।",
+    "r": "Do logon ke liye table chahiye."
+  },
+  "food.menu_please": {
+    "t": "मेनू दीजिए।",
+    "r": "Menu dijiye."
+  },
+  "food.english_menu": {
+    "t": "क्या आपके पास अंग्रेज़ी में मेनू है?",
+    "r": "Kya aapke paas angrezi mein menu hai?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "यहाँ क्या अच्छा है?",
+    "r": "Yahan kya achha hai?"
+  },
+  "food.ill_have_this": {
+    "t": "मुझे यह दीजिए।",
+    "r": "Mujhe yeh dijiye."
+  },
+  "food.water_please": {
+    "t": "पानी दीजिए।",
+    "r": "Paani dijiye."
+  },
+  "food.coffee_please": {
+    "t": "एक कॉफ़ी दीजिए।",
+    "r": "Ek coffee dijiye."
+  },
+  "food.beer_please": {
+    "t": "एक बीयर दीजिए।",
+    "r": "Ek beer dijiye."
+  },
+  "food.im_vegetarian": {
+    "t": "मैं शाकाहारी हूँ।",
+    "r": "Main shaakaahaari hoon."
+  },
+  "food.allergic_nuts": {
+    "t": "मुझे मेवों से एलर्जी है।",
+    "r": "Mujhe mevon se allergy hai.",
+    "n": "Peanuts are moongphali; mention them separately"
+  },
+  "food.is_it_spicy": {
+    "t": "क्या यह तीखा है?",
+    "r": "Kya yeh teekha hai?"
+  },
+  "food.not_spicy": {
+    "t": "कृपया तीखा मत बनाइए।",
+    "r": "Kripya teekha mat banaiye."
+  },
+  "food.delicious": {
+    "t": "बहुत स्वादिष्ट है!",
+    "r": "Bahut swaadisht hai!"
+  },
+  "food.cheers": {
+    "t": "चीयर्स!",
+    "r": "Cheers!"
+  },
+  "food.check_please": {
+    "t": "बिल दीजिए।",
+    "r": "Bill dijiye."
+  },
+  "food.pay_by_card": {
+    "t": "क्या कार्ड से पेमेंट हो सकता है?",
+    "r": "Kya card se payment ho sakta hai?"
+  },
+  "shopping.how_much": {
+    "t": "यह कितने का है?",
+    "r": "Yeh kitne ka hai?"
+  },
+  "shopping.too_expensive": {
+    "t": "यह बहुत महँगा है।",
+    "r": "Yeh bahut mehnga hai."
+  },
+  "shopping.lower_price": {
+    "t": "क्या आप दाम थोड़ा कम कर सकते हैं?",
+    "r": "Kya aap daam thoda kam kar sakte hain?"
+  },
+  "shopping.just_looking": {
+    "t": "मैं बस देख रहा हूँ, धन्यवाद।",
+    "r": "Main bas dekh raha hoon, dhanyavaad.",
+    "ft": "मैं बस देख रही हूँ, धन्यवाद।",
+    "fr": "Main bas dekh rahi hoon, dhanyavaad."
+  },
+  "shopping.ill_take_it": {
+    "t": "यह दे दीजिए।",
+    "r": "Yeh de dijiye."
+  },
+  "shopping.accept_cards": {
+    "t": "क्या आप क्रेडिट कार्ड लेते हैं?",
+    "r": "Kya aap credit card lete hain?"
+  },
+  "shopping.pay_cash": {
+    "t": "मैं कैश दूँगा।",
+    "r": "Main cash doonga.",
+    "ft": "मैं कैश दूँगी।",
+    "fr": "Main cash doongi."
+  },
+  "shopping.receipt": {
+    "t": "क्या मुझे रसीद मिल सकती है?",
+    "r": "Kya mujhe raseed mil sakti hai?"
+  },
+  "shopping.bag": {
+    "t": "क्या मुझे एक थैली मिल सकती है?",
+    "r": "Kya mujhe ek thaili mil sakti hai?"
+  },
+  "shopping.try_on": {
+    "t": "क्या मैं इसे पहनकर देख सकता हूँ?",
+    "r": "Kya main ise pehenkar dekh sakta hoon?",
+    "ft": "क्या मैं इसे पहनकर देख सकती हूँ?",
+    "fr": "Kya main ise pehenkar dekh sakti hoon?"
+  },
+  "shopping.other_size": {
+    "t": "क्या यह किसी और साइज़ में है?",
+    "r": "Kya yeh kisi aur size mein hai?"
+  },
+  "shopping.what_time_open": {
+    "t": "आप कितने बजे खोलते हैं?",
+    "r": "Aap kitne baje kholte hain?"
+  },
+  "shopping.what_time_close": {
+    "t": "आप कितने बजे बंद करते हैं?",
+    "r": "Aap kitne baje band karte hain?"
+  },
+  "shopping.exchange_money": {
+    "t": "पैसे कहाँ बदलवा सकते हैं?",
+    "r": "Paise kahan badalva sakte hain?"
+  },
+  "shopping.sim_card": {
+    "t": "सिम कार्ड कहाँ मिलेगा?",
+    "r": "SIM card kahan milega?"
+  },
+  "health.where_pharmacy": {
+    "t": "दवा की दुकान कहाँ है?",
+    "r": "Dava ki dukaan kahan hai?",
+    "n": "Pharmacies are often called medical stores"
+  },
+  "health.feel_sick": {
+    "t": "मेरी तबीयत ठीक नहीं है।",
+    "r": "Meri tabiyat theek nahin hai."
+  },
+  "health.headache": {
+    "t": "मेरे सिर में दर्द है।",
+    "r": "Mere sir mein dard hai."
+  },
+  "health.stomachache": {
+    "t": "मेरे पेट में दर्द है।",
+    "r": "Mere pet mein dard hai."
+  },
+  "health.fever": {
+    "t": "मुझे बुखार है।",
+    "r": "Mujhe bukhaar hai."
+  },
+  "health.cold": {
+    "t": "मुझे ज़ुकाम है।",
+    "r": "Mujhe zukaam hai."
+  },
+  "health.hurts_here": {
+    "t": "यहाँ दर्द हो रहा है।",
+    "r": "Yahan dard ho raha hai."
+  },
+  "health.medicine_for_this": {
+    "t": "क्या आपके पास इसकी दवा है?",
+    "r": "Kya aapke paas iski dava hai?"
+  },
+  "health.allergic_penicillin": {
+    "t": "मुझे पेनिसिलिन से एलर्जी है।",
+    "r": "Mujhe penicillin se allergy hai."
+  },
+  "health.diabetic": {
+    "t": "मुझे डायबिटीज़ है।",
+    "r": "Mujhe diabetes hai."
+  },
+  "health.pregnant": {
+    "t": "मैं गर्भवती हूँ।",
+    "r": "Main garbhvati hoon."
+  },
+  "health.need_dentist": {
+    "t": "मुझे दाँतों का डॉक्टर चाहिए।",
+    "r": "Mujhe daanton ka doctor chahiye."
+  },
+  "health.travel_insurance": {
+    "t": "मेरे पास ट्रैवल इंश्योरेंस है।",
+    "r": "Mere paas travel insurance hai."
+  },
+  "health.need_prescription": {
+    "t": "क्या इसके लिए डॉक्टर की पर्ची चाहिए?",
+    "r": "Kya iske liye doctor ki parchi chahiye?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "टूरिस्ट इन्फ़ॉर्मेशन ऑफ़िस कहाँ है?",
+    "r": "Tourist information office kahan hai?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "एंट्री फ़ीस कितनी है?",
+    "r": "Entry fees kitni hai?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "यह कब से कब तक खुला रहता है?",
+    "r": "Yeh kab se kab tak khula rehta hai?"
+  },
+  "sightseeing.student_discount": {
+    "t": "क्या छात्रों के लिए कोई छूट है?",
+    "r": "Kya chhaatron ke liye koi chhoot hai?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "क्या अंग्रेज़ी में कोई गाइडेड टूर है?",
+    "r": "Kya angrezi mein koi guided tour hai?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "यहाँ आसपास देखने लायक क्या है?",
+    "r": "Yahan aaspaas dekhne laayak kya hai?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "क्या मैं फ़ोटो ले सकता हूँ?",
+    "r": "Kya main photo le sakta hoon?",
+    "ft": "क्या मैं फ़ोटो ले सकती हूँ?",
+    "fr": "Kya main photo le sakti hoon?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "क्या आप हमारी फ़ोटो खींच सकते हैं?",
+    "r": "Kya aap hamari photo kheench sakte hain?"
+  },
+  "sightseeing.where_museum": {
+    "t": "म्यूज़ियम कहाँ है?",
+    "r": "Museum kahan hai?"
+  },
+  "sightseeing.where_beach": {
+    "t": "बीच कहाँ है?",
+    "r": "Beach kahan hai?"
+  },
+  "numbers.0": {
+    "t": "शून्य",
+    "r": "Shoonya"
+  },
+  "numbers.1": {
+    "t": "एक",
+    "r": "Ek"
+  },
+  "numbers.2": {
+    "t": "दो",
+    "r": "Do"
+  },
+  "numbers.3": {
+    "t": "तीन",
+    "r": "Teen"
+  },
+  "numbers.4": {
+    "t": "चार",
+    "r": "Chaar"
+  },
+  "numbers.5": {
+    "t": "पाँच",
+    "r": "Paanch"
+  },
+  "numbers.6": {
+    "t": "छह",
+    "r": "Chhah"
+  },
+  "numbers.7": {
+    "t": "सात",
+    "r": "Saat"
+  },
+  "numbers.8": {
+    "t": "आठ",
+    "r": "Aath"
+  },
+  "numbers.9": {
+    "t": "नौ",
+    "r": "Nau"
+  },
+  "numbers.10": {
+    "t": "दस",
+    "r": "Das"
+  },
+  "numbers.20": {
+    "t": "बीस",
+    "r": "Bees"
+  },
+  "numbers.50": {
+    "t": "पचास",
+    "r": "Pachaas"
+  },
+  "numbers.100": {
+    "t": "एक सौ",
+    "r": "Ek sau"
+  },
+  "numbers.1000": {
+    "t": "एक हज़ार",
+    "r": "Ek hazaar"
+  },
+  "time.what_time_is_it": {
+    "t": "कितने बजे हैं?",
+    "r": "Kitne baje hain?"
+  },
+  "time.how_long": {
+    "t": "कितनी देर लगेगी?",
+    "r": "Kitni der lagegi?"
+  },
+  "time.one_moment": {
+    "t": "एक मिनट रुकिए।",
+    "r": "Ek minute rukiye."
+  },
+  "time.now": {
+    "t": "अभी",
+    "r": "Abhi"
+  },
+  "time.later": {
+    "t": "बाद में",
+    "r": "Baad mein"
+  },
+  "time.today": {
+    "t": "आज",
+    "r": "Aaj"
+  },
+  "time.tomorrow": {
+    "t": "कल",
+    "r": "Kal",
+    "n": "Kal also means yesterday; context decides"
+  },
+  "time.yesterday": {
+    "t": "कल",
+    "r": "Kal",
+    "n": "Kal also means tomorrow; context decides"
+  },
+  "time.monday": {
+    "t": "सोमवार",
+    "r": "Somvaar"
+  },
+  "time.tuesday": {
+    "t": "मंगलवार",
+    "r": "Mangalvaar"
+  },
+  "time.wednesday": {
+    "t": "बुधवार",
+    "r": "Budhvaar"
+  },
+  "time.thursday": {
+    "t": "गुरुवार",
+    "r": "Guruvaar"
+  },
+  "time.friday": {
+    "t": "शुक्रवार",
+    "r": "Shukravaar"
+  },
+  "time.saturday": {
+    "t": "शनिवार",
+    "r": "Shanivaar"
+  },
+  "time.sunday": {
+    "t": "रविवार",
+    "r": "Ravivaar"
+  }
+}

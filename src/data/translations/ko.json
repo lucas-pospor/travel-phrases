@@ -1,0 +1,720 @@
+{
+  "basics.hello": {
+    "t": "안녕하세요",
+    "r": "Annyeonghaseyo"
+  },
+  "basics.good_morning": {
+    "t": "좋은 아침이에요",
+    "r": "Joeun achimieyo",
+    "n": "Annyeonghaseyo is more common"
+  },
+  "basics.good_evening": {
+    "t": "안녕하세요",
+    "r": "Annyeonghaseyo",
+    "n": "Korean has no evening greeting; this works all day"
+  },
+  "basics.good_night": {
+    "t": "안녕히 주무세요",
+    "r": "Annyeonghi jumuseyo",
+    "n": "Only said to someone going to sleep"
+  },
+  "basics.goodbye": {
+    "t": "안녕히 계세요",
+    "r": "Annyeonghi gyeseyo",
+    "n": "Said when you leave; if they leave: Annyeonghi gaseyo"
+  },
+  "basics.see_you_later": {
+    "t": "나중에 봬요",
+    "r": "Najunge bwaeyo"
+  },
+  "basics.yes": {
+    "t": "네",
+    "r": "Ne"
+  },
+  "basics.no": {
+    "t": "아니요",
+    "r": "Aniyo"
+  },
+  "basics.please": {
+    "t": "부탁합니다",
+    "r": "Butakamnida",
+    "n": "To ask for an item, say the item + juseyo"
+  },
+  "basics.thank_you": {
+    "t": "감사합니다",
+    "r": "Gamsahamnida"
+  },
+  "basics.thank_you_very_much": {
+    "t": "정말 감사합니다",
+    "r": "Jeongmal gamsahamnida"
+  },
+  "basics.youre_welcome": {
+    "t": "천만에요",
+    "r": "Cheonmaneyo"
+  },
+  "basics.excuse_me": {
+    "t": "실례합니다",
+    "r": "Sillyehamnida",
+    "n": "To call a waiter, say Jeogiyo"
+  },
+  "basics.sorry": {
+    "t": "죄송합니다",
+    "r": "Joesonghamnida"
+  },
+  "basics.no_problem": {
+    "t": "괜찮아요",
+    "r": "Gwaenchanayo"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "영어 할 줄 아세요?",
+    "r": "Yeongeo hal jul aseyo?"
+  },
+  "conversation.speak_a_little": {
+    "t": "한국어를 조금 해요.",
+    "r": "Hangugeoreul jogeum haeyo."
+  },
+  "conversation.dont_understand": {
+    "t": "이해가 안 돼요.",
+    "r": "Ihaega an dwaeyo."
+  },
+  "conversation.understand": {
+    "t": "알겠어요.",
+    "r": "Algesseoyo."
+  },
+  "conversation.speak_slowly": {
+    "t": "조금 천천히 말씀해 주세요.",
+    "r": "Jogeum cheoncheonhi malsseumhae juseyo."
+  },
+  "conversation.repeat": {
+    "t": "다시 한번 말씀해 주세요.",
+    "r": "Dasi hanbeon malsseumhae juseyo."
+  },
+  "conversation.write_it_down": {
+    "t": "적어 주시겠어요?",
+    "r": "Jeogeo jusigesseoyo?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "이게 무슨 뜻이에요?",
+    "r": "Ige museun tteusieyo?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "이거 한국어로 뭐라고 해요?",
+    "r": "Igeo hangugeoro mworago haeyo?"
+  },
+  "conversation.whats_your_name": {
+    "t": "이름이 어떻게 되세요?",
+    "r": "Ireumi eotteoke doeseyo?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "만나서 반가워요.",
+    "r": "Mannaseo bangawoyo."
+  },
+  "conversation.how_are_you": {
+    "t": "잘 지내세요?",
+    "r": "Jal jinaeseyo?"
+  },
+  "conversation.im_fine": {
+    "t": "잘 지내요, 감사합니다.",
+    "r": "Jal jinaeyo, gamsahamnida."
+  },
+  "conversation.where_are_you_from": {
+    "t": "어디에서 오셨어요?",
+    "r": "Eodieseo osyeosseoyo?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "저는 관광객이에요.",
+    "r": "Jeoneun gwangwanggaegieyo."
+  },
+  "conversation.first_time_here": {
+    "t": "여기 처음 왔어요.",
+    "r": "Yeogi cheoeum wasseoyo."
+  },
+  "emergency.help": {
+    "t": "도와주세요!",
+    "r": "Dowajuseyo!"
+  },
+  "emergency.call_police": {
+    "t": "경찰을 불러 주세요!",
+    "r": "Gyeongchareul bulleo juseyo!"
+  },
+  "emergency.call_ambulance": {
+    "t": "구급차를 불러 주세요!",
+    "r": "Gugeupchareul bulleo juseyo!"
+  },
+  "emergency.fire": {
+    "t": "불이야!",
+    "r": "Buriya!"
+  },
+  "emergency.need_doctor": {
+    "t": "의사가 필요해요.",
+    "r": "Uisaga piryohaeyo."
+  },
+  "emergency.its_an_emergency": {
+    "t": "응급 상황이에요.",
+    "r": "Eunggeup sanghwangieyo."
+  },
+  "emergency.can_you_help_me": {
+    "t": "좀 도와주시겠어요?",
+    "r": "Jom dowajusigesseoyo?"
+  },
+  "emergency.im_lost": {
+    "t": "길을 잃었어요.",
+    "r": "Gireul ireosseoyo."
+  },
+  "emergency.wallet_stolen": {
+    "t": "지갑을 도둑맞았어요.",
+    "r": "Jigabeul dodungmajasseoyo."
+  },
+  "emergency.lost_passport": {
+    "t": "여권을 잃어버렸어요.",
+    "r": "Yeogwoneul ireobeoryeosseoyo."
+  },
+  "emergency.where_hospital": {
+    "t": "병원이 어디 있어요?",
+    "r": "Byeongwoni eodi isseoyo?"
+  },
+  "emergency.where_police_station": {
+    "t": "경찰서가 어디 있어요?",
+    "r": "Gyeongchalseoga eodi isseoyo?"
+  },
+  "emergency.contact_embassy": {
+    "t": "대사관에 연락해야 해요.",
+    "r": "Daesagwane yeollakaeya haeyo."
+  },
+  "emergency.use_your_phone": {
+    "t": "전화 좀 써도 될까요?",
+    "r": "Jeonhwa jom sseodo doelkkayo?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "저리 가세요!",
+    "r": "Jeori gaseyo!"
+  },
+  "directions.where_bathroom": {
+    "t": "화장실이 어디 있어요?",
+    "r": "Hwajangsiri eodi isseoyo?"
+  },
+  "directions.where_is_this": {
+    "t": "여기가 어디예요?",
+    "r": "Yeogiga eodiyeyo?"
+  },
+  "directions.how_get_to_address": {
+    "t": "이 주소로 어떻게 가요?",
+    "r": "I jusoro eotteoke gayo?"
+  },
+  "directions.is_it_far": {
+    "t": "멀어요?",
+    "r": "Meoreoyo?"
+  },
+  "directions.can_i_walk": {
+    "t": "걸어서 갈 수 있어요?",
+    "r": "Georeoseo gal su isseoyo?"
+  },
+  "directions.show_on_map": {
+    "t": "지도에서 보여 주시겠어요?",
+    "r": "Jidoeseo boyeo jusigesseoyo?"
+  },
+  "directions.left": {
+    "t": "왼쪽",
+    "r": "Oenjjok"
+  },
+  "directions.right": {
+    "t": "오른쪽",
+    "r": "Oreunjjok"
+  },
+  "directions.straight_ahead": {
+    "t": "직진",
+    "r": "Jikjin"
+  },
+  "directions.turn_left": {
+    "t": "왼쪽으로 도세요",
+    "r": "Oenjjogeuro doseyo"
+  },
+  "directions.turn_right": {
+    "t": "오른쪽으로 도세요",
+    "r": "Oreunjjogeuro doseyo"
+  },
+  "directions.here": {
+    "t": "여기",
+    "r": "Yeogi"
+  },
+  "directions.there": {
+    "t": "저기",
+    "r": "Jeogi"
+  },
+  "directions.where_entrance": {
+    "t": "입구가 어디예요?",
+    "r": "Ipguga eodiyeyo?"
+  },
+  "directions.where_exit": {
+    "t": "출구가 어디예요?",
+    "r": "Chulguga eodiyeyo?"
+  },
+  "directions.where_atm": {
+    "t": "현금인출기가 어디 있어요?",
+    "r": "Hyeongeuminchulgiga eodi isseoyo?"
+  },
+  "transport.where_train_station": {
+    "t": "기차역이 어디 있어요?",
+    "r": "Gichayeogi eodi isseoyo?"
+  },
+  "transport.where_bus_stop": {
+    "t": "버스 정류장이 어디 있어요?",
+    "r": "Beoseu jeongnyujangi eodi isseoyo?"
+  },
+  "transport.where_metro": {
+    "t": "지하철역이 어디 있어요?",
+    "r": "Jihacheollyeogi eodi isseoyo?"
+  },
+  "transport.one_ticket": {
+    "t": "표 한 장 주세요.",
+    "r": "Pyo han jang juseyo."
+  },
+  "transport.two_tickets": {
+    "t": "표 두 장 주세요.",
+    "r": "Pyo du jang juseyo."
+  },
+  "transport.round_trip": {
+    "t": "왕복표 한 장 주세요.",
+    "r": "Wangbokpyo han jang juseyo."
+  },
+  "transport.how_much_ticket": {
+    "t": "표가 얼마예요?",
+    "r": "Pyoga eolmayeyo?"
+  },
+  "transport.next_train": {
+    "t": "다음 기차는 언제 출발해요?",
+    "r": "Daeum gichaneun eonje chulbalhaeyo?"
+  },
+  "transport.which_platform": {
+    "t": "몇 번 승강장에서 출발해요?",
+    "r": "Myeot beon seunggangjangeseo chulbalhaeyo?"
+  },
+  "transport.does_this_go_here": {
+    "t": "이 버스 여기로 가요?",
+    "r": "I beoseu yeogiro gayo?"
+  },
+  "transport.need_taxi": {
+    "t": "택시가 필요해요.",
+    "r": "Taeksiga piryohaeyo."
+  },
+  "transport.take_me_to_address": {
+    "t": "이 주소로 가 주세요.",
+    "r": "I jusoro ga juseyo."
+  },
+  "transport.airport_please": {
+    "t": "공항으로 가 주세요.",
+    "r": "Gonghangeuro ga juseyo."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "요금이 얼마쯤 나와요?",
+    "r": "Yogeumi eolmajjeum nawayo?"
+  },
+  "transport.use_meter": {
+    "t": "미터기 켜 주세요.",
+    "r": "Miteogi kyeo juseyo."
+  },
+  "transport.stop_here": {
+    "t": "여기서 세워 주세요.",
+    "r": "Yeogiseo sewo juseyo."
+  },
+  "accommodation.have_reservation": {
+    "t": "예약했어요.",
+    "r": "Yeyakaesseoyo."
+  },
+  "accommodation.room_available": {
+    "t": "빈방 있어요?",
+    "r": "Binbang isseoyo?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "이틀 묵을 거예요.",
+    "r": "Iteul mugeul geoyeyo."
+  },
+  "accommodation.price_per_night": {
+    "t": "하룻밤에 얼마예요?",
+    "r": "Harutbame eolmayeyo?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "조식 포함이에요?",
+    "r": "Josik pohamieyo?"
+  },
+  "accommodation.checkout_time": {
+    "t": "체크아웃은 몇 시예요?",
+    "r": "Chekeuauseun myeot siyeyo?"
+  },
+  "accommodation.wifi_password": {
+    "t": "와이파이 비밀번호가 뭐예요?",
+    "r": "Waipai bimilbeonhoga mwoyeyo?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "방에 문제가 있어요.",
+    "r": "Bange munjega isseoyo."
+  },
+  "accommodation.ac_not_working": {
+    "t": "에어컨이 안 돼요.",
+    "r": "Eeokeoni an dwaeyo."
+  },
+  "accommodation.more_towels": {
+    "t": "수건 좀 더 주시겠어요?",
+    "r": "Sugeon jom deo jusigesseoyo?"
+  },
+  "accommodation.lost_key": {
+    "t": "방 키를 잃어버렸어요.",
+    "r": "Bang kireul ireobeoryeosseoyo."
+  },
+  "accommodation.leave_luggage": {
+    "t": "여기에 짐을 맡겨도 될까요?",
+    "r": "Yeogie jimeul matgyeodo doelkkayo?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "택시 좀 불러 주시겠어요?",
+    "r": "Taeksi jom bulleo jusigesseoyo?"
+  },
+  "accommodation.check_out": {
+    "t": "체크아웃할게요.",
+    "r": "Chekeuautalgeyo."
+  },
+  "food.table_for_two": {
+    "t": "두 명이요.",
+    "r": "Du myeongiyo."
+  },
+  "food.menu_please": {
+    "t": "메뉴판 주세요.",
+    "r": "Menyupan juseyo."
+  },
+  "food.english_menu": {
+    "t": "영어 메뉴판 있어요?",
+    "r": "Yeongeo menyupan isseoyo?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "여기 뭐가 맛있어요?",
+    "r": "Yeogi mwoga masisseoyo?"
+  },
+  "food.ill_have_this": {
+    "t": "이거 주세요.",
+    "r": "Igeo juseyo."
+  },
+  "food.water_please": {
+    "t": "물 주세요.",
+    "r": "Mul juseyo."
+  },
+  "food.coffee_please": {
+    "t": "커피 한 잔 주세요.",
+    "r": "Keopi han jan juseyo."
+  },
+  "food.beer_please": {
+    "t": "맥주 하나 주세요.",
+    "r": "Maekju hana juseyo."
+  },
+  "food.im_vegetarian": {
+    "t": "저는 채식주의자예요.",
+    "r": "Jeoneun chaesikjuuijayeyo."
+  },
+  "food.allergic_nuts": {
+    "t": "견과류 알레르기가 있어요.",
+    "r": "Gyeongwaryu allereugiga isseoyo."
+  },
+  "food.is_it_spicy": {
+    "t": "매워요?",
+    "r": "Maewoyo?"
+  },
+  "food.not_spicy": {
+    "t": "안 맵게 해 주세요.",
+    "r": "An maepge hae juseyo."
+  },
+  "food.delicious": {
+    "t": "맛있어요!",
+    "r": "Masisseoyo!"
+  },
+  "food.cheers": {
+    "t": "건배!",
+    "r": "Geonbae!"
+  },
+  "food.check_please": {
+    "t": "계산해 주세요.",
+    "r": "Gyesanhae juseyo.",
+    "n": "In Korea you often pay at the counter"
+  },
+  "food.pay_by_card": {
+    "t": "카드로 계산해도 돼요?",
+    "r": "Kadeuro gyesanhaedo dwaeyo?"
+  },
+  "shopping.how_much": {
+    "t": "이거 얼마예요?",
+    "r": "Igeo eolmayeyo?"
+  },
+  "shopping.too_expensive": {
+    "t": "너무 비싸요.",
+    "r": "Neomu bissayo."
+  },
+  "shopping.lower_price": {
+    "t": "좀 깎아 주실 수 있어요?",
+    "r": "Jom kkakka jusil su isseoyo?"
+  },
+  "shopping.just_looking": {
+    "t": "그냥 구경하는 거예요, 감사합니다.",
+    "r": "Geunyang gugyeonghaneun geoyeyo, gamsahamnida."
+  },
+  "shopping.ill_take_it": {
+    "t": "이걸로 할게요.",
+    "r": "Igeollo halgeyo."
+  },
+  "shopping.accept_cards": {
+    "t": "신용카드 되나요?",
+    "r": "Sinyongkadeu doenayo?"
+  },
+  "shopping.pay_cash": {
+    "t": "현금으로 할게요.",
+    "r": "Hyeongeumeuro halgeyo."
+  },
+  "shopping.receipt": {
+    "t": "영수증 좀 주세요.",
+    "r": "Yeongsujeung jom juseyo."
+  },
+  "shopping.bag": {
+    "t": "봉투 좀 주세요.",
+    "r": "Bongtu jom juseyo."
+  },
+  "shopping.try_on": {
+    "t": "입어 봐도 돼요?",
+    "r": "Ibeo bwado dwaeyo?"
+  },
+  "shopping.other_size": {
+    "t": "이거 다른 사이즈 있어요?",
+    "r": "Igeo dareun saijeu isseoyo?"
+  },
+  "shopping.what_time_open": {
+    "t": "몇 시에 문 열어요?",
+    "r": "Myeot sie mun yeoreoyo?"
+  },
+  "shopping.what_time_close": {
+    "t": "몇 시에 문 닫아요?",
+    "r": "Myeot sie mun dadayo?"
+  },
+  "shopping.exchange_money": {
+    "t": "어디서 환전할 수 있어요?",
+    "r": "Eodiseo hwanjeonhal su isseoyo?"
+  },
+  "shopping.sim_card": {
+    "t": "유심은 어디서 살 수 있어요?",
+    "r": "Yusimeun eodiseo sal su isseoyo?",
+    "n": "SIM cards are called USIM (yusim) in Korea"
+  },
+  "health.where_pharmacy": {
+    "t": "약국이 어디 있어요?",
+    "r": "Yakgugi eodi isseoyo?"
+  },
+  "health.feel_sick": {
+    "t": "몸이 안 좋아요.",
+    "r": "Momi an joayo."
+  },
+  "health.headache": {
+    "t": "머리가 아파요.",
+    "r": "Meoriga apayo."
+  },
+  "health.stomachache": {
+    "t": "배가 아파요.",
+    "r": "Baega apayo."
+  },
+  "health.fever": {
+    "t": "열이 나요.",
+    "r": "Yeori nayo."
+  },
+  "health.cold": {
+    "t": "감기에 걸렸어요.",
+    "r": "Gamgie geollyeosseoyo."
+  },
+  "health.hurts_here": {
+    "t": "여기가 아파요.",
+    "r": "Yeogiga apayo."
+  },
+  "health.medicine_for_this": {
+    "t": "이 증상에 쓰는 약 있어요?",
+    "r": "I jeungsange sseuneun yak isseoyo?"
+  },
+  "health.allergic_penicillin": {
+    "t": "페니실린 알레르기가 있어요.",
+    "r": "Penisillin allereugiga isseoyo."
+  },
+  "health.diabetic": {
+    "t": "저는 당뇨병이 있어요.",
+    "r": "Jeoneun dangnyobyeongi isseoyo."
+  },
+  "health.pregnant": {
+    "t": "임신 중이에요.",
+    "r": "Imsin jungieyo."
+  },
+  "health.need_dentist": {
+    "t": "치과에 가야 해요.",
+    "r": "Chigwae gaya haeyo."
+  },
+  "health.travel_insurance": {
+    "t": "여행자 보험이 있어요.",
+    "r": "Yeohaengja boheomi isseoyo."
+  },
+  "health.need_prescription": {
+    "t": "처방전이 필요해요?",
+    "r": "Cheobangjeoni piryohaeyo?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "관광 안내소가 어디 있어요?",
+    "r": "Gwangwang annaesoga eodi isseoyo?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "입장료가 얼마예요?",
+    "r": "Ipjangnyoga eolmayeyo?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "운영 시간이 어떻게 돼요?",
+    "r": "Unyeong sigani eotteoke dwaeyo?"
+  },
+  "sightseeing.student_discount": {
+    "t": "학생 할인 돼요?",
+    "r": "Haksaeng harin dwaeyo?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "영어 가이드 투어 있어요?",
+    "r": "Yeongeo gaideu tueo isseoyo?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "이 근처에 가 볼 만한 곳이 어디예요?",
+    "r": "I geuncheoe ga bol manhan gosi eodiyeyo?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "사진 찍어도 돼요?",
+    "r": "Sajin jjigeodo dwaeyo?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "사진 좀 찍어 주시겠어요?",
+    "r": "Sajin jom jjigeo jusigesseoyo?"
+  },
+  "sightseeing.where_museum": {
+    "t": "박물관이 어디 있어요?",
+    "r": "Bangmulgwani eodi isseoyo?"
+  },
+  "sightseeing.where_beach": {
+    "t": "해변이 어디 있어요?",
+    "r": "Haebyeoni eodi isseoyo?"
+  },
+  "numbers.0": {
+    "t": "영",
+    "r": "Yeong",
+    "n": "Gong is used when reading phone numbers"
+  },
+  "numbers.1": {
+    "t": "일",
+    "r": "Il",
+    "n": "Count items with native numbers: hana, dul, set"
+  },
+  "numbers.2": {
+    "t": "이",
+    "r": "I"
+  },
+  "numbers.3": {
+    "t": "삼",
+    "r": "Sam"
+  },
+  "numbers.4": {
+    "t": "사",
+    "r": "Sa"
+  },
+  "numbers.5": {
+    "t": "오",
+    "r": "O"
+  },
+  "numbers.6": {
+    "t": "육",
+    "r": "Yuk"
+  },
+  "numbers.7": {
+    "t": "칠",
+    "r": "Chil"
+  },
+  "numbers.8": {
+    "t": "팔",
+    "r": "Pal"
+  },
+  "numbers.9": {
+    "t": "구",
+    "r": "Gu"
+  },
+  "numbers.10": {
+    "t": "십",
+    "r": "Sip"
+  },
+  "numbers.20": {
+    "t": "이십",
+    "r": "Isip"
+  },
+  "numbers.50": {
+    "t": "오십",
+    "r": "Osip"
+  },
+  "numbers.100": {
+    "t": "백",
+    "r": "Baek"
+  },
+  "numbers.1000": {
+    "t": "천",
+    "r": "Cheon"
+  },
+  "time.what_time_is_it": {
+    "t": "지금 몇 시예요?",
+    "r": "Jigeum myeot siyeyo?"
+  },
+  "time.how_long": {
+    "t": "얼마나 걸려요?",
+    "r": "Eolmana geollyeoyo?"
+  },
+  "time.one_moment": {
+    "t": "잠시만요.",
+    "r": "Jamsimanyo."
+  },
+  "time.now": {
+    "t": "지금",
+    "r": "Jigeum"
+  },
+  "time.later": {
+    "t": "나중에",
+    "r": "Najunge"
+  },
+  "time.today": {
+    "t": "오늘",
+    "r": "Oneul"
+  },
+  "time.tomorrow": {
+    "t": "내일",
+    "r": "Naeil"
+  },
+  "time.yesterday": {
+    "t": "어제",
+    "r": "Eoje"
+  },
+  "time.monday": {
+    "t": "월요일",
+    "r": "Woryoil"
+  },
+  "time.tuesday": {
+    "t": "화요일",
+    "r": "Hwayoil"
+  },
+  "time.wednesday": {
+    "t": "수요일",
+    "r": "Suyoil"
+  },
+  "time.thursday": {
+    "t": "목요일",
+    "r": "Mogyoil"
+  },
+  "time.friday": {
+    "t": "금요일",
+    "r": "Geumyoil"
+  },
+  "time.saturday": {
+    "t": "토요일",
+    "r": "Toyoil"
+  },
+  "time.sunday": {
+    "t": "일요일",
+    "r": "Iryoil"
+  }
+}

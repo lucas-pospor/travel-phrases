@@ -1,0 +1,534 @@
+{
+  "basics.hello": {
+    "t": "Merhaba"
+  },
+  "basics.good_morning": {
+    "t": "Günaydın"
+  },
+  "basics.good_evening": {
+    "t": "İyi akşamlar"
+  },
+  "basics.good_night": {
+    "t": "İyi geceler"
+  },
+  "basics.goodbye": {
+    "t": "Hoşça kalın",
+    "n": "Said by the one leaving; the reply is \"Güle güle\""
+  },
+  "basics.see_you_later": {
+    "t": "Sonra görüşürüz"
+  },
+  "basics.yes": {
+    "t": "Evet"
+  },
+  "basics.no": {
+    "t": "Hayır"
+  },
+  "basics.please": {
+    "t": "Lütfen"
+  },
+  "basics.thank_you": {
+    "t": "Teşekkür ederim"
+  },
+  "basics.thank_you_very_much": {
+    "t": "Çok teşekkür ederim"
+  },
+  "basics.youre_welcome": {
+    "t": "Rica ederim"
+  },
+  "basics.excuse_me": {
+    "t": "Affedersiniz"
+  },
+  "basics.sorry": {
+    "t": "Özür dilerim"
+  },
+  "basics.no_problem": {
+    "t": "Sorun değil"
+  },
+  "conversation.do_you_speak_english": {
+    "t": "İngilizce biliyor musunuz?"
+  },
+  "conversation.speak_a_little": {
+    "t": "Biraz Türkçe konuşuyorum."
+  },
+  "conversation.dont_understand": {
+    "t": "Anlamıyorum."
+  },
+  "conversation.understand": {
+    "t": "Anlıyorum."
+  },
+  "conversation.speak_slowly": {
+    "t": "Daha yavaş konuşabilir misiniz, lütfen?"
+  },
+  "conversation.repeat": {
+    "t": "Tekrar edebilir misiniz, lütfen?"
+  },
+  "conversation.write_it_down": {
+    "t": "Yazabilir misiniz, lütfen?"
+  },
+  "conversation.what_does_this_mean": {
+    "t": "Bu ne demek?"
+  },
+  "conversation.how_do_you_say": {
+    "t": "Türkçede buna ne denir?"
+  },
+  "conversation.whats_your_name": {
+    "t": "Adınız ne?"
+  },
+  "conversation.nice_to_meet_you": {
+    "t": "Tanıştığımıza memnun oldum."
+  },
+  "conversation.how_are_you": {
+    "t": "Nasılsınız?"
+  },
+  "conversation.im_fine": {
+    "t": "İyiyim, teşekkür ederim."
+  },
+  "conversation.where_are_you_from": {
+    "t": "Nerelisiniz?"
+  },
+  "conversation.im_a_tourist": {
+    "t": "Turistim."
+  },
+  "conversation.first_time_here": {
+    "t": "Buraya ilk kez geliyorum."
+  },
+  "emergency.help": {
+    "t": "İmdat!"
+  },
+  "emergency.call_police": {
+    "t": "Polis çağırın!"
+  },
+  "emergency.call_ambulance": {
+    "t": "Ambulans çağırın!"
+  },
+  "emergency.fire": {
+    "t": "Yangın var!"
+  },
+  "emergency.need_doctor": {
+    "t": "Doktora ihtiyacım var."
+  },
+  "emergency.its_an_emergency": {
+    "t": "Bu acil bir durum."
+  },
+  "emergency.can_you_help_me": {
+    "t": "Bana yardım edebilir misiniz, lütfen?"
+  },
+  "emergency.im_lost": {
+    "t": "Kayboldum."
+  },
+  "emergency.wallet_stolen": {
+    "t": "Cüzdanım çalındı."
+  },
+  "emergency.lost_passport": {
+    "t": "Pasaportumu kaybettim."
+  },
+  "emergency.where_hospital": {
+    "t": "Hastane nerede?"
+  },
+  "emergency.where_police_station": {
+    "t": "Karakol nerede?"
+  },
+  "emergency.contact_embassy": {
+    "t": "Büyükelçiliğimle iletişime geçmem gerekiyor."
+  },
+  "emergency.use_your_phone": {
+    "t": "Telefonunuzu kullanabilir miyim?"
+  },
+  "emergency.leave_me_alone": {
+    "t": "Beni rahat bırakın!"
+  },
+  "directions.where_bathroom": {
+    "t": "Tuvalet nerede?"
+  },
+  "directions.where_is_this": {
+    "t": "Burası nerede?"
+  },
+  "directions.how_get_to_address": {
+    "t": "Bu adrese nasıl gidebilirim?"
+  },
+  "directions.is_it_far": {
+    "t": "Uzak mı?"
+  },
+  "directions.can_i_walk": {
+    "t": "Yürüyerek gidebilir miyim?"
+  },
+  "directions.show_on_map": {
+    "t": "Bana haritada gösterebilir misiniz?"
+  },
+  "directions.left": {
+    "t": "Sol"
+  },
+  "directions.right": {
+    "t": "Sağ"
+  },
+  "directions.straight_ahead": {
+    "t": "Dümdüz ileri"
+  },
+  "directions.turn_left": {
+    "t": "Sola dönün"
+  },
+  "directions.turn_right": {
+    "t": "Sağa dönün"
+  },
+  "directions.here": {
+    "t": "Burada"
+  },
+  "directions.there": {
+    "t": "Orada"
+  },
+  "directions.where_entrance": {
+    "t": "Giriş nerede?"
+  },
+  "directions.where_exit": {
+    "t": "Çıkış nerede?"
+  },
+  "directions.where_atm": {
+    "t": "En yakın ATM nerede?"
+  },
+  "transport.where_train_station": {
+    "t": "Tren istasyonu nerede?"
+  },
+  "transport.where_bus_stop": {
+    "t": "Otobüs durağı nerede?"
+  },
+  "transport.where_metro": {
+    "t": "Metro istasyonu nerede?"
+  },
+  "transport.one_ticket": {
+    "t": "Bir bilet, lütfen."
+  },
+  "transport.two_tickets": {
+    "t": "İki bilet, lütfen."
+  },
+  "transport.round_trip": {
+    "t": "Bir gidiş dönüş bilet, lütfen."
+  },
+  "transport.how_much_ticket": {
+    "t": "Bilet ne kadar?"
+  },
+  "transport.next_train": {
+    "t": "Bir sonraki tren ne zaman kalkıyor?"
+  },
+  "transport.which_platform": {
+    "t": "Hangi perondan kalkıyor?"
+  },
+  "transport.does_this_go_here": {
+    "t": "Bu otobüs buraya gidiyor mu?"
+  },
+  "transport.need_taxi": {
+    "t": "Taksiye ihtiyacım var."
+  },
+  "transport.take_me_to_address": {
+    "t": "Lütfen beni bu adrese götürün."
+  },
+  "transport.airport_please": {
+    "t": "Havalimanına, lütfen."
+  },
+  "transport.how_much_will_it_cost": {
+    "t": "Ne kadar tutar?"
+  },
+  "transport.use_meter": {
+    "t": "Lütfen taksimetreyi açın."
+  },
+  "transport.stop_here": {
+    "t": "Lütfen burada durun."
+  },
+  "accommodation.have_reservation": {
+    "t": "Rezervasyonum var."
+  },
+  "accommodation.room_available": {
+    "t": "Boş odanız var mı?"
+  },
+  "accommodation.for_two_nights": {
+    "t": "İki gece için."
+  },
+  "accommodation.price_per_night": {
+    "t": "Gecesi ne kadar?"
+  },
+  "accommodation.breakfast_included": {
+    "t": "Kahvaltı dahil mi?"
+  },
+  "accommodation.checkout_time": {
+    "t": "Çıkış saati kaçta?"
+  },
+  "accommodation.wifi_password": {
+    "t": "Wi-Fi şifresi nedir?"
+  },
+  "accommodation.problem_with_room": {
+    "t": "Odamda bir sorun var."
+  },
+  "accommodation.ac_not_working": {
+    "t": "Klima çalışmıyor."
+  },
+  "accommodation.more_towels": {
+    "t": "Biraz daha havlu alabilir miyim, lütfen?"
+  },
+  "accommodation.lost_key": {
+    "t": "Oda anahtarımı kaybettim."
+  },
+  "accommodation.leave_luggage": {
+    "t": "Bavullarımı burada bırakabilir miyim?"
+  },
+  "accommodation.call_taxi_for_me": {
+    "t": "Bana bir taksi çağırabilir misiniz?"
+  },
+  "accommodation.check_out": {
+    "t": "Çıkış yapmak istiyorum."
+  },
+  "food.table_for_two": {
+    "t": "İki kişilik bir masa, lütfen."
+  },
+  "food.menu_please": {
+    "t": "Menü, lütfen."
+  },
+  "food.english_menu": {
+    "t": "İngilizce menünüz var mı?"
+  },
+  "food.what_do_you_recommend": {
+    "t": "Ne önerirsiniz?"
+  },
+  "food.ill_have_this": {
+    "t": "Bunu alayım, lütfen."
+  },
+  "food.water_please": {
+    "t": "Su, lütfen."
+  },
+  "food.coffee_please": {
+    "t": "Bir kahve, lütfen."
+  },
+  "food.beer_please": {
+    "t": "Bir bira, lütfen."
+  },
+  "food.im_vegetarian": {
+    "t": "Vejetaryenim."
+  },
+  "food.allergic_nuts": {
+    "t": "Kuruyemişe alerjim var."
+  },
+  "food.is_it_spicy": {
+    "t": "Acı mı?"
+  },
+  "food.not_spicy": {
+    "t": "Acısız olsun, lütfen."
+  },
+  "food.delicious": {
+    "t": "Çok lezzetli!"
+  },
+  "food.cheers": {
+    "t": "Şerefe!"
+  },
+  "food.check_please": {
+    "t": "Hesap, lütfen."
+  },
+  "food.pay_by_card": {
+    "t": "Kartla ödeyebilir miyim?"
+  },
+  "shopping.how_much": {
+    "t": "Bu ne kadar?"
+  },
+  "shopping.too_expensive": {
+    "t": "Bu çok pahalı."
+  },
+  "shopping.lower_price": {
+    "t": "Biraz indirim yapabilir misiniz?"
+  },
+  "shopping.just_looking": {
+    "t": "Sadece bakıyorum, teşekkür ederim."
+  },
+  "shopping.ill_take_it": {
+    "t": "Bunu alıyorum."
+  },
+  "shopping.accept_cards": {
+    "t": "Kredi kartı kabul ediyor musunuz?"
+  },
+  "shopping.pay_cash": {
+    "t": "Nakit ödeyeceğim."
+  },
+  "shopping.receipt": {
+    "t": "Fiş alabilir miyim, lütfen?"
+  },
+  "shopping.bag": {
+    "t": "Poşet alabilir miyim, lütfen?"
+  },
+  "shopping.try_on": {
+    "t": "Bunu deneyebilir miyim?"
+  },
+  "shopping.other_size": {
+    "t": "Bunun başka bedeni var mı?"
+  },
+  "shopping.what_time_open": {
+    "t": "Saat kaçta açıyorsunuz?"
+  },
+  "shopping.what_time_close": {
+    "t": "Saat kaçta kapatıyorsunuz?"
+  },
+  "shopping.exchange_money": {
+    "t": "Nerede döviz bozdurabilirim?"
+  },
+  "shopping.sim_card": {
+    "t": "Nereden SIM kart alabilirim?"
+  },
+  "health.where_pharmacy": {
+    "t": "Eczane nerede?"
+  },
+  "health.feel_sick": {
+    "t": "Kendimi iyi hissetmiyorum."
+  },
+  "health.headache": {
+    "t": "Başım ağrıyor."
+  },
+  "health.stomachache": {
+    "t": "Midem ağrıyor."
+  },
+  "health.fever": {
+    "t": "Ateşim var."
+  },
+  "health.cold": {
+    "t": "Soğuk algınlığım var."
+  },
+  "health.hurts_here": {
+    "t": "Burası ağrıyor."
+  },
+  "health.medicine_for_this": {
+    "t": "Bunun için bir ilacınız var mı?"
+  },
+  "health.allergic_penicillin": {
+    "t": "Penisiline alerjim var."
+  },
+  "health.diabetic": {
+    "t": "Şeker hastasıyım."
+  },
+  "health.pregnant": {
+    "t": "Hamileyim."
+  },
+  "health.need_dentist": {
+    "t": "Dişçiye ihtiyacım var."
+  },
+  "health.travel_insurance": {
+    "t": "Seyahat sigortam var."
+  },
+  "health.need_prescription": {
+    "t": "Reçete gerekiyor mu?"
+  },
+  "sightseeing.tourist_info": {
+    "t": "Turizm danışma bürosu nerede?"
+  },
+  "sightseeing.entrance_fee": {
+    "t": "Giriş ücreti ne kadar?"
+  },
+  "sightseeing.opening_hours": {
+    "t": "Ziyaret saatleri nedir?"
+  },
+  "sightseeing.student_discount": {
+    "t": "Öğrenci indirimi var mı?"
+  },
+  "sightseeing.guided_tour": {
+    "t": "İngilizce rehberli tur var mı?"
+  },
+  "sightseeing.worth_seeing": {
+    "t": "Buralarda görülmeye değer neler var?"
+  },
+  "sightseeing.can_i_take_photo": {
+    "t": "Fotoğraf çekebilir miyim?"
+  },
+  "sightseeing.take_our_photo": {
+    "t": "Fotoğrafımızı çekebilir misiniz?"
+  },
+  "sightseeing.where_museum": {
+    "t": "Müze nerede?"
+  },
+  "sightseeing.where_beach": {
+    "t": "Plaj nerede?"
+  },
+  "numbers.0": {
+    "t": "Sıfır"
+  },
+  "numbers.1": {
+    "t": "Bir"
+  },
+  "numbers.2": {
+    "t": "İki"
+  },
+  "numbers.3": {
+    "t": "Üç"
+  },
+  "numbers.4": {
+    "t": "Dört"
+  },
+  "numbers.5": {
+    "t": "Beş"
+  },
+  "numbers.6": {
+    "t": "Altı"
+  },
+  "numbers.7": {
+    "t": "Yedi"
+  },
+  "numbers.8": {
+    "t": "Sekiz"
+  },
+  "numbers.9": {
+    "t": "Dokuz"
+  },
+  "numbers.10": {
+    "t": "On"
+  },
+  "numbers.20": {
+    "t": "Yirmi"
+  },
+  "numbers.50": {
+    "t": "Elli"
+  },
+  "numbers.100": {
+    "t": "Yüz"
+  },
+  "numbers.1000": {
+    "t": "Bin"
+  },
+  "time.what_time_is_it": {
+    "t": "Saat kaç?"
+  },
+  "time.how_long": {
+    "t": "Ne kadar sürer?"
+  },
+  "time.one_moment": {
+    "t": "Bir dakika, lütfen."
+  },
+  "time.now": {
+    "t": "Şimdi"
+  },
+  "time.later": {
+    "t": "Daha sonra"
+  },
+  "time.today": {
+    "t": "Bugün"
+  },
+  "time.tomorrow": {
+    "t": "Yarın"
+  },
+  "time.yesterday": {
+    "t": "Dün"
+  },
+  "time.monday": {
+    "t": "Pazartesi"
+  },
+  "time.tuesday": {
+    "t": "Salı"
+  },
+  "time.wednesday": {
+    "t": "Çarşamba"
+  },
+  "time.thursday": {
+    "t": "Perşembe"
+  },
+  "time.friday": {
+    "t": "Cuma"
+  },
+  "time.saturday": {
+    "t": "Cumartesi"
+  },
+  "time.sunday": {
+    "t": "Pazar"
+  }
+}
