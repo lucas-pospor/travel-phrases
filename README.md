@@ -2,6 +2,10 @@
 
 Travel Phrases is a phrasebook app for travelers. It has 177 common phrases in 20 languages, grouped by situation, and it plays each phrase aloud. It is built with Expo (React Native) and runs on Android, iOS and the web.
 
+## Generative AI
+
+This project was built with the help of generative AI. AI tools wrote most of the code and documentation and translated the phrases. The app icon and the phrase audio (OpenAI text-to-speech) are AI-generated too. Native speakers haven't reviewed the translations or the audio yet.
+
 ## What's in the app
 
 Pick a language, open a category and tap a phrase to hear it. Play all reads out a whole category, and Slow plays the audio at 70% speed. Show mode fills the screen with one phrase in large type, so you can hand your phone to someone and let them read it.
