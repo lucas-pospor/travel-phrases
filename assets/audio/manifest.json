@@ -817,7 +817,11 @@
       },
       "conversation.nice_to_meet_you": {
         "file": "es/conversation/nice_to_meet_you.mp3",
-        "hash": "39dfbb0735734b3ea5430cd250733eb7d8aec196"
+        "hash": "9deb897b00012327241559df85d36548cf85169e"
+      },
+      "conversation.nice_to_meet_you.female": {
+        "file": "es/conversation/nice_to_meet_you.female.mp3",
+        "hash": "f2b2ea732a91ab7e7c66c8e1cb12b5fcbff403a7"
       },
       "conversation.how_are_you": {
         "file": "es/conversation/how_are_you.mp3",
@@ -877,11 +881,11 @@
       },
       "emergency.wallet_stolen": {
         "file": "es/emergency/wallet_stolen.mp3",
-        "hash": "473c0d7ba2dd53c63be5a28ede507d847cac5929"
+        "hash": "00fb08b62983115f50801a927e000043155b0061"
       },
       "emergency.lost_passport": {
         "file": "es/emergency/lost_passport.mp3",
-        "hash": "4d4a89c424a0d107c85d0cfb07fb6c7bc1bf5bea"
+        "hash": "4fb4ac8b36dc1c6982dc6333856fddc9ce56f70d"
       },
       "emergency.where_hospital": {
         "file": "es/emergency/where_hospital.mp3",
@@ -893,7 +897,7 @@
       },
       "emergency.contact_embassy": {
         "file": "es/emergency/contact_embassy.mp3",
-        "hash": "e605a22d2938a8706808369c66596ed2953b6092"
+        "hash": "c2f7307e5a1fe014abc5c034f446ca5e697f2cca"
       },
       "emergency.use_your_phone": {
         "file": "es/emergency/use_your_phone.mp3",
@@ -921,7 +925,7 @@
       },
       "directions.can_i_walk": {
         "file": "es/directions/can_i_walk.mp3",
-        "hash": "7ee7e3ca27aa45515a7bbff1c4a604820b25b7ba"
+        "hash": "f060edc51228565f955084952899c537fcca1b96"
       },
       "directions.show_on_map": {
         "file": "es/directions/show_on_map.mp3",
@@ -1001,11 +1005,11 @@
       },
       "transport.which_platform": {
         "file": "es/transport/which_platform.mp3",
-        "hash": "5f6f58e872a220a985c6073ae5abcc4ea382d4f5"
+        "hash": "070ca54b9de590344d3305cd97aeed8207cf77e9"
       },
       "transport.does_this_go_here": {
         "file": "es/transport/does_this_go_here.mp3",
-        "hash": "4e8d79d7578fb6c7704d5f3389f2e4a83afb96ce"
+        "hash": "72dc6fa9c2730f45c136ab20766363beb0e67502"
       },
       "transport.need_taxi": {
         "file": "es/transport/need_taxi.mp3",
@@ -1073,7 +1077,7 @@
       },
       "accommodation.lost_key": {
         "file": "es/accommodation/lost_key.mp3",
-        "hash": "7409ba6f5b4748945872ed2cbc4cca8f994357b7"
+        "hash": "331569c07c10bdc1fe54f3a7f251bc03d2015a24"
       },
       "accommodation.leave_luggage": {
         "file": "es/accommodation/leave_luggage.mp3",
@@ -1105,7 +1109,7 @@
       },
       "food.ill_have_this": {
         "file": "es/food/ill_have_this.mp3",
-        "hash": "41f31f4742f879afd371f4d251defcbc6ca06d08"
+        "hash": "82f8c266bb76449ec397712d46b8b180c3452222"
       },
       "food.water_please": {
         "file": "es/food/water_please.mp3",
@@ -1237,7 +1241,11 @@
       },
       "health.cold": {
         "file": "es/health/cold.mp3",
-        "hash": "a1cc6bff7334862539b51591b5474fba7a92ed4b"
+        "hash": "3cfc08053ec1c9073c2f3983acc038f71b8bfcdd"
+      },
+      "health.cold.female": {
+        "file": "es/health/cold.female.mp3",
+        "hash": "0d988c656b7ecb760b5ff85aea22f8da577a2302"
       },
       "health.hurts_here": {
         "file": "es/health/hurts_here.mp3",
@@ -1297,11 +1305,11 @@
       },
       "sightseeing.can_i_take_photo": {
         "file": "es/sightseeing/can_i_take_photo.mp3",
-        "hash": "a7c7815b900b96841edfd788168ec5ca5da4a1e8"
+        "hash": "0569bca48382f1cf9cd28e041feea46dc9844adb"
       },
       "sightseeing.take_our_photo": {
         "file": "es/sightseeing/take_our_photo.mp3",
-        "hash": "9801189e2e8b6c373eec6fd2f2a774f1248e8e02"
+        "hash": "a7c61f16b038018b3d9c57b643074b6b1c135088"
       },
       "sightseeing.where_museum": {
         "file": "es/sightseeing/where_museum.mp3",
